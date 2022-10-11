@@ -25,6 +25,9 @@ const LinkBehavior = React.forwardRef(function changeLinks(props, ref) {
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
+    primary: {
+      main: "#f6a821",
+    },
   },
   typography: {
     fontFamily:
