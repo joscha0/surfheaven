@@ -35,9 +35,7 @@ const Profile = ({ playerData }) => {
   };
 
   const automaticSetId = () => {
-    console.log("automatic");
     getId().then((id) => {
-      console.log(id);
       setCookie(null, "sh-id", id, {
         maxAge: 30 * 24 * 60 * 60,
         path: "/",
@@ -49,7 +47,6 @@ const Profile = ({ playerData }) => {
 
   useEffect(() => {
     const cookies = parseCookies();
-    console.log(cookies);
     if ("sh-id" in cookies) {
       const shId = cookies["sh-id"];
       setTextInput(shId);
