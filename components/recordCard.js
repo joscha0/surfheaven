@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import { secondsToMS } from "../services/helper";
+import { secondsToMS, getImageUrl } from "../services/helper";
 
 export default function RecordCard({ record, isBonus }) {
   return (
@@ -13,12 +13,7 @@ export default function RecordCard({ record, isBonus }) {
         <CardMedia
           component="img"
           height="140"
-          image={
-            "https://raw.githubusercontent.com/Sayt123/SurfMapPics/Maps-and-bonuses/csgo/" +
-            record.map +
-            (isBonus ? "_b" + record.track : "") +
-            ".jpg"
-          }
+          image={getImageUrl(record.map, record.track, isBonus)}
           alt={record.map + (isBonus ? "_b" + record.track : "")}
         />
         <CardContent>

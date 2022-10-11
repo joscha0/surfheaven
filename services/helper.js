@@ -1,3 +1,5 @@
+import { mapnameFixes } from "./consts";
+
 function secondsToHM(seconds) {
   var h = Math.floor(seconds / 3600);
   var m = Math.floor((seconds % 3600) / 60);
@@ -18,4 +20,16 @@ function toSteamID64(id) {
   return (BigInt(76561197960265728) + BigInt(id)).toString();
 }
 
-export { toSteamID64, secondsToHM, secondsToMS };
+function getImageUrl(mapname, track, isBonus) {
+  var name = mapname + (isBonus ? "_b" + track : "");
+  if (name in mapnameFixes) {
+    name = mapnameFixes[name];
+  }
+  return (
+    "https://raw.githubusercontent.com/Sayt123/SurfMapPics/Maps-and-bonuses/csgo/" +
+    name +
+    ".jpg"
+  );
+}
+
+export { toSteamID64, secondsToHM, secondsToMS, getImageUrl };
