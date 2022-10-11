@@ -8,7 +8,12 @@ const cachedFetch = async (url, seconds) => {
     return cachedResponse;
   } else {
     const response = await fetch(url);
-    const data = await response.json();
+    var data;
+    if (response.status >= 400) {
+      data = {};
+    } else {
+      data = await response.json();
+    }
     cache.put(url, data, seconds * 1000);
     return data;
   }
@@ -16,13 +21,22 @@ const cachedFetch = async (url, seconds) => {
 
 const regularFetch = async (url) => {
   const response = await fetch(url);
-  const data = await response.json();
+  var data;
+  if (response.status >= 400) {
+    data = {};
+  } else {
+    data = await response.json();
+  }
   return data;
 };
 
 const getPlayer = async (id) => {
   const playerData = await cachedFetch(BASE_URL + "playerinfo/" + id, 120);
-  const playerInfo = playerData[0];
+  const playerInfo = playerData[0] ?? {};
+  if (Object.keys(playerInfo).length === 0) {
+    return { error: "Player not found!" };
+  }
+
   const recordsData = await cachedFetch(BASE_URL + "records/" + id, 120);
   const steamid = toSteamID64(id);
   const steamData = await regularFetch(
@@ -34,22 +48,23 @@ const getPlayer = async (id) => {
 
   var records_map = [];
   var records_bonus = [];
-
-  for (const record of recordsData) {
-    const recordData = {
-      map: record.map ?? "",
-      time: record.time ?? "",
-      rank: record.rank ?? "",
-      track: record.track ?? "",
-      tier: record.tier ?? "",
-      date: record.date ?? "",
-      finishcount: record.finishcount ?? "",
-      finishspeed: record.finishspeed ?? "",
-    };
-    if (record.track == 0) {
-      records_map.push(recordData);
-    } else if (record.track > 0) {
-      records_bonus.push(recordData);
+  if (Object.keys(recordsData).length > 0) {
+    for (const record of recordsData) {
+      const recordData = {
+        map: record.map ?? "",
+        time: record.time ?? "",
+        rank: record.rank ?? "",
+        track: record.track ?? "",
+        tier: record.tier ?? "",
+        date: record.date ?? "",
+        finishcount: record.finishcount ?? "",
+        finishspeed: record.finishspeed ?? "",
+      };
+      if (record.track == 0) {
+        records_map.push(recordData);
+      } else if (record.track > 0) {
+        records_bonus.push(recordData);
+      }
     }
   }
 
@@ -74,4 +89,10 @@ const getPlayer = async (id) => {
   };
 };
 
-export { getPlayer };
+const getId = async () => {
+  const id = await regularFetch(BASE_URL + "id/");
+
+  return id[0].steamid;
+};
+
+export { getPlayer, getId };

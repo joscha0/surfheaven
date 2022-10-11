@@ -5,11 +5,11 @@ import Player from "../../components/player";
 
 import { getPlayer } from "../../services/api";
 
-function IdPlayer(playerData) {
+function IdPlayer({ playerData }) {
   return (
     <center>
       <Box sx={{ maxWidth: "xl" }}>
-        <Player playerData={playerData} />
+        <Player player={playerData} />
       </Box>
     </center>
   );

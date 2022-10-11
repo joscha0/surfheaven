@@ -54,7 +54,7 @@ function a11yProps(index) {
   };
 }
 
-export default function Player({ playerData }) {
+export default function Player({ player }) {
   // for CSR
   //   const [player, setPlayer] = useState({});
 
@@ -68,7 +68,6 @@ export default function Player({ playerData }) {
   //   }, [router]);
 
   const [tabIndex, setTabIndex] = React.useState(0);
-  const player = playerData.playerData;
 
   const handleChange = (event, newValue) => {
     setTabIndex(newValue);
@@ -76,121 +75,129 @@ export default function Player({ playerData }) {
 
   return (
     <Box sx={{ padding: 5 }}>
-      <Box>
-        <Paper sx={{ padding: 5 }}>
-          <Grid
-            container
-            justifyContent="center"
-            alignItems="center"
-            columnSpacing={{ xs: 2, md: 4 }}
-            rowSpacing={0}
-          >
-            <Grid item>
-              <Avatar
-                alt={player.name}
-                src={player.avatar}
-                sx={{ width: 100, height: 100 }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  paddingTop: 3,
-                }}
-              >
+      {"error" in player ? (
+        <h1>{player.error}</h1>
+      ) : (
+        <Box>
+          <Paper sx={{ padding: 5 }}>
+            <Grid
+              container
+              justifyContent="center"
+              alignItems="center"
+              columnSpacing={{ xs: 2, md: 4 }}
+              rowSpacing={0}
+            >
+              <Grid item>
+                <Avatar
+                  alt={player.name}
+                  src={player.avatar}
+                  sx={{ width: 100, height: 100 }}
+                />
                 <Box
                   sx={{
-                    margin: 2,
                     display: "flex",
+                    justifyContent: "center",
                     alignItems: "center",
+                    paddingTop: 3,
                   }}
                 >
-                  <Flag code={player.country_code} height="16" />
+                  <Box
+                    sx={{
+                      margin: 2,
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Flag code={player.country_code} height="16" />
+                  </Box>
+                  <Typography variant="h4" component="h1">
+                    {player.name}
+                  </Typography>
+                  <IconButton
+                    target="_blank"
+                    rel="noopener"
+                    component="a"
+                    href={
+                      "http://steamcommunity.com/profiles/" + player.steamid
+                    }
+                  >
+                    <FontAwesomeIcon icon={faSteam} />
+                  </IconButton>
+                  {player.vip === 1 && <StarIcon color="primary" />}
                 </Box>
-                <Typography variant="h4" component="h1">
-                  {player.name}
-                </Typography>
-                <IconButton
-                  target="_blank"
-                  rel="noopener"
-                  component="a"
-                  href={"http://steamcommunity.com/profiles/" + player.steamid}
-                >
-                  <FontAwesomeIcon icon={faSteam} />
-                </IconButton>
-                {player.vip === 1 && <StarIcon color="primary" />}
-              </Box>
 
-              <h3>
-                Rank: {player.rank} ({player.rankname})
-              </h3>
+                <h3>
+                  Rank: {player.rank} ({player.rankname})
+                </h3>
+              </Grid>
+              <Grid item textAlign="left">
+                <h2>Info</h2>
+                <p>
+                  Maps completed: <strong>{player.mapscompleted}</strong>
+                </p>
+                <p>
+                  Play time:
+                  <strong> {secondsToHM(parseInt(player.playtime))}</strong>
+                </p>
+                <p>
+                  Country: <strong>{player.country_code}</strong>
+                </p>
+                <p>
+                  Country Rank:
+                  <strong>
+                    {" "}
+                    {player.country_rank}/{player.country_ranktotal}
+                  </strong>
+                </p>
+                <p>
+                  Last online:
+                  <strong> {new Date(player.lastplay).toDateString()}</strong>
+                </p>
+                <p>
+                  First online:
+                  <strong> {new Date(player.firstseen).toDateString()}</strong>
+                </p>
+              </Grid>
             </Grid>
-            <Grid item textAlign="left">
-              <h2>Info</h2>
-              <p>
-                Maps completed: <strong>{player.mapscompleted}</strong>
-              </p>
-              <p>
-                Play time:
-                <strong> {secondsToHM(parseInt(player.playtime))}</strong>
-              </p>
-              <p>
-                Country: <strong>{player.country_code}</strong>
-              </p>
-              <p>
-                Country Rank:
-                <strong>
-                  {" "}
-                  {player.country_rank}/{player.country_ranktotal}
-                </strong>
-              </p>
-              <p>
-                Last online:
-                <strong> {new Date(player.lastplay).toDateString()}</strong>
-              </p>
-              <p>
-                First online:
-                <strong> {new Date(player.firstseen).toDateString()}</strong>
-              </p>
+          </Paper>
+          <h2>Recent records</h2>
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs
+              value={tabIndex}
+              onChange={handleChange}
+              aria-label="basic tabs"
+              centered
+            >
+              <Tab label="Maps" {...a11yProps(0)} />
+              <Tab label="Bonuses" {...a11yProps(1)} />
+              <Tab label="Stages" {...a11yProps(2)} />
+            </Tabs>
+          </Box>
+          <TabPanel value={tabIndex} index={0}>
+            <Grid container spacing={2} justifyContent="center">
+              {"records_map" in player &&
+                player.records_map.map((record) => (
+                  <Grid item xs>
+                    <RecordCard record={record} isBonus={false} />
+                  </Grid>
+                ))}
             </Grid>
-          </Grid>
-        </Paper>
-        <h2>Recent records</h2>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-          <Tabs
-            value={tabIndex}
-            onChange={handleChange}
-            aria-label="basic tabs"
-            centered
-          >
-            <Tab label="Maps" {...a11yProps(0)} />
-            <Tab label="Bonuses" {...a11yProps(1)} />
-            <Tab label="Stages" {...a11yProps(2)} />
-          </Tabs>
+          </TabPanel>
+          <TabPanel value={tabIndex} index={1}>
+            <Grid container spacing={2} justifyContent="center">
+              {"records_bonus" in player &&
+                player.records_bonus.map((record) => (
+                  <Grid item xs>
+                    <RecordCard record={record} isBonus={true} />
+                  </Grid>
+                ))}
+            </Grid>
+          </TabPanel>
+          <TabPanel value={tabIndex} index={2}>
+            Coming soon...
+          </TabPanel>
         </Box>
-        <TabPanel value={tabIndex} index={0}>
-          <Grid container spacing={2} justifyContent="center">
-            {player.records_map.map((record) => (
-              <Grid item xs>
-                <RecordCard record={record} isBonus={false} />
-              </Grid>
-            ))}
-          </Grid>
-        </TabPanel>
-        <TabPanel value={tabIndex} index={1}>
-          <Grid container spacing={2} justifyContent="center">
-            {player.records_bonus.map((record) => (
-              <Grid item xs>
-                <RecordCard record={record} isBonus={true} />
-              </Grid>
-            ))}
-          </Grid>
-        </TabPanel>
-        <TabPanel value={tabIndex} index={2}>
-          Coming soon...
-        </TabPanel>
-      </Box>
+      )}
     </Box>
   );
 }
