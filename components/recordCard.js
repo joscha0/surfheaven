@@ -5,17 +5,23 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { secondsToMS, getImageUrl } from "../services/helper";
+import Image from "next/image";
 
-export default function RecordCard({ record, isBonus }) {
+export default function RecordCard({ record }) {
+  const isBonus = record.track != 0;
   return (
     <Card sx={{ width: 330 }}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={getImageUrl(record.map, record.track, isBonus)}
-          alt={record.map + (isBonus ? "_b" + record.track : "")}
-        />
+        <CardMedia>
+          <div style={{ position: "relative", width: "100%", height: "140px" }}>
+            <Image
+              src={getImageUrl(record.map, record.track, isBonus)}
+              alt={record.map + (isBonus ? "_b" + record.track : "")}
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+        </CardMedia>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {record.map} {isBonus ? "B" + record.track : ""}
@@ -25,7 +31,7 @@ export default function RecordCard({ record, isBonus }) {
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Rank: <b>{record.rank}</b> | Tier: <b>{record.tier}</b> | Date:{" "}
-            <b>{new Date(record.date).toDateString()}</b>
+            <b>{new Date(record.date).toDateString().substring(4)}</b>
           </Typography>
         </CardContent>
       </CardActionArea>
