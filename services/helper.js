@@ -7,7 +7,10 @@ function secondsToHM(seconds) {
 function secondsToMS(seconds) {
   var m = Math.floor((seconds % 3600) / 60);
   var s = seconds - m * 60;
-  return (m !== 0 ? m + ":" : "") + s.toFixed(5);
+  return (
+    (m !== 0 ? (m + "").padStart(2, "0") + ":" : "") +
+    (s.toFixed(5) + "").padStart(8, "0")
+  );
 }
 
 /* global BigInt */
