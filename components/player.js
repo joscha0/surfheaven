@@ -20,6 +20,7 @@ import PropTypes from "prop-types";
 import { secondsToHM } from "../services/helper";
 import RecordCard from "./recordCard";
 import Flag from "react-world-flags";
+import AdvancedGrid from "./advancedGrid";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -32,7 +33,7 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+      {value === index && <Box sx={{ p: { xs: 1, sm: 3 } }}>{children}</Box>}
     </div>
   );
 }
@@ -70,7 +71,7 @@ export default function Player({ player }) {
   };
 
   return (
-    <Box sx={{ padding: 5 }}>
+    <Box sx={{ padding: { xs: 2, sm: 5 } }}>
       {"error" in player ? (
         <h1>{player.error}</h1>
       ) : (
@@ -182,24 +183,14 @@ export default function Player({ player }) {
             </Tabs>
           </Box>
           <TabPanel value={tabIndex} index={0}>
-            <Grid container spacing={2} justifyContent="center">
-              {"records_map" in player &&
-                player.records_map.map((record) => (
-                  <Grid item xs key={record.map}>
-                    <RecordCard record={record} isBonus={false} />
-                  </Grid>
-                ))}
-            </Grid>
+            {"records_map" in player && (
+              <AdvancedGrid items={player.records_map} />
+            )}
           </TabPanel>
           <TabPanel value={tabIndex} index={1}>
-            <Grid container spacing={2} justifyContent="center">
-              {"records_bonus" in player &&
-                player.records_bonus.map((record) => (
-                  <Grid item xs key={record.map}>
-                    <RecordCard record={record} isBonus={true} />
-                  </Grid>
-                ))}
-            </Grid>
+            {"records_bonus" in player && (
+              <AdvancedGrid items={player.records_bonus} />
+            )}
           </TabPanel>
           <TabPanel value={tabIndex} index={2}>
             <Typography>Coming soon...</Typography>
