@@ -185,7 +185,7 @@ export default function Player({ player }) {
             <Grid container spacing={2} justifyContent="center">
               {"records_map" in player &&
                 player.records_map.map((record) => (
-                  <Grid item xs>
+                  <Grid item xs key={record.map}>
                     <RecordCard record={record} isBonus={false} />
                   </Grid>
                 ))}
@@ -195,7 +195,7 @@ export default function Player({ player }) {
             <Grid container spacing={2} justifyContent="center">
               {"records_bonus" in player &&
                 player.records_bonus.map((record) => (
-                  <Grid item xs>
+                  <Grid item xs key={record.map}>
                     <RecordCard record={record} isBonus={true} />
                   </Grid>
                 ))}
