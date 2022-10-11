@@ -29,8 +29,8 @@ export default function RecordCard({ record, isBonus }) {
             {secondsToMS(record.time)}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Rank: {record.rank} | Tier: {record.tier} | Date:{" "}
-            {new Date(record.date).toDateString()}
+            Rank: <b>{record.rank}</b> | Tier: <b>{record.tier}</b> | Date:{" "}
+            <b>{new Date(record.date).toDateString()}</b>
           </Typography>
         </CardContent>
       </CardActionArea>
