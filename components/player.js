@@ -32,11 +32,7 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
+      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
     </div>
   );
 }
@@ -114,6 +110,7 @@ export default function Player({ player }) {
                     {player.name}
                   </Typography>
                   <IconButton
+                    color="primary"
                     target="_blank"
                     rel="noopener"
                     component="a"
@@ -123,40 +120,51 @@ export default function Player({ player }) {
                   >
                     <FontAwesomeIcon icon={faSteam} />
                   </IconButton>
-                  {player.vip === 1 && <StarIcon color="primary" />}
                 </Box>
-
+                {player.vip === 1 && (
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <StarIcon color="primary" /> <Typography>VIP</Typography>
+                    <StarIcon color="primary" />
+                  </Box>
+                )}
                 <h3>
                   Rank: {player.rank} ({player.rankname})
                 </h3>
               </Grid>
               <Grid item textAlign="left">
                 <h2>Info</h2>
-                <p>
+
+                <Typography>
                   Maps completed: <strong>{player.mapscompleted}</strong>
-                </p>
-                <p>
+                </Typography>
+                <Typography>
                   Play time:
                   <strong> {secondsToHM(parseInt(player.playtime))}</strong>
-                </p>
-                <p>
+                </Typography>
+                <Typography>
                   Country: <strong>{player.country_code}</strong>
-                </p>
-                <p>
+                </Typography>
+                <Typography>
                   Country Rank:
                   <strong>
                     {" "}
                     {player.country_rank}/{player.country_ranktotal}
                   </strong>
-                </p>
-                <p>
+                </Typography>
+                <Typography>
                   Last online:
                   <strong> {new Date(player.lastplay).toDateString()}</strong>
-                </p>
-                <p>
+                </Typography>
+                <Typography>
                   First online:
                   <strong> {new Date(player.firstseen).toDateString()}</strong>
-                </p>
+                </Typography>
               </Grid>
             </Grid>
           </Paper>
@@ -194,7 +202,7 @@ export default function Player({ player }) {
             </Grid>
           </TabPanel>
           <TabPanel value={tabIndex} index={2}>
-            Coming soon...
+            <Typography>Coming soon...</Typography>
           </TabPanel>
         </Box>
       )}
