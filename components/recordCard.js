@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { secondsToMS } from "../services/helper";
 
-export default function RecordCard({ record }) {
+export default function RecordCard({ record, isBonus }) {
   return (
     <Card sx={{ width: 330 }}>
       <CardActionArea>
@@ -16,13 +16,14 @@ export default function RecordCard({ record }) {
           image={
             "https://raw.githubusercontent.com/Sayt123/SurfMapPics/Maps-and-bonuses/csgo/" +
             record.map +
+            (isBonus ? "_b" + record.track : "") +
             ".jpg"
           }
-          alt={record.map}
+          alt={record.map + (isBonus ? "_b" + record.track : "")}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {record.map}
+            {record.map} {isBonus ? "B" + record.track : ""}
           </Typography>
           <Typography gutterBottom variant="h6" component="div">
             {secondsToMS(record.time)}

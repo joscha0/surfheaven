@@ -173,13 +173,19 @@ export default function Player({ playerData }) {
           <Grid container spacing={2} justifyContent="center">
             {player.records_map.map((record) => (
               <Grid item xs>
-                <RecordCard record={record} />
+                <RecordCard record={record} isBonus={false} />
               </Grid>
             ))}
           </Grid>
         </TabPanel>
         <TabPanel value={tabIndex} index={1}>
-          Item Two
+          <Grid container spacing={2} justifyContent="center">
+            {player.records_bonus.map((record) => (
+              <Grid item xs>
+                <RecordCard record={record} isBonus={true} />
+              </Grid>
+            ))}
+          </Grid>
         </TabPanel>
         <TabPanel value={tabIndex} index={2}>
           Coming soon...
