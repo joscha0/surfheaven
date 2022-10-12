@@ -197,11 +197,17 @@ export default function Player({ player }) {
                 </Typography>
                 <Typography>
                   Last online:
-                  <strong> {new Date(player.lastplay).toDateString()}</strong>
+                  <strong>
+                    {" "}
+                    {new Date(player.lastplay).toDateString().substring(4)}
+                  </strong>
                 </Typography>
                 <Typography>
                   First online:
-                  <strong> {new Date(player.firstseen).toDateString()}</strong>
+                  <strong>
+                    {" "}
+                    {new Date(player.firstseen).toDateString().substring(4)}
+                  </strong>
                 </Typography>
               </Grid>
             </Grid>
