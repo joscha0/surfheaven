@@ -81,10 +81,18 @@ export default function Player({ player }) {
               container
               justifyContent="center"
               alignItems="center"
-              columnSpacing={{ xs: 2, md: 4 }}
+              columnSpacing={{ xs: 4, md: 8 }}
               rowSpacing={0}
             >
-              <Grid item>
+              <Grid
+                item
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 1,
+                  alignItems: "center",
+                }}
+              >
                 <Avatar
                   alt={player.name}
                   src={player.avatar}
@@ -134,12 +142,18 @@ export default function Player({ player }) {
                     <StarIcon color="primary" />
                   </Box>
                 )}
-                <h3>
+                <Typography variant="h6" component="h3">
                   Rank: {player.rank} ({player.rankname})
-                </h3>
+                </Typography>
               </Grid>
-              <Grid item textAlign="left">
-                <h2>Info</h2>
+              <Grid
+                item
+                textAlign="left"
+                sx={{ display: "flex", flexDirection: "column", gap: 2 }}
+              >
+                <Typography variant="h4" component="h2">
+                  Info
+                </Typography>
 
                 <Typography>
                   Maps completed: <strong>{player.mapscompleted}</strong>
@@ -169,7 +183,9 @@ export default function Player({ player }) {
               </Grid>
             </Grid>
           </Paper>
-          <h2>Recent records</h2>
+          <Typography variant="h4" component="h2" sx={{ pt: 5, pb: 3 }}>
+            Recent records
+          </Typography>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
               value={tabIndex}
