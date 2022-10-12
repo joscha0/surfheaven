@@ -21,7 +21,8 @@
     "nookies": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-world-flags": "^1.5.1"
+    "react-world-flags": "^1.5.1",
+    "victory": "^36.6.8"
   },
   "devDependencies": {
     "eslint": "8.23.1",
