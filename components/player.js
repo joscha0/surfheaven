@@ -65,9 +65,14 @@ export default function Player({ player }) {
   //   }, [router]);
 
   const [tabIndex, setTabIndex] = React.useState(0);
+  const [tabIndex2, setTabIndex2] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setTabIndex(newValue);
+  };
+
+  const handleChange2 = (event, newValue) => {
+    setTabIndex2(newValue);
   };
 
   return (
@@ -210,6 +215,30 @@ export default function Player({ player }) {
           </TabPanel>
           <TabPanel value={tabIndex} index={2}>
             <Typography>Coming soon...</Typography>
+          </TabPanel>
+          <Typography variant="h4" component="h2" sx={{ pt: 5, pb: 3 }}>
+            Uncompleted
+          </Typography>
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs
+              value={tabIndex2}
+              onChange={handleChange2}
+              aria-label="basic tabs"
+              centered
+            >
+              <Tab label="Maps" {...a11yProps(0)} />
+              <Tab label="Bonuses" {...a11yProps(1)} />
+            </Tabs>
+          </Box>
+          <TabPanel value={tabIndex2} index={0}>
+            {"uncompleted_map" in player && (
+              <AdvancedGrid items={player.uncompleted_map} />
+            )}
+          </TabPanel>
+          <TabPanel value={tabIndex2} index={1}>
+            {"uncompleted_bonus" in player && (
+              <AdvancedGrid items={player.uncompleted_bonus} />
+            )}
           </TabPanel>
         </Box>
       )}

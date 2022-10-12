@@ -38,6 +38,10 @@ const getPlayer = async (id) => {
   }
 
   const recordsData = await cachedFetch(BASE_URL + "records/" + id, 120);
+  const uncompletedData = await cachedFetch(
+    BASE_URL + "uncompleted/" + id,
+    120
+  );
   const steamid = toSteamID64(id);
   const steamData = await regularFetch(
     "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=" +
@@ -68,6 +72,22 @@ const getPlayer = async (id) => {
     }
   }
 
+  var uncompleted_map = [];
+  var uncompleted_bonus = [];
+  if (Object.keys(uncompletedData).length > 0) {
+    for (const uncompleted of uncompletedData) {
+      const uncompletedData = {
+        map: uncompleted.map ?? "",
+        track: uncompleted.track ?? "",
+      };
+      if (uncompleted.track == 0) {
+        uncompleted_map.push(uncompletedData);
+      } else if (uncompleted.track > 0) {
+        uncompleted_bonus.push(uncompletedData);
+      }
+    }
+  }
+
   return {
     name: playerInfo.name ?? "",
     steamid: steamid,
@@ -86,6 +106,8 @@ const getPlayer = async (id) => {
     loccountrycode: steamData.response.players[0].loccountrycode ?? "",
     records_map: records_map,
     records_bonus: records_bonus,
+    uncompleted_map: uncompleted_map,
+    uncompleted_bonus: uncompleted_bonus,
   };
 };
 

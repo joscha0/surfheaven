@@ -12,7 +12,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import InputAdornment from "@mui/material/InputAdornment";
 
-const AdvancedGrid = ({ items }) => {
+const AdvancedGrid = ({ items, isRecord = false }) => {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(12);
   const [filteredItems, setFilteredItems] = useState(items);
@@ -106,22 +106,24 @@ const AdvancedGrid = ({ items }) => {
             ),
           }}
         />
-        <FormControl variant="filled" sx={{ m: 1, minWidth: 170 }}>
-          <InputLabel id="demo-simple-select-filled-label">
-            Sorting Option
-          </InputLabel>
-          <Select
-            labelId="demo-simple-select-filled-label"
-            id="demo-simple-select-filled"
-            value={sortingOption}
-            onChange={handleChangeSorting}
-            label="Sorting Option"
-          >
-            {sortingOptions.map((option) => (
-              <MenuItem value={option}>{option}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
+        {isRecord && (
+          <FormControl variant="filled" sx={{ m: 1, minWidth: 170 }}>
+            <InputLabel id="demo-simple-select-filled-label">
+              Sorting Option
+            </InputLabel>
+            <Select
+              labelId="demo-simple-select-filled-label"
+              id="demo-simple-select-filled"
+              value={sortingOption}
+              onChange={handleChangeSorting}
+              label="Sorting Option"
+            >
+              {sortingOptions.map((option) => (
+                <MenuItem value={option}>{option}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        )}
       </Box>
       {filteredItems.length > 0 ? (
         <Grid container spacing={2} justifyContent="center">

@@ -26,13 +26,17 @@ export default function RecordCard({ record }) {
           <Typography gutterBottom variant="h5" component="div">
             {record.map} {isBonus ? "B" + record.track : ""}
           </Typography>
-          <Typography gutterBottom variant="h6" component="div">
-            {secondsToMS(record.time)}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Rank: <b>{record.rank}</b> | Tier: <b>{record.tier}</b> | Date:{" "}
-            <b>{new Date(record.date).toDateString().substring(4)}</b>
-          </Typography>
+          {"time" in record && (
+            <Typography gutterBottom variant="h6" component="div">
+              {secondsToMS(record.time)}
+            </Typography>
+          )}
+          {"rank" in record && (
+            <Typography variant="body2" color="text.secondary">
+              Rank: <b>{record.rank}</b> | Tier: <b>{record.tier}</b> | Date:{" "}
+              <b>{new Date(record.date).toDateString().substring(4)}</b>
+            </Typography>
+          )}
         </CardContent>
       </CardActionArea>
     </Card>
