@@ -49,7 +49,10 @@ const AdvancedGrid = ({ items, isRecord = false }) => {
       setFilteredItems(
         items.filter((e) => e.map.toLowerCase().match(event.target.value))
       );
+    } else {
+      setFilteredItems(items);
     }
+    setPage(0);
     setSearchString(event.target.value);
   };
 

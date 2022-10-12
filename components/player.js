@@ -205,12 +205,12 @@ export default function Player({ player }) {
           </Box>
           <TabPanel value={tabIndex} index={0}>
             {"records_map" in player && (
-              <AdvancedGrid items={player.records_map} />
+              <AdvancedGrid items={player.records_map} isRecord={true} />
             )}
           </TabPanel>
           <TabPanel value={tabIndex} index={1}>
             {"records_bonus" in player && (
-              <AdvancedGrid items={player.records_bonus} />
+              <AdvancedGrid items={player.records_bonus} isRecord={true} />
             )}
           </TabPanel>
           <TabPanel value={tabIndex} index={2}>
