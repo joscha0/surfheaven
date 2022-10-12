@@ -8,10 +8,6 @@ import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import PersonIcon from "@mui/icons-material/Person";
-import Button from "@mui/material/Button";
 import Image from "next/image";
 
 const BootstrapDialogTitle = (props) => {
@@ -74,7 +70,6 @@ const MapRecordPopup = (props) => {
                 width={2000}
               />
             </Box>
-            <Box>Test</Box>
           </DialogContent>
         </>
       )}
