@@ -127,20 +127,39 @@ const getMap = async (name, playerId) => {
   // get all maps cached for 12h
   const mapsData = await cachedFetch(BASE_URL + "maps/", 12 * 60 * 60);
   const mapInfoData = mapsData.filter((map) => map.map == name);
-  if (Object.keys(mapInfoData).length === 0) {
+  if (mapInfoData.length === 0) {
     return { error: "Map not found!" };
   }
+  const mapInfo = mapInfoData[0];
 
-  const mapCCP = await cachedFetch(
-    BASE_URL + "ccp/" + name + "/" + playerId,
+  var mapCCP = [];
+
+  const mapCP = await cachedFetch(
+    BASE_URL + "checkpoints/" + name + "/" + playerId,
     120
   );
+  const mapCPWR = await cachedFetch(BASE_URL + "checkpoints/" + name, 120);
+  for (var i = 0; i < mapCP.length; i++) {
+    mapCCP.push({
+      name: mapCP[i].name,
+      steamid: mapCP[i].steamid,
+      time: mapCP[i].time,
+      stagetime: mapCP[i].stagetime,
+      speed: mapCP[i].speed,
+      // pcheckpoint: mapCP[i].checkpoint,
+      // wrcheckpoint: mapCP[i].checkpoint,
+      checkpoint: i + 1,
+      wrname: mapCPWR[i].name,
+      wrsteamid: mapCPWR[i].steamid,
+      wrtime: mapCPWR[i].time,
+      wrstagetime: mapCPWR[i].stagetime,
+      wrspeed: mapCPWR[i].speed,
+    });
+  }
 
   const recordsData = await getRecordsData(playerId);
 
   const mapRecord = recordsData.map.filter((map) => map.map == name);
-  console.log(mapRecord);
-  const mapInfo = mapInfoData[0];
 
   return {
     map: mapInfo.map ?? "",

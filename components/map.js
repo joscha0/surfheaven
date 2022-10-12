@@ -1,10 +1,19 @@
-import Image from "next/future/image";
+import Image from "next/image";
+
 import * as React from "react";
 import Box from "@mui/material/Box";
 import { getImageUrl, secondsToMS } from "../services/helper";
 import Typography from "@mui/material/Typography";
+import {
+  VictoryChart,
+  VictoryLine,
+  VictoryTheme,
+  VictoryVoronoiContainer,
+  VictoryTooltip,
+} from "victory";
 
 export default function Map({ mapData }) {
+  console.log(mapData.map_ccp);
   return (
     <Box sx={{ p: 3 }}>
       {"error" in mapData ? (
@@ -73,10 +82,10 @@ export default function Map({ mapData }) {
             <Image
               src={getImageUrl(mapData.map, mapData.track, false)}
               alt={mapData.map}
-              width="0"
-              height="0"
-              sizes="100vw"
-              style={{ width: 1000, height: "auto" }}
+              layout="responsive"
+              height={450}
+              width={1000}
+              objectFit="contain"
             />
           </Box>
           <Box
@@ -118,6 +127,41 @@ export default function Map({ mapData }) {
             <Typography variant="h4" component="h1" padding={2}>
               CCP
             </Typography>
+            <VictoryChart
+              theme={VictoryTheme.material}
+              containerComponent={
+                <VictoryVoronoiContainer
+                  voronoiDimension="x"
+                  labels={({ datum }) => `time: ${datum.y}`}
+                  labelComponent={<VictoryTooltip />}
+                />
+              }
+            >
+              <VictoryLine
+                interpolation="natural"
+                style={{
+                  data: { stroke: "#3145C4" },
+                  parent: { border: "1px solid #ccc" },
+                }}
+                data={mapData.map_ccp.map((cp) => ({
+                  x: cp.checkpoint,
+                  y: cp.time,
+                  label: cp.time,
+                }))}
+              />
+              <VictoryLine
+                interpolation="natural"
+                style={{
+                  data: { stroke: "#c43a31" },
+                  parent: { border: "1px solid #ccc" },
+                }}
+                data={mapData.map_ccp.map((cp) => ({
+                  x: cp.checkpoint,
+                  y: cp.wrtime,
+                  label: cp.wrtime,
+                }))}
+              />
+            </VictoryChart>
           </Box>
         </Box>
       )}
