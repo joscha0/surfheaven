@@ -21,6 +21,7 @@ import { secondsToHM } from "../services/helper";
 import RecordCard from "./recordCard";
 import Flag from "react-world-flags";
 import AdvancedGrid from "./advancedGrid";
+import MapRecordPopup from "./mapRecordPopup";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,6 +67,8 @@ export default function Player({ player }) {
 
   const [tabIndex, setTabIndex] = React.useState(0);
   const [tabIndex2, setTabIndex2] = React.useState(0);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedRecord, setSelectedRecord] = useState({});
 
   const handleChange = (event, newValue) => {
     setTabIndex(newValue);
@@ -75,8 +78,23 @@ export default function Player({ player }) {
     setTabIndex2(newValue);
   };
 
+  const handleClose = () => {
+    setShowModal(false);
+  };
+
+  const openModal = (record) => {
+    console.log(record);
+    setSelectedRecord(record);
+    setShowModal(true);
+  };
+
   return (
     <Box sx={{ padding: { xs: 2, sm: 5 } }}>
+      <MapRecordPopup
+        handleClose={handleClose}
+        show={showModal}
+        record={selectedRecord}
+      />
       {"error" in player ? (
         <h1>{player.error}</h1>
       ) : (
@@ -205,12 +223,20 @@ export default function Player({ player }) {
           </Box>
           <TabPanel value={tabIndex} index={0}>
             {"records_map" in player && (
-              <AdvancedGrid items={player.records_map} isRecord={true} />
+              <AdvancedGrid
+                items={player.records_map}
+                isRecord={true}
+                openModal={openModal}
+              />
             )}
           </TabPanel>
           <TabPanel value={tabIndex} index={1}>
             {"records_bonus" in player && (
-              <AdvancedGrid items={player.records_bonus} isRecord={true} />
+              <AdvancedGrid
+                items={player.records_bonus}
+                isRecord={true}
+                openModal={openModal}
+              />
             )}
           </TabPanel>
           <TabPanel value={tabIndex} index={2}>
@@ -232,12 +258,18 @@ export default function Player({ player }) {
           </Box>
           <TabPanel value={tabIndex2} index={0}>
             {"uncompleted_map" in player && (
-              <AdvancedGrid items={player.uncompleted_map} />
+              <AdvancedGrid
+                items={player.uncompleted_map}
+                openModal={openModal}
+              />
             )}
           </TabPanel>
           <TabPanel value={tabIndex2} index={1}>
             {"uncompleted_bonus" in player && (
-              <AdvancedGrid items={player.uncompleted_bonus} />
+              <AdvancedGrid
+                items={player.uncompleted_bonus}
+                openModal={openModal}
+              />
             )}
           </TabPanel>
         </Box>

@@ -7,11 +7,11 @@ import { CardActionArea } from "@mui/material";
 import { secondsToMS, getImageUrl } from "../services/helper";
 import Image from "next/image";
 
-export default function RecordCard({ record }) {
+export default function RecordCard({ record, openModal }) {
   const isBonus = record.track != 0;
   return (
     <Card sx={{ width: 330 }}>
-      <CardActionArea>
+      <CardActionArea onClick={() => openModal(record)}>
         <CardMedia>
           <div style={{ position: "relative", width: "100%", height: "140px" }}>
             <Image

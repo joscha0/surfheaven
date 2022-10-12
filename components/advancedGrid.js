@@ -12,7 +12,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import InputAdornment from "@mui/material/InputAdornment";
 
-const AdvancedGrid = ({ items, isRecord = false }) => {
+const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(12);
   const [filteredItems, setFilteredItems] = useState(items);
@@ -135,7 +135,7 @@ const AdvancedGrid = ({ items, isRecord = false }) => {
             .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
             .map((record) => (
               <Grid item xs key={record.map + record.track}>
-                <RecordCard record={record} />
+                <RecordCard record={record} openModal={openModal} />
               </Grid>
             ))}
         </Grid>
@@ -148,7 +148,7 @@ const AdvancedGrid = ({ items, isRecord = false }) => {
         page={page}
         onPageChange={handleChangePage}
         rowsPerPage={rowsPerPage}
-        labelRowsPerPage={"Records per page:"}
+        labelRowsPerPage={(isRecord ? "Records" : "Items") + " per page:"}
         rowsPerPageOptions={[8, 12, 16, 20, 40, 100]}
         onRowsPerPageChange={handleChangeRowsPerPage}
       />
