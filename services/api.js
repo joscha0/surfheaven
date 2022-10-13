@@ -139,6 +139,19 @@ const getMap = async (name, playerId) => {
     120
   );
   const mapCPWR = await cachedFetch(BASE_URL + "checkpoints/" + name, 120);
+  mapCCP.push({
+    name: mapCP[0].name,
+    steamid: mapCP[0].steamid,
+    time: 0,
+    stagetime: 0,
+    speed: 0,
+    checkpoint: 0,
+    wrname: mapCPWR[0].name,
+    wrsteamid: mapCPWR[0].steamid,
+    wrtime: 0,
+    wrstagetime: 0,
+    wrspeed: 0,
+  });
   for (var i = 0; i < mapCP.length; i++) {
     mapCCP.push({
       name: mapCP[i].name,
@@ -146,8 +159,6 @@ const getMap = async (name, playerId) => {
       time: mapCP[i].time,
       stagetime: mapCP[i].stagetime,
       speed: mapCP[i].speed,
-      // pcheckpoint: mapCP[i].checkpoint,
-      // wrcheckpoint: mapCP[i].checkpoint,
       checkpoint: i + 1,
       wrname: mapCPWR[i].name,
       wrsteamid: mapCPWR[i].steamid,

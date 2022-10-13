@@ -4,6 +4,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import { getImageUrl, secondsToMS } from "../services/helper";
 import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
 import {
   VictoryChart,
   VictoryLine,
@@ -124,44 +125,101 @@ export default function Map({ mapData }) {
               p: 1,
             }}
           >
-            <Typography variant="h4" component="h1" padding={2}>
+            <Typography
+              variant="h4"
+              component="h2"
+              sx={{ padding: 2, paddingTop: 10 }}
+            >
               CCP
             </Typography>
-            <VictoryChart
-              theme={VictoryTheme.material}
-              containerComponent={
-                <VictoryVoronoiContainer
-                  voronoiDimension="x"
-                  labels={({ datum }) => `time: ${datum.y}`}
-                  labelComponent={<VictoryTooltip />}
-                />
-              }
-            >
-              <VictoryLine
-                interpolation="natural"
-                style={{
-                  data: { stroke: "#3145C4" },
-                  parent: { border: "1px solid #ccc" },
-                }}
-                data={mapData.map_ccp.map((cp) => ({
-                  x: cp.checkpoint,
-                  y: cp.time,
-                  label: cp.time,
-                }))}
-              />
-              <VictoryLine
-                interpolation="natural"
-                style={{
-                  data: { stroke: "#c43a31" },
-                  parent: { border: "1px solid #ccc" },
-                }}
-                data={mapData.map_ccp.map((cp) => ({
-                  x: cp.checkpoint,
-                  y: cp.wrtime,
-                  label: cp.wrtime,
-                }))}
-              />
-            </VictoryChart>
+            <Grid container columns={{ xs: 4, md: 8 }}>
+              <Grid item xs={4} md={4}>
+                <Typography variant="h5" component="h2">
+                  Time
+                </Typography>
+                <VictoryChart
+                  theme={VictoryTheme.material}
+                  minDomain={{ y: 0 }}
+                  containerComponent={
+                    <VictoryVoronoiContainer
+                      voronoiDimension="x"
+                      labels={({ datum }) =>
+                        `${datum.name}: ${secondsToMS(datum.y)}`
+                      }
+                      labelComponent={<VictoryTooltip />}
+                    />
+                  }
+                >
+                  <VictoryLine
+                    interpolation="catmullRom"
+                    style={{
+                      data: { stroke: "#3145C4" },
+                      parent: { border: "1px solid #ccc" },
+                    }}
+                    data={mapData.map_ccp.map((cp) => ({
+                      x: cp.checkpoint,
+                      y: cp.time,
+                      label: cp.time - cp.wrtime,
+                      name: cp.name,
+                    }))}
+                  />
+                  <VictoryLine
+                    interpolation="catmullRom"
+                    style={{
+                      data: { stroke: "#c43a31" },
+                      parent: { border: "1px solid #ccc" },
+                    }}
+                    data={mapData.map_ccp.map((cp) => ({
+                      x: cp.checkpoint,
+                      y: cp.wrtime,
+                      name: cp.wrname + " (WR)",
+                    }))}
+                  />
+                </VictoryChart>
+              </Grid>
+              <Grid item xs={4} md={4}>
+                <Typography variant="h5" component="h2">
+                  Speed
+                </Typography>
+                <VictoryChart
+                  theme={VictoryTheme.material}
+                  minDomain={{ y: 0 }}
+                  containerComponent={
+                    <VictoryVoronoiContainer
+                      voronoiDimension="x"
+                      labels={({ datum }) => `${datum.name}: ${datum.y}u`}
+                      labelComponent={<VictoryTooltip />}
+                    />
+                  }
+                >
+                  <VictoryLine
+                    interpolation="catmullRom"
+                    style={{
+                      data: { stroke: "#3145C4" },
+                      parent: { border: "1px solid #ccc" },
+                    }}
+                    data={mapData.map_ccp.map((cp) => ({
+                      x: cp.checkpoint,
+                      y: Math.round(cp.speed),
+                      label: Math.round(cp.speed - cp.wrspeed),
+                      name: cp.name,
+                    }))}
+                  />
+                  <VictoryLine
+                    interpolation="catmullRom"
+                    style={{
+                      data: { stroke: "#c43a31" },
+                      parent: { border: "1px solid #ccc" },
+                    }}
+                    data={mapData.map_ccp.map((cp) => ({
+                      x: cp.checkpoint,
+                      y: Math.round(cp.wrspeed),
+                      name: cp.wrname + " (WR)",
+                    }))}
+                  />
+                </VictoryChart>
+              </Grid>
+            </Grid>
           </Box>
         </Box>
       )}
