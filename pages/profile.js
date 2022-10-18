@@ -45,14 +45,19 @@ const Profile = ({ playerData }) => {
     });
   };
 
-  useEffect(() => {
-    const cookies = parseCookies();
-    if ("sh-id" in cookies) {
-      const shId = cookies["sh-id"];
-      setTextInput(shId);
-    } else {
-      automaticSetId();
-    }
+  useEffect((automaticSetId = automaticSetId) => {
+    const getCookies = () => {
+      const cookies = parseCookies();
+      if ("sh-id" in cookies) {
+        const shId = cookies["sh-id"];
+        setTextInput(shId);
+      } else {
+        const setId = () => {
+          automaticSetId();
+        };
+      }
+      getCookies();
+    };
   }, []);
 
   return (

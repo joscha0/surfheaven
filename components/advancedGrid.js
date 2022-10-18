@@ -32,7 +32,7 @@ const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
 
   useEffect(() => {
     setFilteredItems(items.sort(getComparator()));
-  }, []);
+  }, [items]);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -122,7 +122,9 @@ const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
               label="Sorting Option"
             >
               {sortingOptions.map((option) => (
-                <MenuItem value={option}>{option}</MenuItem>
+                <MenuItem key={option} value={option}>
+                  {option}
+                </MenuItem>
               ))}
             </Select>
           </FormControl>
