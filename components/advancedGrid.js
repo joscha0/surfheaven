@@ -11,8 +11,9 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import InputAdornment from "@mui/material/InputAdornment";
+import MapCard from "./mapCard";
 
-const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
+const AdvancedGrid = ({ items, isRecord, openModal }) => {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(12);
   const [filteredItems, setFilteredItems] = useState(items);
@@ -47,7 +48,12 @@ const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
     event.preventDefault();
     if (event.target.value) {
       setFilteredItems(
-        items.filter((e) => e.map.toLowerCase().match(event.target.value))
+        items.filter(
+          (e) =>
+            e.map.toLowerCase().match(event.target.value.toLowerCase()) ||
+            (e.author !== undefined &&
+              e.author.toLowerCase().match(event.target.value.toLowerCase()))
+        )
       );
     } else {
       setFilteredItems(items);
@@ -109,26 +115,24 @@ const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
             ),
           }}
         />
-        {isRecord && (
-          <FormControl variant="filled" sx={{ m: 1, minWidth: 170 }}>
-            <InputLabel id="demo-simple-select-filled-label">
-              Sorting Option
-            </InputLabel>
-            <Select
-              labelId="demo-simple-select-filled-label"
-              id="demo-simple-select-filled"
-              value={sortingOption}
-              onChange={handleChangeSorting}
-              label="Sorting Option"
-            >
-              {sortingOptions.map((option) => (
-                <MenuItem key={option} value={option}>
-                  {option}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        )}
+        <FormControl variant="filled" sx={{ m: 1, minWidth: 170 }}>
+          <InputLabel id="demo-simple-select-filled-label">
+            Sorting Option
+          </InputLabel>
+          <Select
+            labelId="demo-simple-select-filled-label"
+            id="demo-simple-select-filled"
+            value={sortingOption}
+            onChange={handleChangeSorting}
+            label="Sorting Option"
+          >
+            {sortingOptions.map((option) => (
+              <MenuItem key={option} value={option}>
+                {option}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
       </Box>
       {filteredItems.length > 0 ? (
         <Grid container spacing={2} justifyContent="center">
@@ -137,7 +141,11 @@ const AdvancedGrid = ({ items, isRecord = false, openModal }) => {
             .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
             .map((record) => (
               <Grid item xs key={record.map + record.track}>
-                <RecordCard record={record} openModal={openModal} />
+                {isRecord ? (
+                  <RecordCard record={record} openModal={openModal} />
+                ) : (
+                  <MapCard record={record} openModal={openModal} />
+                )}
               </Grid>
             ))}
         </Grid>

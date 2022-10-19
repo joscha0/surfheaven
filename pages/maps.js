@@ -30,7 +30,7 @@ function Maps({ mapsData }) {
         <Typography variant="h2" component="h1" sx={{ pt: 5, pb: 3 }}>
           Maps
         </Typography>
-        <AdvancedGrid items={mapsData} openModal={openModal} isRecord={true} />
+        <AdvancedGrid items={mapsData} openModal={openModal} isRecord={false} />
       </Box>
     </center>
   );
