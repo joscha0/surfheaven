@@ -76,13 +76,25 @@ const getPlayer = async (id) => {
       steamid
   );
 
+  const mapsData = await getMaps();
   var uncompleted_map = [];
   var uncompleted_bonus = [];
   if (Object.keys(uncompletedData).length > 0) {
     for (const uncompleted of uncompletedData) {
+      const mapDataArr = mapsData.filter((map) => map.map == uncompleted.map); // TODO improve performance
+      const mapData = mapDataArr[0] ?? {};
       const uncompletedData = {
         map: uncompleted.map ?? "",
         track: uncompleted.track ?? "",
+        type: mapData.type ?? "",
+        date_added: mapData.date_added ?? "",
+        checkpoints: mapData.checkpoints ?? "",
+        tier: mapData.tier ?? "",
+        bonus: mapData.bonus ?? "",
+        author: mapData.author ?? "",
+        completions: mapData.completions ?? "",
+        playtime: mapData.playtime ?? "",
+        times_played: mapData.times_played ?? "",
       };
       if (uncompleted.track == 0) {
         uncompleted_map.push(uncompletedData);

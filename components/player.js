@@ -267,6 +267,7 @@ export default function Player({ player }) {
               <AdvancedGrid
                 items={player.uncompleted_map}
                 openModal={openModal}
+                isRecord={false}
               />
             )}
           </TabPanel>
@@ -275,6 +276,7 @@ export default function Player({ player }) {
               <AdvancedGrid
                 items={player.uncompleted_bonus}
                 openModal={openModal}
+                isRecord={false}
               />
             )}
           </TabPanel>
