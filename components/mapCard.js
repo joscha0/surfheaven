@@ -39,6 +39,12 @@ export default function MapCard({ record: map, openModal }) {
               <b>{map.completions}</b>
             </Typography>
           )}
+          {"date_added" in map && (
+            <Typography variant="body2" color="text.secondary">
+              Date added:{" "}
+              <b>{new Date(map.date_added).toDateString().substring(4)}</b>
+            </Typography>
+          )}
         </CardContent>
       </CardActionArea>
     </Card>
