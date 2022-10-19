@@ -9,6 +9,7 @@ import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import Image from "next/image";
+import Button from "@mui/material/Button";
 
 const BootstrapDialogTitle = (props) => {
   const { children, onClose, ...other } = props;
@@ -69,6 +70,9 @@ const MapRecordPopup = (props) => {
                 height={700}
                 width={2000}
               />
+              <Button variant="contained" href={"map/" + record.map}>
+                Open Map
+              </Button>
             </Box>
           </DialogContent>
         </>
