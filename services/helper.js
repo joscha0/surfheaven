@@ -6,6 +6,13 @@ function secondsToHM(seconds) {
   return (h !== 0 ? h + "h " : "") + m + "m";
 }
 
+function secondsToDHM(seconds) {
+  var d = Math.floor(seconds / (3600 * 24));
+  var h = Math.floor((seconds % (3600 * 24)) / 3600);
+  var m = Math.floor((seconds % 3600) / 60);
+  return (d !== 0 ? d + "d " : "") + (h !== 0 ? h + "h " : "") + m + "m";
+}
+
 function secondsToMS(seconds) {
   var m = Math.floor((seconds % 3600) / 60);
   var s = seconds - m * 60;
@@ -32,4 +39,4 @@ function getImageUrl(mapname, track, isMap) {
   );
 }
 
-export { toSteamID64, secondsToHM, secondsToMS, getImageUrl };
+export { toSteamID64, secondsToHM, secondsToMS, getImageUrl, secondsToDHM };

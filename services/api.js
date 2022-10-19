@@ -207,4 +207,9 @@ const getMaps = async () => {
   return mapsData;
 };
 
-export { getPlayer, getId, getMap, getMaps };
+const getTopPlayers = async () => {
+  const topPlayersData = await cachedFetch(BASE_URL + "top/100/", 60 * 60);
+  return topPlayersData;
+};
+
+export { getPlayer, getId, getMap, getMaps, getTopPlayers };

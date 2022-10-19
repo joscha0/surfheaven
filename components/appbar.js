@@ -23,7 +23,7 @@ import Link from "@mui/material/Link";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 
-const pages = ["Maps", "Leaderboard", "Profile"];
+const pages = ["Maps", "Top Players", "Profile"];
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
