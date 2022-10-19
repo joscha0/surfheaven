@@ -14,7 +14,6 @@ import {
 } from "victory";
 
 export default function Map({ mapData }) {
-  console.log(mapData.map_ccp);
   return (
     <Box sx={{ p: 3 }}>
       {"error" in mapData ? (

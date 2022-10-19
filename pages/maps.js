@@ -15,7 +15,6 @@ function Maps({ mapsData }) {
   };
 
   const openModal = (map) => {
-    console.log(map);
     setSelectedMap(map);
     setShowModal(true);
   };

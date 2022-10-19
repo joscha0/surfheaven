@@ -83,7 +83,6 @@ export default function Player({ player }) {
   };
 
   const openModal = (record) => {
-    console.log(record);
     setSelectedRecord(record);
     setShowModal(true);
   };
