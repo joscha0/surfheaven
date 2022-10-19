@@ -28,8 +28,37 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
     "Tier ↓",
     "Map name A-Z",
     "Map name Z-A",
+    "Date added newest",
+    "Date added oldest",
+    "Completions ↑",
+    "Completions ↓",
   ];
-  const [sortingOption, setSortingOption] = React.useState(sortingOptions[0]);
+
+  const sortingOptionsRecord = [
+    "Date newest",
+    "Date oldest",
+    "Rank ↑",
+    "Rank ↓",
+    "Tier ↑",
+    "Tier ↓",
+    "Map name A-Z",
+    "Map name Z-A",
+  ];
+
+  const sortingOptionsMap = [
+    "Tier ↑",
+    "Tier ↓",
+    "Date added newest",
+    "Date added oldest",
+    "Map name A-Z",
+    "Map name Z-A",
+    "Completions ↑",
+    "Completions ↓",
+  ];
+
+  const [sortingOption, setSortingOption] = React.useState(
+    isRecord ? sortingOptionsRecord[0] : sortingOptionsMap[0]
+  );
 
   useEffect(() => {
     setFilteredItems(items.sort(getComparator()));
@@ -84,6 +113,16 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
         return (a, b) => (a.map + a.track).localeCompare(b.map + b.track);
       case sortingOptions[7]:
         return (a, b) => (a.map + a.track).localeCompare(b.map + b.track) * -1;
+      case sortingOptions[8]:
+        return (a, b) =>
+          new Date(a.date_added) > new Date(b.date_added) ? -1 : 1;
+      case sortingOptions[9]:
+        return (a, b) =>
+          new Date(a.date_added) > new Date(b.date_added) ? 1 : -1;
+      case sortingOptions[10]:
+        return (a, b) => (a.completions > b.completions ? 1 : -1);
+      case sortingOptions[11]:
+        return (a, b) => (a.completions > b.completions ? -1 : 1);
       default:
         return 1;
     }
@@ -126,11 +165,13 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
             onChange={handleChangeSorting}
             label="Sorting Option"
           >
-            {sortingOptions.map((option) => (
-              <MenuItem key={option} value={option}>
-                {option}
-              </MenuItem>
-            ))}
+            {(isRecord ? sortingOptionsRecord : sortingOptionsMap).map(
+              (option) => (
+                <MenuItem key={option} value={option}>
+                  {option}
+                </MenuItem>
+              )
+            )}
           </Select>
         </FormControl>
       </Box>
