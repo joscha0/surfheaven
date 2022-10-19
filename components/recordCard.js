@@ -8,15 +8,15 @@ import { secondsToMS, getImageUrl } from "../services/helper";
 import Image from "next/image";
 
 export default function RecordCard({ record, openModal }) {
-  const isBonus = record.track != 0;
+  const isMap = record.track == 0 || record.track == undefined;
   return (
     <Card sx={{ width: 330 }}>
       <CardActionArea onClick={() => openModal(record)}>
         <CardMedia>
           <div style={{ position: "relative", width: "100%", height: "140px" }}>
             <Image
-              src={getImageUrl(record.map, record.track, isBonus)}
-              alt={record.map + (isBonus ? "_b" + record.track : "")}
+              src={getImageUrl(record.map, record.track, isMap)}
+              alt={record.map + (isMap ? "" : "_b" + record.track)}
               layout="fill"
               objectFit="cover"
             />
@@ -24,7 +24,7 @@ export default function RecordCard({ record, openModal }) {
         </CardMedia>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {record.map} {isBonus ? "B" + record.track : ""}
+            {record.map} {isMap ? "" : "B" + record.track}
           </Typography>
           {"time" in record && (
             <Typography gutterBottom variant="h6" component="div">

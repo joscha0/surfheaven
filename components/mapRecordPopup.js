@@ -41,7 +41,7 @@ BootstrapDialogTitle.propTypes = {
 
 const MapRecordPopup = (props) => {
   const record = props.record;
-  const isBonus = record.track != 0;
+  const isMap = record.track == 0 || record.track == undefined;
 
   return (
     <Dialog
@@ -58,12 +58,12 @@ const MapRecordPopup = (props) => {
             id="customized-dialog-title"
             onClose={props.handleClose}
           >
-            {record.map} {isBonus ? "B" + record.track : ""}
+            {record.map} {isMap ? "" : "B" + record.track}
           </BootstrapDialogTitle>
           <DialogContent dividers>
             <Box sx={{ p: 3 }}>
               <Image
-                src={getImageUrl(record.map, record.track, isBonus)}
+                src={getImageUrl(record.map, record.track, isMap)}
                 alt={record.map}
                 objectFit="cover"
                 height={700}

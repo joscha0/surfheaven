@@ -124,8 +124,8 @@ const getId = async () => {
 };
 
 const getMap = async (name, playerId) => {
-  // get all maps cached for 12h
-  const mapsData = await cachedFetch(BASE_URL + "maps/", 12 * 60 * 60);
+  const mapsData = await getMaps();
+
   const mapInfoData = mapsData.filter((map) => map.map == name);
   if (mapInfoData.length === 0) {
     return { error: "Map not found!" };
@@ -189,4 +189,10 @@ const getMap = async (name, playerId) => {
   };
 };
 
-export { getPlayer, getId, getMap };
+const getMaps = async () => {
+  // get all maps cached for 12h
+  const mapsData = await cachedFetch(BASE_URL + "maps/", 12 * 60 * 60);
+  return mapsData;
+};
+
+export { getPlayer, getId, getMap, getMaps };

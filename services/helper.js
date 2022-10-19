@@ -20,8 +20,8 @@ function toSteamID64(id) {
   return (BigInt(76561197960265728) + BigInt(id)).toString();
 }
 
-function getImageUrl(mapname, track, isBonus) {
-  var name = mapname + (isBonus ? "_b" + track : "");
+function getImageUrl(mapname, track, isMap) {
+  var name = mapname + (isMap ? "" : "_b" + track);
   if (name in mapnameFixes) {
     name = mapnameFixes[name];
   }
