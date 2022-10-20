@@ -212,4 +212,9 @@ const getTopPlayers = async () => {
   return topPlayersData;
 };
 
-export { getPlayer, getId, getMap, getMaps, getTopPlayers };
+const getServers = async () => {
+  const serversData = await cachedFetch(BASE_URL + "servers/", 60);
+  return serversData;
+};
+
+export { getPlayer, getId, getMap, getMaps, getTopPlayers, getServers };
