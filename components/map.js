@@ -11,6 +11,8 @@ import {
   VictoryTheme,
   VictoryVoronoiContainer,
   VictoryTooltip,
+  VictoryLegend,
+  VictoryAxis,
 } from "victory";
 
 export default function Map({ mapData }) {
@@ -80,7 +82,7 @@ export default function Map({ mapData }) {
           </Box>
           <Box sx={{ p: 2 }}>
             <Image
-              src={getImageUrl(mapData.map, mapData.track, false)}
+              src={getImageUrl(mapData.map, mapData.track, true)}
               alt={mapData.map}
               layout="responsive"
               height={450}
@@ -139,6 +141,7 @@ export default function Map({ mapData }) {
                 <VictoryChart
                   theme={VictoryTheme.material}
                   minDomain={{ y: 0 }}
+                  domainPadding={{ x: 20, y: 20 }}
                   containerComponent={
                     <VictoryVoronoiContainer
                       voronoiDimension="x"
@@ -149,6 +152,39 @@ export default function Map({ mapData }) {
                     />
                   }
                 >
+                  <VictoryAxis
+                    tickFormat={(t) => `${Math.round(t)}`}
+                    label="Checkpoint / Stage"
+                    style={{
+                      axisLabel: { padding: 30 },
+                    }}
+                  />
+                  <VictoryAxis
+                    dependentAxis
+                    tickFormat={(t) => `${t}s`}
+                    label="time (s)"
+                    style={{
+                      axisLabel: { padding: 40 },
+                    }}
+                  />
+                  <VictoryLegend
+                    orientation="horizontal"
+                    gutter={20}
+                    style={{
+                      border: { stroke: "#ccc" },
+                      title: { fontSize: 20 },
+                    }}
+                    data={[
+                      {
+                        name: mapData.map_ccp[0].name,
+                        symbol: { fill: "#3145C4" },
+                      },
+                      {
+                        name: mapData.map_ccp[0].wrname,
+                        symbol: { fill: "#c43a31" },
+                      },
+                    ]}
+                  />
                   <VictoryLine
                     interpolation="catmullRom"
                     style={{
@@ -183,6 +219,7 @@ export default function Map({ mapData }) {
                 <VictoryChart
                   theme={VictoryTheme.material}
                   minDomain={{ y: 0 }}
+                  domainPadding={{ x: 20, y: 20 }}
                   containerComponent={
                     <VictoryVoronoiContainer
                       voronoiDimension="x"
@@ -191,6 +228,39 @@ export default function Map({ mapData }) {
                     />
                   }
                 >
+                  <VictoryAxis
+                    tickFormat={(t) => `${Math.round(t)}`}
+                    label="Checkpoint / Stage"
+                    style={{
+                      axisLabel: { padding: 30 },
+                    }}
+                  />
+                  <VictoryAxis
+                    dependentAxis
+                    tickFormat={(t) => `${t}u`}
+                    label="speed (units)"
+                    style={{
+                      axisLabel: { padding: 40 },
+                    }}
+                  />
+                  <VictoryLegend
+                    orientation="horizontal"
+                    gutter={20}
+                    style={{
+                      border: { stroke: "#ccc" },
+                      title: { fontSize: 20 },
+                    }}
+                    data={[
+                      {
+                        name: mapData.map_ccp[0].name,
+                        symbol: { fill: "#3145C4" },
+                      },
+                      {
+                        name: mapData.map_ccp[0].wrname,
+                        symbol: { fill: "#c43a31" },
+                      },
+                    ]}
+                  />
                   <VictoryLine
                     interpolation="catmullRom"
                     style={{
