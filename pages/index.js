@@ -3,11 +3,11 @@ import Box from "@mui/material/Box";
 
 import { getServers } from "../services/api";
 
-import MapRecordPopup from "../components/mapRecordPopup";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { Button } from "@mui/material";
 import ServerCard from "../components/serverCard";
+import ServerPopup from "../components/serverPopup";
 
 function Home({ serversData }) {
   const [showModal, setShowModal] = useState(false);
@@ -24,10 +24,10 @@ function Home({ serversData }) {
   return (
     <center>
       <Box sx={{ maxWidth: "xl", paddingTop: 5 }}>
-        <MapRecordPopup
+        <ServerPopup
           handleClose={handleClose}
           show={showModal}
-          record={selectedServer}
+          server={selectedServer}
         />
         <Typography variant="h2" component="h1" sx={{ pt: 5, pb: 2 }}>
           surfheaven
