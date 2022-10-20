@@ -3,8 +3,8 @@ import Box from "@mui/material/Box";
 
 import { getMaps } from "../services/api";
 import AdvancedGrid from "../components/advancedGrid";
-import MapRecordPopup from "../components/mapRecordPopup";
 import Typography from "@mui/material/Typography";
+import MapPopup from "../components/mapPopup";
 
 function Maps({ mapsData }) {
   const [showModal, setShowModal] = useState(false);
@@ -21,10 +21,10 @@ function Maps({ mapsData }) {
   return (
     <center>
       <Box sx={{ maxWidth: "xl", paddingTop: 5 }}>
-        <MapRecordPopup
+        <MapPopup
           handleClose={handleClose}
           show={showModal}
-          record={selectedMap}
+          map={selectedMap}
         />
         <Typography variant="h2" component="h1" sx={{ pt: 5, pb: 3 }}>
           Maps
