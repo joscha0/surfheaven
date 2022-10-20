@@ -29,7 +29,15 @@ function Maps({ mapsData }) {
         <Typography variant="h2" component="h1" sx={{ pt: 5, pb: 3 }}>
           Maps
         </Typography>
-        <AdvancedGrid items={mapsData} openModal={openModal} isRecord={false} />
+        {mapsData.length > 0 ? (
+          <AdvancedGrid
+            items={mapsData}
+            openModal={openModal}
+            isRecord={false}
+          />
+        ) : (
+          <Typography>No maps found!</Typography>
+        )}
       </Box>
     </center>
   );

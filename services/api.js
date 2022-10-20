@@ -7,7 +7,12 @@ const cachedFetch = async (url, seconds) => {
   if (cachedResponse) {
     return cachedResponse;
   } else {
-    const response = await fetch(url);
+    var response;
+    try {
+      response = await fetch(url);
+    } catch (e) {
+      return {};
+    }
     var data;
     if (response.status >= 400) {
       data = {};
@@ -20,7 +25,12 @@ const cachedFetch = async (url, seconds) => {
 };
 
 const regularFetch = async (url) => {
-  const response = await fetch(url);
+  var response;
+  try {
+    response = await fetch(url);
+  } catch (e) {
+    return {};
+  }
   var data;
   if (response.status >= 400) {
     data = {};
@@ -137,6 +147,10 @@ const getId = async () => {
 
 const getMap = async (name, playerId) => {
   const mapsData = await getMaps();
+  console.log(mapsData);
+  if (Object.keys(mapsData).length === 0) {
+    return { error: "Error loading map!" };
+  }
 
   const mapInfoData = mapsData.filter((map) => map.map == name);
   if (mapInfoData.length === 0) {

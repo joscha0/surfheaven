@@ -81,16 +81,21 @@ function Home({ serversData }) {
             </Button>
           </Grid>
         </Grid>
+
         <Typography variant="h4" component="h1" sx={{ pt: 5, pb: 2 }}>
           Servers
         </Typography>
-        <Grid container spacing={2} justifyContent="center">
-          {serversData.map((server) => (
-            <Grid item xs key={server.ip}>
-              <ServerCard server={server} openModal={openModal} />
-            </Grid>
-          ))}
-        </Grid>
+        {serversData.length > 0 ? (
+          <Grid container spacing={2} justifyContent="center">
+            {serversData.map((server) => (
+              <Grid item xs key={server.ip}>
+                <ServerCard server={server} openModal={openModal} />
+              </Grid>
+            ))}
+          </Grid>
+        ) : (
+          <Typography>No servers found!</Typography>
+        )}
       </Box>
     </center>
   );

@@ -22,68 +22,74 @@ function TopPlayers({ topPlayersData }) {
         <Typography variant="h2" component="h1" sx={{ pt: 5, pb: 3 }}>
           Top Players
         </Typography>
-        <Grid item>
-          <TableContainer>
-            <Table sx={{ maxWidth: 950 }}>
-              <TableHead>
-                <TableRow>
-                  <TableCell>
-                    <strong>Rank</strong>
-                  </TableCell>
+        {topPlayersData.length > 0 ? (
+          <Grid item>
+            <TableContainer>
+              <Table sx={{ maxWidth: 950 }}>
+                <TableHead>
+                  <TableRow>
+                    <TableCell>
+                      <strong>Rank</strong>
+                    </TableCell>
 
-                  <TableCell align="right">
-                    <strong>Points</strong>
-                  </TableCell>
-                  <TableCell>
-                    <strong>Last online</strong>
-                  </TableCell>
-                  <TableCell align="right">
-                    <strong>Maps completed</strong>
-                  </TableCell>
-                  <TableCell>
-                    <strong>Playtime</strong>
-                  </TableCell>
-                  <TableCell>
-                    <strong>First seen</strong>
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {topPlayersData.map((player, index) => (
-                  <TableRow
-                    key={index}
-                    sx={{
-                      "&:last-child td, &:last-child th": { border: 0 },
-                    }}
-                  >
-                    <TableCell component="th" scope="row">
-                      {index + 1 + ". "}
-                      <Flag code={player.country_code} height="14" />{" "}
-                      <b>
-                        <Link href={"/player/" + player.steamid}>
-                          {player.name}
-                        </Link>
-                      </b>
+                    <TableCell align="right">
+                      <strong>Points</strong>
+                    </TableCell>
+                    <TableCell>
+                      <strong>Last online</strong>
                     </TableCell>
                     <TableCell align="right">
-                      <b>{player.points}</b>
+                      <strong>Maps completed</strong>
                     </TableCell>
                     <TableCell>
-                      {secondsToDHM(
-                        (Date.now() - new Date(player.lastplay)) / 1000
-                      ) + " ago"}
+                      <strong>Playtime</strong>
                     </TableCell>
-                    <TableCell align="right">{player.mapscompleted}</TableCell>
-                    <TableCell>{secondsToHM(player.playtime)}</TableCell>
                     <TableCell>
-                      {new Date(player.firstseen).toDateString().substring(4)}
+                      <strong>First seen</strong>
                     </TableCell>
                   </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </Grid>
+                </TableHead>
+                <TableBody>
+                  {topPlayersData.map((player, index) => (
+                    <TableRow
+                      key={index}
+                      sx={{
+                        "&:last-child td, &:last-child th": { border: 0 },
+                      }}
+                    >
+                      <TableCell component="th" scope="row">
+                        {index + 1 + ". "}
+                        <Flag code={player.country_code} height="14" />{" "}
+                        <b>
+                          <Link href={"/player/" + player.steamid}>
+                            {player.name}
+                          </Link>
+                        </b>
+                      </TableCell>
+                      <TableCell align="right">
+                        <b>{player.points}</b>
+                      </TableCell>
+                      <TableCell>
+                        {secondsToDHM(
+                          (Date.now() - new Date(player.lastplay)) / 1000
+                        ) + " ago"}
+                      </TableCell>
+                      <TableCell align="right">
+                        {player.mapscompleted}
+                      </TableCell>
+                      <TableCell>{secondsToHM(player.playtime)}</TableCell>
+                      <TableCell>
+                        {new Date(player.firstseen).toDateString().substring(4)}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </Grid>
+        ) : (
+          <Typography>No players found!</Typography>
+        )}
       </Box>
     </center>
   );
