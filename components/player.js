@@ -21,7 +21,7 @@ import { secondsToHM } from "../services/helper";
 import RecordCard from "./recordCard";
 import Flag from "react-world-flags";
 import AdvancedGrid from "./advancedGrid";
-import MapRecordPopup from "./mapRecordPopup";
+import MapPopup from "./mapPopup";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -89,10 +89,10 @@ export default function Player({ player }) {
 
   return (
     <Box sx={{ padding: { xs: 2, sm: 5 } }}>
-      <MapRecordPopup
+      <MapPopup
         handleClose={handleClose}
         show={showModal}
-        record={selectedRecord}
+        map={selectedRecord}
       />
       {"error" in player ? (
         <h1>{player.error}</h1>
