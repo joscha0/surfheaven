@@ -150,34 +150,36 @@ const getMap = async (name, playerId) => {
     BASE_URL + "checkpoints/" + name + "/" + playerId,
     120
   );
-  const mapCPWR = await cachedFetch(BASE_URL + "checkpoints/" + name, 120);
-  mapCCP.push({
-    name: mapCP[0].name,
-    steamid: mapCP[0].steamid,
-    time: 0,
-    stagetime: 0,
-    speed: 0,
-    checkpoint: 0,
-    wrname: mapCPWR[0].name,
-    wrsteamid: mapCPWR[0].steamid,
-    wrtime: 0,
-    wrstagetime: 0,
-    wrspeed: 0,
-  });
-  for (var i = 0; i < mapCP.length; i++) {
+  if (mapCP.length > 0) {
+    const mapCPWR = await cachedFetch(BASE_URL + "checkpoints/" + name, 120);
     mapCCP.push({
-      name: mapCP[i].name,
-      steamid: mapCP[i].steamid,
-      time: mapCP[i].time,
-      stagetime: mapCP[i].stagetime,
-      speed: mapCP[i].speed,
-      checkpoint: i + 1,
-      wrname: mapCPWR[i].name,
-      wrsteamid: mapCPWR[i].steamid,
-      wrtime: mapCPWR[i].time,
-      wrstagetime: mapCPWR[i].stagetime,
-      wrspeed: mapCPWR[i].speed,
+      name: mapCP[0].name,
+      steamid: mapCP[0].steamid,
+      time: 0,
+      stagetime: 0,
+      speed: 0,
+      checkpoint: 0,
+      wrname: mapCPWR[0].name,
+      wrsteamid: mapCPWR[0].steamid,
+      wrtime: 0,
+      wrstagetime: 0,
+      wrspeed: 0,
     });
+    for (var i = 0; i < mapCP.length; i++) {
+      mapCCP.push({
+        name: mapCP[i].name,
+        steamid: mapCP[i].steamid,
+        time: mapCP[i].time,
+        stagetime: mapCP[i].stagetime,
+        speed: mapCP[i].speed,
+        checkpoint: i + 1,
+        wrname: mapCPWR[i].name,
+        wrsteamid: mapCPWR[i].steamid,
+        wrtime: mapCPWR[i].time,
+        wrstagetime: mapCPWR[i].stagetime,
+        wrspeed: mapCPWR[i].speed,
+      });
+    }
   }
 
   const recordsData = await getRecordsData(playerId);
@@ -196,7 +198,7 @@ const getMap = async (name, playerId) => {
     completions: mapInfo.completions ?? "",
     mappers_added: mapInfo.mappers_added ?? "",
     playtime: mapInfo.playtime ?? "",
-    map_pr: mapRecord[0],
+    map_pr: mapRecord[0] ?? {},
     map_ccp: mapCCP ?? [],
   };
 };
