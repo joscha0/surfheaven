@@ -29,7 +29,8 @@ export default function MapCard({ record: map, openModal }) {
           {"tier" in map && (
             <Typography variant="body2" color="text.secondary">
               Tier: <b>{map.tier}</b> | {map.type == 1 && "Stages:"}{" "}
-              <b>{map.type == 1 && map.checkpoints}</b> {map.type == 1 && "| "}
+              <b>{map.type == 1 ? map.checkpoints : "Linear"}</b>
+              {" | "}
               Bonus: <b>{map.bonus}</b>
             </Typography>
           )}
