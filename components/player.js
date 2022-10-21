@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSteam } from "@fortawesome/free-brands-svg-icons";
 
 import StarIcon from "@mui/icons-material/Star";
+import { countries } from "country-data";
 
 import Link from "@mui/material/Link";
 import Tabs from "@mui/material/Tabs";
@@ -176,22 +177,28 @@ export default function Player({ player }) {
                 <Typography variant="h4" component="h2">
                   Info
                 </Typography>
-
                 <Typography>
-                  Maps completed: <strong>{player.mapscompleted}</strong>
+                  Points: <strong>{player.points}</strong>
+                </Typography>
+                <Typography>
+                  Maps completed:{" "}
+                  <strong>
+                    {player.mapscompleted + " / " + player.totalmaps}
+                  </strong>
                 </Typography>
                 <Typography>
                   Play time:
                   <strong> {secondsToHM(parseInt(player.playtime))}</strong>
                 </Typography>
                 <Typography>
-                  Country: <strong>{player.country_code}</strong>
+                  Country:{" "}
+                  <strong>{countries[player.country_code].name}</strong>
                 </Typography>
                 <Typography>
                   Country Rank:
                   <strong>
                     {" "}
-                    {player.country_rank}/{player.country_ranktotal}
+                    {player.country_rank + " / " + player.country_ranktotal}
                   </strong>
                 </Typography>
                 <Typography>

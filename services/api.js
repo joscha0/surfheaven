@@ -128,6 +128,7 @@ const getPlayer = async (id) => {
     lastplay: playerInfo.lastplay ?? "",
     playtime: playerInfo.playtime ?? "",
     mapscompleted: playerInfo.mapscompleted ?? "",
+    totalmaps: mapsData.length ?? "",
     country_rank: playerInfo.country_rank ?? "",
     country_ranktotal: playerInfo.country_ranktotal ?? "",
     avatar: steamData.response.players[0].avatarfull ?? "",
