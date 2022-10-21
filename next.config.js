@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ["raw.githubusercontent.com"],
   },
+  // experimental: {
+  //   largePageDataBytes: 256 * 1000,
+  // },
 };
 
 module.exports = nextConfig;

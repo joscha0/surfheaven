@@ -134,7 +134,7 @@ const ServerPopup = (props) => {
               <Grid container spacing={2}>
                 {"players" in server &&
                   server.players.map((player) => (
-                    <Grid item>
+                    <Grid item key={player.steamid}>
                       <Card sx={{ p: 1 }}>
                         <Link href={"/player/" + player.steamid}>
                           {player.name}

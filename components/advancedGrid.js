@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import TablePagination from "@mui/material/TablePagination";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
@@ -18,21 +18,6 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
   const [rowsPerPage, setRowsPerPage] = React.useState(12);
   const [filteredItems, setFilteredItems] = useState(items);
   const [searchString, setSearchString] = useState("");
-
-  const sortingOptions = [
-    "Date newest",
-    "Date oldest",
-    "Rank ↑",
-    "Rank ↓",
-    "Tier ↑",
-    "Tier ↓",
-    "Map name A-Z",
-    "Map name Z-A",
-    "Date added newest",
-    "Date added oldest",
-    "Completions ↑",
-    "Completions ↓",
-  ];
 
   const sortingOptionsRecord = [
     "Date newest",
@@ -62,7 +47,7 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
 
   useEffect(() => {
     setFilteredItems(items.sort(getComparator()));
-  }, [items]);
+  }, [items, getComparator]);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -95,7 +80,21 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
     setSortingOption(event.target.value);
   };
 
-  const getComparator = () => {
+  const getComparator = useCallback(() => {
+    const sortingOptions = [
+      "Date newest",
+      "Date oldest",
+      "Rank ↑",
+      "Rank ↓",
+      "Tier ↑",
+      "Tier ↓",
+      "Map name A-Z",
+      "Map name Z-A",
+      "Date added newest",
+      "Date added oldest",
+      "Completions ↑",
+      "Completions ↓",
+    ];
     switch (sortingOption) {
       case sortingOptions[0]:
         return (a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1);
@@ -126,7 +125,7 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
       default:
         return 1;
     }
-  };
+  }, [sortingOption]);
 
   return (
     <div>

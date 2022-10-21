@@ -33,7 +33,7 @@ function Home({ serversData }) {
           surfheaven
         </Typography>
         <Typography>
-          Alternative web page for surfheaven surf servers.
+          Alternative website for surfheaven surf servers.
         </Typography>
         <Grid container justifyContent="center" spacing={1} sx={{ p: 2 }}>
           <Grid item>
