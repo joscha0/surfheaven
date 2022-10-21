@@ -148,7 +148,6 @@ const getId = async () => {
 
 const getMap = async (name, playerId) => {
   const mapsData = await getMaps();
-  console.log(mapsData);
   if (Object.keys(mapsData).length === 0) {
     return { error: "Error loading map!" };
   }
@@ -200,6 +199,11 @@ const getMap = async (name, playerId) => {
   const recordsData = await getRecordsData(playerId);
 
   const mapRecord = recordsData.map.filter((map) => map.map == name);
+
+  // remove second to last element for staged maps
+  if (mapInfo.type == 1) {
+    mapCCP.splice(-2, 1);
+  }
 
   return {
     map: mapInfo.map ?? "",
