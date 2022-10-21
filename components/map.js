@@ -15,6 +15,10 @@ import {
   VictoryAxis,
 } from "victory";
 
+import YtAccord from "./ytAccord";
+
+import * as mapsYt from "../services/mapsYt.json";
+
 export default function Map({ mapData }) {
   return (
     <Box sx={{ p: 3 }}>
@@ -90,6 +94,7 @@ export default function Map({ mapData }) {
               objectFit="contain"
             />
           </Box>
+          {mapData.map in mapsYt && <YtAccord map={mapsYt[mapData.map]} />}
           {Object.keys(mapData.map_pr).length > 0 && (
             <Box
               sx={{
