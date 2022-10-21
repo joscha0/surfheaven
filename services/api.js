@@ -233,4 +233,16 @@ const getServers = async () => {
   return serversData;
 };
 
-export { getPlayer, getId, getMap, getMaps, getTopPlayers, getServers };
+const searchPlayer = async (player) => {
+  return await cachedFetch(BASE_URL + "find/player/" + player, 60 * 60);
+};
+
+export {
+  getPlayer,
+  getId,
+  getMap,
+  getMaps,
+  getTopPlayers,
+  getServers,
+  searchPlayer,
+};

@@ -22,6 +22,7 @@ import Drawer from "@mui/material/Drawer";
 import Link from "@mui/material/Link";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
+import { useRouter } from "next/router";
 
 const pages = ["Maps", "Top Players", "Profile"];
 
@@ -68,6 +69,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const ResponsiveAppBar = ({ toggleTheme, isDarkTheme }) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const router = useRouter();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -197,6 +199,11 @@ const ResponsiveAppBar = ({ toggleTheme, isDarkTheme }) => {
             <StyledInputBase
               placeholder="Search…"
               inputProps={{ "aria-label": "search" }}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  router.push("search?p=" + e.target.value);
+                }
+              }}
             />
           </Search>
           <Box sx={{ flexGrow: 0 }}>
