@@ -98,7 +98,7 @@ export async function getServerSideProps(context) {
   if (shId) {
     playerData = await getPlayer(shId);
   } else {
-    playerData = { error: "no player" };
+    playerData = { error: "" };
   }
 
   return { props: { playerData } };
