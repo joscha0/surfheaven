@@ -12,6 +12,10 @@ import Image from "next/image";
 import Button from "@mui/material/Button";
 import { Typography } from "@mui/material";
 
+import YtAccord from "./ytAccord";
+
+import * as mapsYt from "../services/mapsYt.json";
+
 const BootstrapDialogTitle = (props) => {
   const { children, onClose, ...other } = props;
 
@@ -127,6 +131,7 @@ const MapPopup = (props) => {
               <Button variant="contained" href={"map/" + map.map}>
                 Open Map
               </Button>
+              {map.map in mapsYt && <YtAccord map={mapsYt[map.map]} />}
             </Box>
           </DialogContent>
         </>

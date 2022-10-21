@@ -12,6 +12,10 @@ import Image from "next/image";
 import Button from "@mui/material/Button";
 import { Card, Grid, Link, Typography } from "@mui/material";
 
+import YtAccord from "./ytAccord";
+
+import * as mapsYt from "../services/mapsYt.json";
+
 const BootstrapDialogTitle = (props) => {
   const { children, onClose, ...other } = props;
 
@@ -125,6 +129,7 @@ const ServerPopup = (props) => {
                   Connect
                 </Button>
               </Box>
+              {server.map in mapsYt && <YtAccord map={mapsYt[server.map]} />}
               <Typography variant="h6">Players: </Typography>
               <Grid container spacing={2}>
                 {"players" in server &&
