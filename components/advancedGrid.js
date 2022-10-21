@@ -45,10 +45,6 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
     isRecord ? sortingOptionsRecord[0] : sortingOptionsMap[0]
   );
 
-  useEffect(() => {
-    setFilteredItems(items.sort(getComparator()));
-  }, [items, getComparator]);
-
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
@@ -126,6 +122,10 @@ const AdvancedGrid = ({ items, isRecord, openModal }) => {
         return 1;
     }
   }, [sortingOption]);
+
+  useEffect(() => {
+    setFilteredItems(items.sort(getComparator()));
+  }, [items, getComparator]);
 
   return (
     <div>

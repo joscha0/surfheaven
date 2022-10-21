@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
@@ -18,9 +18,9 @@ const Profile = ({ playerData }) => {
 
   const router = useRouter();
 
-  const refreshData = () => {
+  const refreshData = useCallback(() => {
     router.replace(router.asPath);
-  };
+  }, [router]);
 
   const handleTextInputChange = (event) => {
     setTextInput(event.target.value);
@@ -34,7 +34,7 @@ const Profile = ({ playerData }) => {
     refreshData();
   };
 
-  const automaticSetId = () => {
+  const automaticSetId = useCallback(() => {
     getId().then((id) => {
       setCookie(null, "sh-id", id, {
         maxAge: 30 * 24 * 60 * 60,
@@ -43,22 +43,17 @@ const Profile = ({ playerData }) => {
       setTextInput(id);
       refreshData();
     });
-  };
+  }, [refreshData]);
 
-  useEffect((automaticSetId = automaticSetId) => {
-    const getCookies = () => {
-      const cookies = parseCookies();
-      if ("sh-id" in cookies) {
-        const shId = cookies["sh-id"];
-        setTextInput(shId);
-      } else {
-        const setId = () => {
-          automaticSetId();
-        };
-      }
-      getCookies();
-    };
-  }, []);
+  useEffect(() => {
+    const cookies = parseCookies();
+    if ("sh-id" in cookies) {
+      const shId = cookies["sh-id"];
+      setTextInput(shId);
+    } else {
+      automaticSetId();
+    }
+  }, [automaticSetId]);
 
   return (
     <center>
@@ -103,7 +98,7 @@ export async function getServerSideProps(context) {
   if (shId) {
     playerData = await getPlayer(shId);
   } else {
-    playerData = {};
+    playerData = { error: "no player" };
   }
 
   return { props: { playerData } };
