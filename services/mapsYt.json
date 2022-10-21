@@ -1,6 +1,7 @@
 {
     "surf_pagoda": {
         "sh": {
+            "name": "surf_pagoda",
             "player": "heya",
             "video_id": "S5nLIMHlmjg",
             "date": "2022-10-20"
@@ -9,11 +10,13 @@
     },
     "surf_proximity_final": {
         "sh": {
+            "name": "surf_proximity_final",
             "player": "Emma",
             "video_id": "Lq3Pwi67uo8",
             "date": "2022-10-17"
         },
         "ksf": {
+            "name": "surf_proximity_final",
             "player": "greenvoid",
             "video_id": "Iu_6f3KC-2A",
             "date": " August 21st, 2021",
@@ -22,6 +25,7 @@
     },
     "surf_scientist": {
         "sh": {
+            "name": "surf_scientist",
             "player": "Liquidator",
             "video_id": "j7BRhR8eQlc",
             "date": "2021-10-24"
@@ -30,24 +34,28 @@
     },
     "surf_garden_h_go": {
         "sh": {
+            "name": "surf_garden_h",
             "player": "megacutechicken",
             "video_id": "j-qBHqj3LoE",
             "date": "2021-09-27"
         },
         "ksf": {
-            "player": "Nate",
-            "video_id": "ROe2WuYVzM8",
-            "date": "September 23rd, 2022",
-            "info": "[Surf Timer] - Nate finished in 01:49:43 (WR -00:02:02)\n[Surf Timer] - Nate beat the map record! Rank: 1/239\n\nPrevious WR holder: Cromalia\n\n"
+            "name": "surf_garden_h",
+            "player": "Cromalia",
+            "video_id": "L6nwCMDydrw",
+            "date": "October 22nd, 2020",
+            "info": "[Surf Timer] - Cromalia finished in 01:51:46 (WR -00:02:53). Improving by 00:10:66\n[Surf Timer] - Cromalia beat the map record! Rank: 1/133\n\nPrevious WR holder: Caff\n\n"
         }
     },
     "surf_calycate2": {
         "sh": {
+            "name": "surf_calycate2",
             "player": "juve",
             "video_id": "0zoVFVCRExM",
             "date": "2022-10-06"
         },
         "ksf": {
+            "name": "surf_calycate2",
             "player": "levi",
             "video_id": "GyQWSw54lVg",
             "date": "October 3rd, 2020",
@@ -56,6 +64,7 @@
     },
     "surf_numbers2": {
         "sh": {
+            "name": "surf_numbers2",
             "player": "HsK",
             "video_id": "arXS9zLGIfM",
             "date": "2018-10-31"
@@ -64,6 +73,7 @@
     },
     "surf_monolith": {
         "sh": {
+            "name": "surf_monolith",
             "player": "Herm\u00e8s",
             "video_id": "DOCO_IPPUNs",
             "date": "2021-11-21"
@@ -72,6 +82,7 @@
     },
     "surf_atlantis": {
         "sh": {
+            "name": "surf_atlantis",
             "player": "HsK",
             "video_id": "-suV33Dj86Y",
             "date": "2021-02-12"
@@ -80,6 +91,7 @@
     },
     "surf_fabas": {
         "sh": {
+            "name": "surf_fabas",
             "player": "Liquidator",
             "video_id": "KlTiBb9XYqY",
             "date": "2022-08-28"
@@ -88,6 +100,7 @@
     },
     "surf_sylvan": {
         "sh": {
+            "name": "surf_sylvan",
             "player": "fulltime^^",
             "video_id": "W6XtdelarBY",
             "date": "2022-09-22"
@@ -96,6 +109,7 @@
     },
     "surf_gold1": {
         "sh": {
+            "name": "surf_gold1",
             "player": "Herm\u00e8s",
             "video_id": "DtrTpJ7qiaQ",
             "date": "2022-06-20"
@@ -104,24 +118,28 @@
     },
     "surf_coralis_ksf": {
         "sh": {
+            "name": "surf_coralis",
             "player": "fulltime^^",
             "video_id": "Ai5D0J2kcwM",
             "date": "2022-09-28"
         },
         "ksf": {
-            "player": "redc",
-            "video_id": "vOsiiYfFcYs",
-            "date": "August 24th, 2022",
-            "info": "[Surf Timer] - t doggy finished in 00:50:77 (WR -00:00:42). Improving by 00:00:65\n[Surf Timer] - t doggy beat the map record! Rank: 1/2182\n\nPrevious WR holder: tucks (slow)\n\n"
+            "name": "surf_coralis_ksf",
+            "player": "tucks",
+            "video_id": "hFvnW2Wbi6A",
+            "date": " January 28th, 2022",
+            "info": "[Surf Timer] - tucks finished in 00:51:19 (WR -00:00:55). Improving by 00:00:89\n[Surf Timer] - tucks beat the map record! Rank: 1/2151\n\nPrevious WR holder: greenvoid\n\n"
         }
     },
     "surf_hektik": {
         "sh": {
+            "name": "surf_hektik",
             "player": "RedVenom",
             "video_id": "rzsxo0qyWLk",
             "date": "2021-10-25"
         },
         "ksf": {
+            "name": "surf_hektik",
             "player": "Cromalia",
             "video_id": "6oJ8cg7Lia4",
             "date": "December 11th, 2021",
@@ -130,6 +148,7 @@
     },
     "surf_boy_fixed": {
         "sh": {
+            "name": "surf_boy_fixed",
             "player": "kuedon",
             "video_id": "922tjPcqPvk",
             "date": "2022-06-16"
@@ -138,6 +157,7 @@
     },
     "surf_sora": {
         "sh": {
+            "name": "surf_sora",
             "player": "txcks",
             "video_id": "rfNp-wV4VWk",
             "date": "2022-09-24"
@@ -146,11 +166,13 @@
     },
     "surf_replicant": {
         "sh": {
+            "name": "surf_replicant",
             "player": "Link",
             "video_id": "gI250MtJHZ8",
             "date": "2022-09-06"
         },
         "ksf": {
+            "name": "surf_replicant",
             "player": "pietu",
             "video_id": "DJk1yThD1G8",
             "date": "June 18th, 2021",
@@ -159,6 +181,7 @@
     },
     "surf_sodacity": {
         "sh": {
+            "name": "surf_sodacity",
             "player": "Herm\u00e8s",
             "video_id": "RH64iMghnrU",
             "date": "2022-09-11"
@@ -167,11 +190,13 @@
     },
     "surf_syria_again": {
         "sh": {
+            "name": "surf_syria_again",
             "player": "Klint",
             "video_id": "9Np0CsJre1I",
             "date": "2022-09-16"
         },
         "ksf": {
+            "name": "surf_syria_again",
             "player": "rulldar",
             "video_id": "O8i4ePvYEk8",
             "date": "May 12th, 2020",
@@ -180,11 +205,13 @@
     },
     "surf_forsaken": {
         "sh": {
+            "name": "surf_forsaken",
             "player": "braWler",
             "video_id": "pD1O0zDHICY",
             "date": "2022-09-13"
         },
         "ksf": {
+            "name": "surf_forsaken",
             "player": "Caff",
             "video_id": "YciOIq4-I8I",
             "date": "September 21st, 2022",
@@ -193,6 +220,7 @@
     },
     "surf_runner": {
         "sh": {
+            "name": "surf_runner",
             "player": "EErdgdu",
             "video_id": "to1tJIX3MkI",
             "date": "2021-04-10"
@@ -201,6 +229,7 @@
     },
     "surf_blackheart": {
         "sh": {
+            "name": "surf_blackheart",
             "player": "pietu",
             "video_id": "S-8sfrSeXYE",
             "date": "2022-08-25"
@@ -209,6 +238,7 @@
     },
     "surf_salvation": {
         "sh": {
+            "name": "surf_salvation",
             "player": "Liquidator",
             "video_id": "UJJObYQR0wE",
             "date": "2021-11-26"
@@ -217,11 +247,13 @@
     },
     "surf_benevolent": {
         "sh": {
+            "name": "surf_benevolent",
             "player": "Liquidator",
             "video_id": "Tu_-VZVPuJs",
             "date": "2022-08-30"
         },
         "ksf": {
+            "name": "surf_benevolent",
             "player": "Joshua",
             "video_id": "nCol_pZto5g",
             "date": "March 30th, 2019",
@@ -230,6 +262,7 @@
     },
     "surf_holiday_fix": {
         "sh": {
+            "name": "surf_holiday",
             "player": "fish\u00f6\u00f6",
             "video_id": "XpdwHEdswpE",
             "date": "2020-11-28"
@@ -238,6 +271,7 @@
     },
     "surf_deadline": {
         "sh": {
+            "name": "surf_deadline",
             "player": "fish\u00f6\u00f6",
             "video_id": "8OZd_Re2PTk",
             "date": "2021-07-01"
@@ -246,6 +280,7 @@
     },
     "surf_kaboom": {
         "sh": {
+            "name": "surf_kaboom",
             "player": "Liquidator",
             "video_id": "Q1Bwi1rvZPI",
             "date": "2022-01-09"
@@ -254,6 +289,7 @@
     },
     "surf_torrent": {
         "sh": {
+            "name": "surf_torrent",
             "player": "keNji",
             "video_id": "QnEdGodCKJc",
             "date": "2022-07-20"
@@ -262,6 +298,7 @@
     },
     "surf_primero": {
         "sh": {
+            "name": "surf_primero",
             "player": "keNji",
             "video_id": "FZPl4XEo5OM",
             "date": "2022-07-05"
@@ -270,6 +307,7 @@
     },
     "surf_zeonine": {
         "sh": {
+            "name": "surf_zeonine",
             "player": "Liquidator",
             "video_id": "4eDCRGA0KJI",
             "date": "2022-09-01"
@@ -278,6 +316,7 @@
     },
     "surf_calzone": {
         "sh": {
+            "name": "surf_calzone",
             "player": "EErdgdu",
             "video_id": "-gf_mFRKPEc",
             "date": "2021-07-03"
@@ -286,6 +325,7 @@
     },
     "surf_doodles_njv": {
         "sh": {
+            "name": "surf_doodles",
             "player": "Nis0.",
             "video_id": "tuNQhdMirG0",
             "date": "2022-09-03"
@@ -294,6 +334,7 @@
     },
     "surf_vitun_rotta": {
         "sh": {
+            "name": "surf_vitun_rotta",
             "player": "Liquidator",
             "video_id": "XJrI-Y5sO6o",
             "date": "2021-11-20"
@@ -302,6 +343,7 @@
     },
     "surf_aphelion": {
         "sh": {
+            "name": "surf_aphelion",
             "player": "Liquidator",
             "video_id": "pVvMoOK-_lc",
             "date": "2022-04-10"
@@ -310,11 +352,13 @@
     },
     "surf_whoknows2": {
         "sh": {
+            "name": "surf_whoknows2",
             "player": "vovz0rchan",
             "video_id": "lU-JrQBYhtc",
             "date": "2022-06-27"
         },
         "ksf": {
+            "name": "surf_whoknows2",
             "player": "SyStM",
             "video_id": "M3eT3gBG0IQ",
             "date": "November 22nd, 2016",
@@ -323,11 +367,13 @@
     },
     "surf_borderlands": {
         "sh": {
+            "name": "surf_borderlands",
             "player": "Liquidator",
             "video_id": "ipTyZmUdSjk",
             "date": "2022-08-30"
         },
         "ksf": {
+            "name": "surf_borderlands",
             "player": "synki",
             "video_id": "FpMVU3f0uY0",
             "date": "April 23rd, 2017",
@@ -336,6 +382,7 @@
     },
     "surf_caged": {
         "sh": {
+            "name": "surf_caged",
             "player": "megacutechicken",
             "video_id": "7JOLB9lAc6o",
             "date": "2022-05-31"
@@ -344,6 +391,7 @@
     },
     "surf_scarlet": {
         "sh": {
+            "name": "surf_scarlet",
             "player": "Liquidator",
             "video_id": "10Z3Vc_lZR8",
             "date": "2022-01-18"
@@ -352,6 +400,7 @@
     },
     "surf_n_turf": {
         "sh": {
+            "name": "surf_n_turf",
             "player": "Liquidator",
             "video_id": "F57RpS8hcE0",
             "date": "2022-08-03"
@@ -360,6 +409,7 @@
     },
     "surf_theodor": {
         "sh": {
+            "name": "surf_theodor",
             "player": "jovi",
             "video_id": "JZey8MZR2IM",
             "date": "2022-08-19"
@@ -368,11 +418,13 @@
     },
     "surf_facility": {
         "sh": {
+            "name": "surf_facility",
             "player": "Klint",
             "video_id": "k9rQDQnY2h8",
             "date": "2022-06-15"
         },
         "ksf": {
+            "name": "surf_facility",
             "player": "emil",
             "video_id": "zSts5cIq350",
             "date": " August 3rd, 2021",
@@ -381,6 +433,7 @@
     },
     "surf_techsune": {
         "sh": {
+            "name": "surf_techsune",
             "player": "Klint",
             "video_id": "YbcAb5UKFX4",
             "date": "2022-07-27"
@@ -389,6 +442,7 @@
     },
     "surf_gleam2": {
         "sh": {
+            "name": "surf_gleam2",
             "player": "ry\u00fb",
             "video_id": "M30GwdSJhds",
             "date": "2021-09-08"
@@ -397,6 +451,7 @@
     },
     "surf_pantheon": {
         "sh": {
+            "name": "surf_pantheon",
             "player": "ry\u00fb",
             "video_id": "ivVQuwMN1ms",
             "date": "2022-07-11"
@@ -405,6 +460,7 @@
     },
     "surf_andromeda": {
         "sh": {
+            "name": "surf_andromeda",
             "player": "megacutechicken",
             "video_id": "gO7cTPI8gsY",
             "date": "2022-06-02"
@@ -413,11 +469,13 @@
     },
     "surf_forgotten": {
         "sh": {
+            "name": "surf_forgotten",
             "player": "Herm\u00e8s",
             "video_id": "V8MJZBTZydQ",
             "date": "2022-06-22"
         },
         "ksf": {
+            "name": "surf_forgotten",
             "player": "fish\u00f6\u00f6",
             "video_id": "2JTjuDrJotw",
             "date": "March 21st, 2021",
@@ -426,6 +484,7 @@
     },
     "surf_midsommar": {
         "sh": {
+            "name": "surf_midsommar",
             "player": "konga",
             "video_id": "5hexFyEdkVo",
             "date": "2021-06-04"
@@ -434,11 +493,13 @@
     },
     "surf_zen2": {
         "sh": {
+            "name": "surf_zen2",
             "player": "Liquidator",
             "video_id": "RiKj81Mwvq0",
             "date": "2022-07-06"
         },
         "ksf": {
+            "name": "surf_zen2",
             "player": "levi",
             "video_id": "HICEgiNSYEU",
             "date": "July 19th, 2021",
@@ -447,6 +508,7 @@
     },
     "surf_classics3_fix": {
         "sh": {
+            "name": "surf_classics3",
             "player": "\ud83d\udc14",
             "video_id": "rj9-3m6mad0",
             "date": "2022-06-04"
@@ -455,6 +517,7 @@
     },
     "surf_kitsune_fix": {
         "sh": {
+            "name": "surf_kitsune",
             "player": "Herm\u00e8s",
             "video_id": "ZhIBWUCgsuU",
             "date": "2022-06-19"
@@ -463,6 +526,7 @@
     },
     "surf_ofsfice": {
         "sh": {
+            "name": "surf_ofsfice",
             "player": "Liquidator",
             "video_id": "jmeGWUknmbU",
             "date": "2022-08-12"
@@ -471,24 +535,28 @@
     },
     "surf_mesa_fix": {
         "sh": {
+            "name": "surf_mesa",
             "player": "juve",
             "video_id": "EXw3RcyH7-8",
             "date": "2022-01-24"
         },
         "ksf": {
-            "player": "crashfort",
-            "video_id": "qGxWQVb-PRs",
-            "date": "May 27th, 2019",
-            "info": ""
+            "name": "surf_mesa_fixed",
+            "player": "Beetle179",
+            "video_id": "QGYTroRJg80",
+            "date": "January 27th, 2018",
+            "info": "[Surf Timer] - Beetle179 finished in 00:49:63 (WR -00:00:15). Improving by 00:00:15\n[Surf Timer] - Beetle179 beat the map record! Rank: 1/7395\n\n"
         }
     },
     "surf_utopia_njv": {
         "sh": {
+            "name": "surf_utopia_njv",
             "player": "juve",
             "video_id": "_1et7jIJLmY",
             "date": "2022-08-11"
         },
         "ksf": {
+            "name": "surf_utopia_njv",
             "player": "src",
             "video_id": "cRO2Sm_m3sY",
             "date": "July 20th, 2020",
@@ -497,6 +565,7 @@
     },
     "surf_destruction": {
         "sh": {
+            "name": "surf_destruction",
             "player": "juve",
             "video_id": "IBS_MUBs2Ig",
             "date": "2022-08-18"
@@ -505,6 +574,7 @@
     },
     "surf_not_so_zen": {
         "sh": {
+            "name": "surf_not_so_zen",
             "player": "lemx",
             "video_id": "dgMe1vBHQXk",
             "date": ""
@@ -513,11 +583,13 @@
     },
     "surf_corruption": {
         "sh": {
+            "name": "surf_corruption",
             "player": "Liquidator",
             "video_id": "P_nRgq9Y9V8",
             "date": ""
         },
         "ksf": {
+            "name": "surf_corruption",
             "player": "emil",
             "video_id": "14qBW58c074",
             "date": "August 30th, 2020",
@@ -526,6 +598,7 @@
     },
     "surf_kairo": {
         "sh": {
+            "name": "surf_kairo",
             "player": "jovi",
             "video_id": "VRKQZRGA_OI",
             "date": ""
@@ -534,11 +607,13 @@
     },
     "surf_highlands": {
         "sh": {
+            "name": "surf_highlands",
             "player": "bzukey",
             "video_id": "MMJQlWJg3sE",
             "date": ""
         },
         "ksf": {
+            "name": "surf_highlands",
             "player": "levi",
             "video_id": "5gM3uZDehnM",
             "date": "December 5th, 2020",
@@ -547,11 +622,13 @@
     },
     "surf_whynot": {
         "sh": {
+            "name": "surf_whynot",
             "player": "bzukey",
             "video_id": "LzEp5w_yNFs",
             "date": ""
         },
         "ksf": {
+            "name": "surf_whynot",
             "player": "fish\u00f6\u00f6",
             "video_id": "3Y9B-GpNulY",
             "date": "November 17th, 2020",
@@ -560,11 +637,13 @@
     },
     "surf_xd": {
         "sh": {
+            "name": "surf_xd",
             "player": "whz1gud",
             "video_id": "9_p4J65cTH4",
             "date": ""
         },
         "ksf": {
+            "name": "surf_x",
             "player": "exu",
             "video_id": "lnn_TMKEgWM",
             "date": "May 4th, 2018",
@@ -573,6 +652,7 @@
     },
     "surf_leet_xl_beta7z": {
         "sh": {
+            "name": "surf_leet_xl_beta7z",
             "player": "whz1gud",
             "video_id": "_O8FRL7I34A",
             "date": ""
@@ -581,11 +661,13 @@
     },
     "surf_lt_omnific": {
         "sh": {
+            "name": "surf_lt_omnific",
             "player": "chompa",
             "video_id": "y_7j0BZforY",
             "date": ""
         },
         "ksf": {
+            "name": "surf_lt_omnific",
             "player": "rulldar",
             "video_id": "UxQ0x-AiJOY",
             "date": "July 1st, 2019",
@@ -594,11 +676,13 @@
     },
     "surf_jaqen2": {
         "sh": {
+            "name": "surf_jaqen2",
             "player": "run.",
             "video_id": "hgy_kIJ_5Co",
             "date": ""
         },
         "ksf": {
+            "name": "surf_jaqen2",
             "player": "ddly",
             "video_id": "-O0RDrm5jOw",
             "date": "September 6th, 2018",
@@ -607,6 +691,7 @@
     },
     "surf_void": {
         "ksf": {
+            "name": "surf_void",
             "player": "tucks",
             "video_id": "oD58F-jd1xs",
             "date": "October 15th, 2022",
@@ -615,6 +700,7 @@
     },
     "surf_kloakk": {
         "ksf": {
+            "name": "surf_kloakk",
             "player": "tucks",
             "video_id": "BTjrPEl7YXY",
             "date": "October 15th, 2022",
@@ -623,6 +709,7 @@
     },
     "surf_cordelia": {
         "ksf": {
+            "name": "surf_cordelia",
             "player": "274",
             "video_id": "txBmY8Cuyt8",
             "date": "October 2nd, 2022",
@@ -631,14 +718,16 @@
     },
     "surf_island": {
         "ksf": {
-            "player": "dFault",
-            "video_id": "OurfU08Hz80",
-            "date": "September 20th, 2022",
-            "info": "[Surf Timer] - dFault finished in 01:13:90 (WR -00:02:62)\n[Surf Timer] - dFault beat the map record! Rank: 1/158\n\nPrevious WR holder: Natsu\n\n"
+            "name": "surf_island",
+            "player": "tucks",
+            "video_id": "0TT05DskI7o",
+            "date": "August 17th, 2020",
+            "info": "[Surf Timer] - \u0422\u0430\u043a\u0441 finished in 00:56:20 (WR -00:00:12). Improving by 00:00:17\n[Surf Timer] - \u0422\u0430\u043a\u0441 beat the map record! Rank: 1/2525\n\nPrevious WR holder: rulldar\n\n"
         }
     },
     "surf_koa": {
         "ksf": {
+            "name": "surf_koa",
             "player": "Caff",
             "video_id": "zXgWNlAcFUE",
             "date": " September 9th, 2022",
@@ -647,6 +736,7 @@
     },
     "surf_flow": {
         "ksf": {
+            "name": "surf_flow",
             "player": "Caff",
             "video_id": "DLB-VeI58D0",
             "date": "September 2nd, 2022",
@@ -655,6 +745,7 @@
     },
     "surf_aura": {
         "ksf": {
+            "name": "surf_aqua",
             "player": "Caff",
             "video_id": "n-KUnfhZTVw",
             "date": " September 3rd, 2022",
@@ -663,6 +754,7 @@
     },
     "surf_pox": {
         "ksf": {
+            "name": "surf_pox",
             "player": "tucks",
             "video_id": "xwUkQqSSzvw",
             "date": "May 26th, 2022",
@@ -671,14 +763,16 @@
     },
     "surf_smile_njv": {
         "ksf": {
+            "name": "surf_smile_njv",
             "player": "synki",
-            "video_id": "C9Sdp8-FPQg",
-            "date": "August 24th, 2022",
-            "info": "[Surf Timer] - synkix finished in 00:57:59 (WR -00:00:16). Improving by 00:00:19\n[Surf Timer] - synkix beat the map record! Rank: 1/2396\n\nPrevious WR holder: t doggy (laughstock)\n\n"
+            "video_id": "mz402RMvbNw",
+            "date": "September 24th, 2015",
+            "info": "[Surf Timer] - synkiJESUS finished in 00:58:45 (WR -00:00:37). Improving by 00:00:37\n[Surf Timer] - synkiJESUS beat the map record! Rank: 1/1378\n\n"
         }
     },
     "surf_rands": {
         "ksf": {
+            "name": "surf_rands",
             "player": "rulldar",
             "video_id": "pikWQLqvlto",
             "date": "August 16th, 2022",
@@ -687,6 +781,7 @@
     },
     "surf_nyze": {
         "ksf": {
+            "name": "surf_nyze",
             "player": "synki",
             "video_id": "GKhyuhsU6rw",
             "date": "August 8th, 2022",
@@ -695,6 +790,7 @@
     },
     "surf_tempest": {
         "ksf": {
+            "name": "surf_tempest",
             "player": "noti",
             "video_id": "pFMcIxtoIv4",
             "date": "July 22nd, 2022",
@@ -703,6 +799,7 @@
     },
     "surf_kalium2": {
         "ksf": {
+            "name": "surf_kalium2",
             "player": "synki",
             "video_id": "XaPlSd1FFSw",
             "date": "August 4th, 2022",
@@ -711,6 +808,7 @@
     },
     "surf_tronia": {
         "ksf": {
+            "name": "surf_tronia",
             "player": "hiro",
             "video_id": "t9nvvgwd7nE",
             "date": "August 4th, 2022",
@@ -719,6 +817,7 @@
     },
     "surf_loweffort": {
         "ksf": {
+            "name": "surf_loweffort",
             "player": "proga",
             "video_id": "pBb4ydocnqk",
             "date": "July 30th, 2022",
@@ -727,6 +826,7 @@
     },
     "surf_awakening": {
         "ksf": {
+            "name": "surf_awakening",
             "player": "Marble",
             "video_id": "Kc_7kTXpg2I",
             "date": "July 30th, 2022",
@@ -735,6 +835,7 @@
     },
     "surf_lost": {
         "ksf": {
+            "name": "surf_lost",
             "player": "rulldar",
             "video_id": "JrpKVD7fGfs",
             "date": "July 24th, 2022",
@@ -743,6 +844,7 @@
     },
     "surf_sacrifice": {
         "ksf": {
+            "name": "surf_sacrifice",
             "player": "Cromalia",
             "video_id": "01bimOx7HFA",
             "date": "July 21st, 2022",
@@ -751,14 +853,16 @@
     },
     "surf_second_ksf": {
         "ksf": {
-            "player": "proga",
-            "video_id": "f3_ujVg4N9w",
-            "date": "July 21st, 2022",
-            "info": "[Surf Timer] - proga finished in 00:47:27 (WR -00:00:22)\n[Surf Timer] - proga beat the map record! Rank: 1/524\n\nPrevious WR holder: tucks (coward and quitter)\n\n"
+            "name": "surf_second",
+            "player": "tucks",
+            "video_id": "oK3g6cqCPSc",
+            "date": "January 21st, 2021",
+            "info": "[Surf Timer] - boris finished in 00:47:50 (WR -00:00:12)\n[Surf Timer] - boris beat the map record! Rank: 1/462\n\nPrevious WR holder: proga\n\n"
         }
     },
     "surf_two_colour": {
         "ksf": {
+            "name": "surf_two_colour",
             "player": "rulldar",
             "video_id": "aLgvVtj86no",
             "date": "July 20th, 2022",
@@ -767,14 +871,16 @@
     },
     "surf_prolix_fix": {
         "ksf": {
-            "player": "synki",
-            "video_id": "LacAVSp6N18",
-            "date": "July 19th, 2022",
-            "info": "[Surf Timer] - synkix finished in 00:43:30 (WR -00:00:72). Improving by 00:01:16\n[Surf Timer] - synkix beat the map record! Rank: 1/801\n\nPrevious WR holder: Kevin\n\n"
+            "name": "surf_prolix_fix",
+            "player": "niyhM",
+            "video_id": "nPM4KXpMtWo",
+            "date": "May 9th, 2016",
+            "info": "[Surf Timer] - niyhM finished in 00:46:06 (WR -00:00:34). Improving by 00:00:90\n[Surf Timer] - niyhM beat the map record! Rank: 1/541\n\n"
         }
     },
     "surf_jenocide": {
         "ksf": {
+            "name": "surf_jenocide",
             "player": "rulldar",
             "video_id": "gGArbbGWmxE",
             "date": "July 16th, 2022",
@@ -783,6 +889,7 @@
     },
     "surf_quantum_njv": {
         "ksf": {
+            "name": "surf_quantum_njv",
             "player": "username",
             "video_id": "BllEo2ba93c",
             "date": "July 15th, 2022",
@@ -791,14 +898,16 @@
     },
     "surf_stickybutt_alpha": {
         "ksf": {
-            "player": "greenvoid",
-            "video_id": "2Jcn9SSedgk",
-            "date": "July 9th, 2022",
-            "info": "[Surf Timer] - greenvoid finished in 00:59:80 (WR -00:00:49). Improving by 00:00:92\n[Surf Timer] - greenvoid beat the map record! Rank: 1/881\n\nPrevious WR holder: rulldar\n\n"
+            "name": "surf_stickybutt_alpha",
+            "player": "Shuffle",
+            "video_id": "5Lpmln4ekdo",
+            "date": "September 3rd, 2018",
+            "info": "[Surf Timer] - Shuffail finished in 01:00:37 (WR -00:00:82). Improving by 00:01:22\n[Surf Timer] - Shuffail beat the map record! Rank: 1/749\n\n"
         }
     },
     "surf_agony_go": {
         "ksf": {
+            "name": "surf_agony",
             "player": "levi",
             "video_id": "7X0f8eCOHv8",
             "date": "July 6th, 2022",
@@ -807,6 +916,7 @@
     },
     "surf_exogenesis": {
         "ksf": {
+            "name": "surf_exogenesis",
             "player": "Marble",
             "video_id": "Pu4LrTUb-1A",
             "date": "June 27th, 2022",
@@ -815,6 +925,7 @@
     },
     "surf_unreal_njv": {
         "ksf": {
+            "name": "surf_unreal_njv",
             "player": "274",
             "video_id": "zVhw4Wk496Q",
             "date": "June 30th, 2022",
@@ -823,6 +934,7 @@
     },
     "surf_fiellu": {
         "ksf": {
+            "name": "surf_fiellu",
             "player": "emil",
             "video_id": "KP7cD1dUvKQ",
             "date": "June 29th, 2022",
@@ -831,6 +943,7 @@
     },
     "surf_efficacy": {
         "ksf": {
+            "name": "surf_efficacy",
             "player": "Marble",
             "video_id": "1nI2EndOAbk",
             "date": "June 22nd, 2022",
@@ -839,6 +952,7 @@
     },
     "surf_salient2": {
         "ksf": {
+            "name": "surf_salient2",
             "player": "lemx",
             "video_id": "-nqOzdewzNg",
             "date": "June 12th, 2022",
@@ -847,6 +961,7 @@
     },
     "surf_whynot2": {
         "ksf": {
+            "name": "surf_whynot2",
             "player": "william",
             "video_id": "ggYmDvXOFRg",
             "date": "June 9th, 2022",
@@ -855,6 +970,7 @@
     },
     "surf_jaqen": {
         "ksf": {
+            "name": "surf_jaqen",
             "player": "tucks",
             "video_id": "pfQl5dVRBQQ",
             "date": "June 6th, 2022",
@@ -863,6 +979,7 @@
     },
     "surf_paradigm": {
         "ksf": {
+            "name": "surf_paradigm",
             "player": "joshua",
             "video_id": "Eolz8lK0pp0",
             "date": "May 27th, 2022",
@@ -871,6 +988,7 @@
     },
     "surf_sluice2": {
         "ksf": {
+            "name": "surf_sluice2",
             "player": "Pyllytonttu",
             "video_id": "C3XGhJJClPY",
             "date": " May 26th, 2022",
@@ -879,6 +997,7 @@
     },
     "surf_elysium": {
         "ksf": {
+            "name": "surf_elysium",
             "player": "lemx",
             "video_id": "blWF3Ak2jQw",
             "date": "May 27th, 2022",
@@ -887,6 +1006,7 @@
     },
     "surf_offskill": {
         "ksf": {
+            "name": "surf_offskill",
             "player": "levi",
             "video_id": "EIhkc6Yv1Bo",
             "date": "May 16th, 2022",
@@ -895,6 +1015,7 @@
     },
     "surf_raphaello": {
         "ksf": {
+            "name": "surf_raphaello",
             "player": "lemx",
             "video_id": "OfFAeEzoyZ0",
             "date": "May 14th, 2022",
@@ -903,6 +1024,7 @@
     },
     "surf_verge": {
         "ksf": {
+            "name": "surf_verge",
             "player": "levi",
             "video_id": "NIYdqBdk7MQ",
             "date": "May 4th, 2022",
@@ -911,6 +1033,7 @@
     },
     "surf_wasteland2": {
         "ksf": {
+            "name": "surf_wasteland",
             "player": "lemx",
             "video_id": "4-cx7GxwtxA",
             "date": "April 28th, 2022",
@@ -919,6 +1042,7 @@
     },
     "surf_concretejungle": {
         "ksf": {
+            "name": "surf_concretejungle",
             "player": "Caff",
             "video_id": "1yzCddF2CIk",
             "date": "April 28th, 2022",
@@ -927,6 +1051,7 @@
     },
     "surf_guitar_hi": {
         "ksf": {
+            "name": "surf_guitar_hi",
             "player": "lemx",
             "video_id": "4YQC4f1TmVk",
             "date": "April 26th, 2022",
@@ -935,6 +1060,7 @@
     },
     "surf_eunoia": {
         "ksf": {
+            "name": "surf_eunoia",
             "player": "lemx",
             "video_id": "lEPDnT1Xkt0",
             "date": "April 19th, 2022",
@@ -943,6 +1069,7 @@
     },
     "surf_vast": {
         "ksf": {
+            "name": "surf_vast",
             "player": "lemx",
             "video_id": "UeBJ_ImHSCo",
             "date": "April 8th, 2022",
@@ -951,6 +1078,7 @@
     },
     "surf_summit": {
         "ksf": {
+            "name": "surf_summit",
             "player": "levi",
             "video_id": "3pCyKM2YWrI",
             "date": "April 4th, 2022",
@@ -959,6 +1087,7 @@
     },
     "surf_nikolo": {
         "ksf": {
+            "name": "surf_nikolo",
             "player": "joshua",
             "video_id": "bvaky0aWV3M",
             "date": "March 31st, 2022 ",
@@ -967,22 +1096,25 @@
     },
     "surf_ori_l": {
         "ksf": {
-            "player": "Rulldar",
-            "video_id": "dR_Qx5LWdRw",
-            "date": "March 27th, 2022",
-            "info": "[Surf Timer] - rulldar finished in 01:29:63 (WR -00:00:49). Improving by 00:00:70\n[Surf Timer] - rulldar beat the map record! Rank: 1/266\n\nPrevious WR holder: JunichiK\n\n"
+            "name": "surf_ori_l",
+            "player": "Floflorian",
+            "video_id": "-DDHyt1j-8U",
+            "date": "August 16th, 2017",
+            "info": "[Surf Timer] - Floflorian finished in 01:31:87 (WR -00:01:47). Improving by 00:02:38\n[Surf Timer] - Floflorian beat the map record! Rank: 1/142\n\n"
         }
     },
     "surf_luminaris": {
         "ksf": {
-            "player": "Caff",
-            "video_id": "xSawTRXaKNg",
-            "date": "March 22nd, 2022",
-            "info": "[Surf Timer] - Caff finished in 01:09:97 (WR -00:00:30). Improving by 00:00:76\n[Surf Timer] - Caff beat the map record! Rank: 1/692\n\nPrevious WR holder: sk\n\n"
+            "name": "surf_luminaris",
+            "player": "merky",
+            "video_id": "Q3yjcUDW-E4",
+            "date": "October 24th, 2020",
+            "info": "[Surf Timer] - merky finished in 01:10:70 (WR -00:00:20). Improving by 00:00:45\n[Surf Timer] - merky beat the map record! Rank: 1/391\n\nPrevious WR holder: noti\n\n"
         }
     },
     "surf_polytron": {
         "ksf": {
+            "name": "surf_polytron",
             "player": "Marble",
             "video_id": "0LssgZ7-dVU",
             "date": "March 15th, 2022",
@@ -991,6 +1123,7 @@
     },
     "surf_tronic_njv": {
         "ksf": {
+            "name": "surf_tronic_njv",
             "player": "Marble",
             "video_id": "WqBLEJCT3FI",
             "date": "March 15th, 2022",
@@ -999,6 +1132,7 @@
     },
     "surf_destiny_fixed": {
         "ksf": {
+            "name": "surf_destiny_fixed",
             "player": "Caff",
             "video_id": "gbBcsPPc1pA",
             "date": "March 3rd, 2022",
@@ -1007,6 +1141,7 @@
     },
     "surf_clavius": {
         "ksf": {
+            "name": "surf_clavius",
             "player": "ratsack",
             "video_id": "iJfO7IIebw4",
             "date": "March 5th, 2022",
@@ -1015,6 +1150,7 @@
     },
     "surf_legendary": {
         "ksf": {
+            "name": "surf_legendary",
             "player": "Caff",
             "video_id": "bOjjLsInMn0",
             "date": "March 2nd, 2022 ",
@@ -1023,6 +1159,7 @@
     },
     "surf_beyer": {
         "ksf": {
+            "name": "surf_beyer",
             "player": "Cromalia",
             "video_id": "blpkunDyUec",
             "date": "February 24th, 2022",
@@ -1031,6 +1168,7 @@
     },
     "surf_brutalist": {
         "ksf": {
+            "name": "surf_brutalist",
             "player": "Caff",
             "video_id": "EWaqccG8v7I",
             "date": "February 19th, 2022",
@@ -1039,6 +1177,7 @@
     },
     "surf_angst_go": {
         "ksf": {
+            "name": "surf_angst",
             "player": "Cromalia",
             "video_id": "dLUg9Uyj48s",
             "date": "February 14th, 2022",
@@ -1047,6 +1186,7 @@
     },
     "surf_asrown": {
         "ksf": {
+            "name": "surf_asrown",
             "player": "kusche",
             "video_id": "szjUZOjv4kc",
             "date": "February 10th, 2022",
@@ -1055,6 +1195,7 @@
     },
     "surf_calibration": {
         "ksf": {
+            "name": "surf_calibration",
             "player": "Caff",
             "video_id": "TWJNPbzRE88",
             "date": "February 9th, 2022",
@@ -1063,6 +1204,7 @@
     },
     "surf_ny_platinum": {
         "ksf": {
+            "name": "surf_ny_platinum",
             "player": "rulldar",
             "video_id": "m-wJRv1Vkdc",
             "date": "February 6th, 2022",
@@ -1071,6 +1213,7 @@
     },
     "surf_fractal": {
         "ksf": {
+            "name": "surf_fractal",
             "player": "Caff",
             "video_id": "OvtQBKfS6Pk",
             "date": "February 6th, 2022",
@@ -1079,6 +1222,7 @@
     },
     "surf_mesa_mine": {
         "ksf": {
+            "name": "surf_mesa_mine",
             "player": "rulldar",
             "video_id": "VKOGbmG2w9M",
             "date": "February 2nd, 2022",
@@ -1087,6 +1231,7 @@
     },
     "surf_dynasty": {
         "ksf": {
+            "name": "surf_dynasty",
             "player": "kusche",
             "video_id": "hW7VIit_zwI",
             "date": "February 2nd, 2022",
@@ -1095,6 +1240,7 @@
     },
     "surf_sirius": {
         "ksf": {
+            "name": "surf_sirius",
             "player": "tucks",
             "video_id": "3ICOXgjAQHs",
             "date": "January 27th, 2022",
@@ -1103,6 +1249,7 @@
     },
     "surf_jumble": {
         "ksf": {
+            "name": "surf_jumble",
             "player": "emil",
             "video_id": "9jRlBrWFF4I",
             "date": "January 22nd, 2022",
@@ -1111,6 +1258,7 @@
     },
     "surf_solace": {
         "ksf": {
+            "name": "surf_solace",
             "player": "Liquidator",
             "video_id": "c5Nwfr-3414",
             "date": " January 19th, 2022",
@@ -1119,6 +1267,7 @@
     },
     "surf_the_gloaming": {
         "ksf": {
+            "name": "surf_the_gloaming",
             "player": "tucks",
             "video_id": "OpHv_avchOc",
             "date": "January 14th, 2022",
@@ -1127,6 +1276,7 @@
     },
     "surf_fire_eye": {
         "ksf": {
+            "name": "surf_fire_eye",
             "player": "chipzy",
             "video_id": "PMf8HzPnjYU",
             "date": "January 10th, 2022",
@@ -1135,6 +1285,7 @@
     },
     "surf_ember2": {
         "ksf": {
+            "name": "surf_ember2",
             "player": "levi",
             "video_id": "L96nntkmtNg",
             "date": "January 10th, 2022",
@@ -1143,6 +1294,7 @@
     },
     "surf_remeanian": {
         "ksf": {
+            "name": "surf_remeanian",
             "player": "Liquidator",
             "video_id": "QCNFstZz_0U",
             "date": "January 8th, 2022",
@@ -1151,14 +1303,16 @@
     },
     "surf_lovetunnel_fix": {
         "ksf": {
+            "name": "surf_lovetunnel",
             "player": "levi",
-            "video_id": "zrwq-AL90Eg",
-            "date": "December 31st, 2021",
-            "info": "[Surf Timer] - levy finished in 00:43:93 (WR -00:00:07). Improving by 00:00:14\n[Surf Timer] - levy beat the map record! Rank: 1/2721\n\nPrevious WR holder: joshua\n\n"
+            "video_id": "GAqp5vpaxK0",
+            "date": "June 28th, 2020",
+            "info": "[Surf Timer] - kwcu finished in 00:44:15 (WR -00:00:07). Improving by 00:00:16\n[Surf Timer] - kwcu beat the map record! Rank: 1/516\n\nPrevious WR holder: tucks\n\n"
         }
     },
     "surf_whiteout": {
         "ksf": {
+            "name": "surf_whiteout",
             "player": "levi",
             "video_id": "4XAgwYFAqOA",
             "date": "December 31st, 2021",
@@ -1167,6 +1321,7 @@
     },
     "surf_goliath": {
         "ksf": {
+            "name": "surf_goliath",
             "player": "levi",
             "video_id": "dRiyTKr--N0",
             "date": "December 30th, 2021",
@@ -1175,6 +1330,7 @@
     },
     "surf_torque2": {
         "ksf": {
+            "name": "surf_torque2",
             "player": "synki",
             "video_id": "m_RIxMd142Y",
             "date": "December 29th, 2021",
@@ -1183,6 +1339,7 @@
     },
     "surf_boreas": {
         "ksf": {
+            "name": "surf_boreas",
             "player": "joshua",
             "video_id": "4p8pEVpf9VE",
             "date": "December 19th, 2021",
@@ -1191,14 +1348,16 @@
     },
     "surf_christmas_fix": {
         "ksf": {
-            "player": "tato",
-            "video_id": "U4JRnOUQq7E",
-            "date": "November 24th, 2021",
-            "info": "[Surf Timer] - tato finished in 03:23:18 (WR -00:00:66). Improving by 00:05:21\n[Surf Timer] - tato beat the map record! Rank: 1/2240\n\nPrevious WR holder: Caff\n\n"
+            "name": "surf_christmas",
+            "player": "MIKE",
+            "video_id": "xO51rTRUytA",
+            "date": "17 December, 2013",
+            "info": "[Surf Timer] - ROB FORD finished in 03:28:28 (WR -00:04:22). Improving by 00:04:99\n[Surf Timer] - ROB FORD beat the map record! Rank: 1/694\n\n"
         }
     },
     "surf_25_lighters": {
         "ksf": {
+            "name": "surf_25_lighters",
             "player": "Caff",
             "video_id": "464_5FJX_1A",
             "date": "April 8th, 2021",
@@ -1207,6 +1366,7 @@
     },
     "surf_tendies": {
         "ksf": {
+            "name": "surf_tendies",
             "player": "tucks",
             "video_id": "pE2328-O6pI",
             "date": "December 21st, 2021",
@@ -1215,6 +1375,7 @@
     },
     "surf_zeitgeist": {
         "ksf": {
+            "name": "surf_zeitgeist",
             "player": "louieismyname",
             "video_id": "o9l9am684Xk",
             "date": "December 21st, 2021",
@@ -1223,6 +1384,7 @@
     },
     "surf_zor": {
         "ksf": {
+            "name": "surf_zor",
             "player": "zacki",
             "video_id": "y178XBZ82aM",
             "date": "December 18th, 2021",
@@ -1231,14 +1393,16 @@
     },
     "surf_fruits2": {
         "ksf": {
-            "player": "jalole",
-            "video_id": "k05D1WNyZrs",
-            "date": "July 29th, 2021",
-            "info": "[Surf Timer] - jalole finished in 05:40:21 (WR -00:03:39). Improving by 00:18:40\n[Surf Timer] - jalole beat the map record! Rank: 1/94\n\nPrevious WR holder: louieismyname\n\n"
+            "name": "surf_fruits2",
+            "player": "boo",
+            "video_id": "4sJctV4kdAI",
+            "date": "April 17th, 2017",
+            "info": "[Surf Timer] - boo | \u03ba\u0455\u0493 finished in 03:13:57 (WR -00:03:65). Improving by 00:04:19\n[Surf Timer] - boo | \u03ba\u0455\u0493 beat the map record! Rank: 1/1147\n\n"
         }
     },
     "surf_theunexpected": {
         "ksf": {
+            "name": "surf_theunexpected",
             "player": "Cromalia",
             "video_id": "5CkkXErOpF4",
             "date": "December 9th, 2021",
@@ -1247,22 +1411,25 @@
     },
     "surf_eryr2": {
         "ksf": {
-            "player": "Liquidator",
-            "video_id": "61Zmz4j07Qc",
-            "date": "May 23rd, 2021",
-            "info": "[Surf Timer] - Liquidator finished in 01:49:96 (WR -00:01:09). Improving by 00:05:82\n[Surf Timer] - Liquidator beat the map record! Rank: 1/164\n\nPrevious WR holder: emil\n\n"
+            "name": "surf_eryr2_fix",
+            "player": "Simex",
+            "video_id": "1YiodceuP30",
+            "date": "October 15th, 2019",
+            "info": "[Surf Timer] - Simex finished in 01:51:05 (WR -00:01:73). Improving by 00:05:26\n[Surf Timer] - Simex beat the map record! Rank: 1/85\n\nPrevious WR holder: levi\n\n"
         }
     },
     "surf_not_so_zen_fix": {
         "ksf": {
-            "player": "joshua",
-            "video_id": "dOidnJ0vM2s",
-            "date": "September 27th, 2021",
-            "info": "[Surf Timer] - joshua finished in 01:44:89 (WR -00:00:91). Improving by 00:03:26\n[Surf Timer] - joshua beat the map record! Rank: 1/58\n\nPrevious WR holder: emil\n\n"
+            "name": "surf_not_so_zen",
+            "player": "synki",
+            "video_id": "UykEfKS19dA",
+            "date": "February 14th, 2018",
+            "info": "[Surf Timer] - starryeyed finished in 01:53:27 (WR -00:04:94)\n[Surf Timer] - starryeyed beat the map record! Rank: 1/5\n\n"
         }
     },
     "surf_infamous_ksf": {
         "ksf": {
+            "name": "surf_infamous_ksf",
             "player": "Caff",
             "video_id": "IVnN8zxL8VY",
             "date": "November 27th, 2021",
@@ -1271,6 +1438,7 @@
     },
     "surf_graphia": {
         "ksf": {
+            "name": "surf_graphia",
             "player": "tucks",
             "video_id": "MX7qJu_fydg",
             "date": " November 16th, 2021",
@@ -1279,6 +1447,7 @@
     },
     "surf_cozy": {
         "ksf": {
+            "name": "surf_cozy",
             "player": "tato",
             "video_id": "Wrj_VA0M4R0",
             "date": " November 12th, 2021",
@@ -1287,6 +1456,7 @@
     },
     "surf_elysium2": {
         "ksf": {
+            "name": "surf_elysium2",
             "player": "lemx",
             "video_id": "ERQ4q05iPH4",
             "date": "November 11th, 2021",
@@ -1295,6 +1465,7 @@
     },
     "surf_embrace": {
         "ksf": {
+            "name": "surf_embrace",
             "player": "william",
             "video_id": "w0vAHORQpKE",
             "date": "November 10th, 2021",
@@ -1303,14 +1474,16 @@
     },
     "surf_beginner": {
         "ksf": {
-            "player": "joshua",
-            "video_id": "uET2_tYgVEU",
-            "date": "November 1st, 2021",
-            "info": "[Surf Timer] - Jupiter finished in 01:02:11 (WR -00:01:09). Improving by 00:01:18\n[Surf Timer] - Jupiter beat the map record! Rank: 1/181\n\nPrevious WR holder: sk\n\n"
+            "name": "surf_beginner",
+            "player": "rulldar",
+            "video_id": "sjn0d35BiR8",
+            "date": " January 2nd, 2020",
+            "info": "[Surf Timer] - rulldar finished in 00:45:59 (WR -00:00:19). Improving by 00:00:21\n[Surf Timer] - rulldar beat the map record! Rank: 1/10473 \n\nPrevious WR holder: Orson\n\n"
         }
     },
     "surf_sinister2": {
         "ksf": {
+            "name": "surf_sinister2",
             "player": "Paxton",
             "video_id": "ulwWHEavp8A",
             "date": "October 31st, 2021",
@@ -1319,6 +1492,7 @@
     },
     "surf_sunset2_fix": {
         "ksf": {
+            "name": "surf_sunset2_fix",
             "player": "louieismyname",
             "video_id": "lDFxzL6eSyo",
             "date": " October 28th, 2021",
@@ -1327,22 +1501,25 @@
     },
     "surf_lax": {
         "ksf": {
-            "player": "joshua",
-            "video_id": "pXs6DEQ1NU8",
-            "date": " October 17th, 2021",
-            "info": "[Surf Timer] - freetrav finished in 00:53:98 (WR -00:00:81). Improving by 00:01:10\n[Surf Timer] - freetrav beat the map record! Rank: 1/1145\n\nPrevious WR holder: greenvoid\n\n"
+            "name": "surf_lax",
+            "player": "emil",
+            "video_id": "-JJeq-yAfQQ",
+            "date": "May 5th, 2021",
+            "info": "[Surf Timer] - emil finished in 02:35:07 (WR -00:01:58). Improving by 00:02:54\n[Surf Timer] - emil beat the map record! Rank: 1/220\n\nPrevious WR holder: Liquidator\n\n"
         }
     },
     "surf_rebel_resistance_njv": {
         "ksf": {
-            "player": "joshua",
-            "video_id": "fIQX9R4buCU",
-            "date": " October 17th, 2021",
-            "info": "[Surf Timer] - Jupiter finished in 00:27:02 (WR -00:00:07). Improving by 00:00:12\n[Surf Timer] - Jupiter beat the map record! Rank: 1/9715\n\nPrevious WR holder: rulldar\n\n"
+            "name": "surf_rebel_resistance_final3",
+            "player": "Raiin",
+            "video_id": "MuWsgArfus0",
+            "date": "August 3rd, 2015",
+            "info": "[Surf Timer] - Raiin finished in 00:27:70 (WR -00:00:06). Improving by 00:00:06\n[Surf Timer] - Raiin beat the map record! Rank: 1/5638\n\nNew WR: https://www.youtube.com/watch?v=_A7sqfVHpSM\n\n"
         }
     },
     "surf_brodderlands": {
         "ksf": {
+            "name": "surf_brodderlands",
             "player": "joshua",
             "video_id": "Sagf1CjMpnc",
             "date": "October 15th, 2021",
@@ -1351,6 +1528,7 @@
     },
     "surf_mash-up": {
         "ksf": {
+            "name": "surf_mash-up",
             "player": "louieismyname",
             "video_id": "7_bnc4zSze0",
             "date": "October 9th, 2021",
@@ -1359,14 +1537,16 @@
     },
     "surf_vector_final": {
         "ksf": {
-            "player": "levi",
-            "video_id": "OcP1uXrYOL4",
-            "date": "August 28th, 2021",
-            "info": "[Surf Timer] - levi finished in 00:38:29 (WR -00:00:40). Improving by 00:00:56\n[Surf Timer] - levi beat the map record! Rank: 1/1088\n\nPrevious WR holder: Marble\n\n"
+            "name": "surf_vector_final",
+            "player": "emjay",
+            "video_id": "jRuUV16Up5A",
+            "date": "May 19th, 2018",
+            "info": "[Surf Timer] - emjay finished in 00:50:21 (WR -00:00:72). Improving by 00:01:40\n[Surf Timer] - emjay beat the map record! Rank: 1/846\n\n"
         }
     },
     "surf_sinister_evil": {
         "ksf": {
+            "name": "surf_sinister_evil",
             "player": "joshua",
             "video_id": "ivPOJArQtMY",
             "date": "October 3rd, 2021",
@@ -1375,6 +1555,7 @@
     },
     "surf_mdrn": {
         "ksf": {
+            "name": "surf_mdrn",
             "player": "Makela",
             "video_id": "8hVygINh-CY",
             "date": "September 22nd, 2021",
@@ -1383,6 +1564,7 @@
     },
     "surf_axiom": {
         "ksf": {
+            "name": "surf_axiom",
             "player": "emil",
             "video_id": "3x67YtCkYrA",
             "date": "September 25th, 2021",
@@ -1391,6 +1573,7 @@
     },
     "surf_devil": {
         "ksf": {
+            "name": "surf_devil",
             "player": "emil",
             "video_id": "7xREQG_xsV8",
             "date": " September 19th, 2021",
@@ -1399,6 +1582,7 @@
     },
     "surf_illusion": {
         "ksf": {
+            "name": "surf_illusion",
             "player": "SyStM",
             "video_id": "UMOUq9GSypc",
             "date": "September 16th, 2021",
@@ -1407,6 +1591,7 @@
     },
     "surf_orbion": {
         "ksf": {
+            "name": "surf_orbion",
             "player": "synki",
             "video_id": "dpwl-aiG3v4",
             "date": "September 9th, 2021",
@@ -1415,6 +1600,7 @@
     },
     "surf_oasis": {
         "ksf": {
+            "name": "surf_oasis",
             "player": "joshua",
             "video_id": "XR8YdzPpAVg",
             "date": "August 29th, 2021",
@@ -1423,6 +1609,7 @@
     },
     "surf_izded": {
         "ksf": {
+            "name": "surf_izded",
             "player": "levi",
             "video_id": "zXTC08Y11Ys",
             "date": "August 28th, 2021",
@@ -1431,6 +1618,7 @@
     },
     "surf_2012_beta12": {
         "ksf": {
+            "name": "surf_2012_beta12",
             "player": "kusche",
             "video_id": "tIsv4Kg2GEk",
             "date": "August 27th, 2021",
@@ -1439,6 +1627,7 @@
     },
     "surf_nyx": {
         "ksf": {
+            "name": "surf_nyx",
             "player": "levi",
             "video_id": "n7gnDkkqyak",
             "date": " August 28th, 2021",
@@ -1447,6 +1636,7 @@
     },
     "surf_curious": {
         "ksf": {
+            "name": "surf_curious",
             "player": "sinsa",
             "video_id": "RyOuSC4ZpgE",
             "date": "August 29th, 2021",
@@ -1455,6 +1645,7 @@
     },
     "surf_parc_colore": {
         "ksf": {
+            "name": "surf_parc_colore",
             "player": "kusche",
             "video_id": "gHaIBX4sCqA",
             "date": "August 25th, 2021",
@@ -1463,14 +1654,16 @@
     },
     "surf_flyin_fortress_sh": {
         "ksf": {
-            "player": "sinsa",
-            "video_id": "TGu6SCtfJuI",
-            "date": "August 22nd, 2021",
-            "info": "[Surf Timer] - da nams mal,,,, minki mel finished in 00:27:34 (WR -00:00:12). Improving by 00:00:32\n[Surf Timer] - da nams mal,,,, minki mel beat the map record! Rank: 1/2922\n\nPrevious WR holder: marble\n\n"
+            "name": "surf_flyin_fortress",
+            "player": "Morning",
+            "video_id": "gigoJq3xIoY",
+            "date": "28 February, 2014",
+            "info": "[Surf Timer] - Morning finished in 00:28:66 (WR -00:00:22). Improving by 00:00:22\n[Surf Timer] - Morning beat the map record! Rank: 1/1056\n\n"
         }
     },
     "surf_retroartz": {
         "ksf": {
+            "name": "surf_retroartz",
             "player": "tucks",
             "video_id": "TvvfpygzpTs",
             "date": "August 20th, 2021",
@@ -1479,6 +1672,7 @@
     },
     "surf_diminsion": {
         "ksf": {
+            "name": "surf_diminsion",
             "player": "tucks",
             "video_id": "c5F6mWDG7Uk",
             "date": " August 16th, 2021",
@@ -1487,22 +1681,25 @@
     },
     "surf_jusched": {
         "ksf": {
-            "player": "sinsa",
-            "video_id": "A7s7vSgZXlg",
-            "date": " August 18th, 2021",
-            "info": "[Surf Timer] - da nams mal,,,, minki mel finished in 01:05:68 (WR -00:00:42). Improving by 00:01:90\n[Surf Timer] - da nams mal,,,, minki mel beat the map record! Rank: 1/295\n\nPrevious WR holder: donkey\n\n"
+            "name": "surf_jusched_beta1",
+            "player": "niyhM",
+            "video_id": "pKEPpy_4Pmk",
+            "date": "April 26th, 2015",
+            "info": "[Surf Timer] - niyhM finished in 01:15:06 (WR -00:01:88). Improving by 00:02:27\n[Surf Timer] - niyhM beat the map record! Rank: 1/123\n\n"
         }
     },
     "surf_bluewinter_final": {
         "ksf": {
-            "player": "tucks",
-            "video_id": "D_u12vVizk8",
-            "date": "Aug 15th, 2021",
-            "info": "[Surf Timer] - Hsks alt finished in 00:58:04 (WR -00:00:59)\n[Surf Timer] - Hsks alt beat the map record! Rank: 1/349\n                    \nPrevious WR by: emil\n\n"
+            "name": "surf_bluewinter",
+            "player": "ddly",
+            "video_id": "-xzTYbGttIs",
+            "date": "February 11th, 2018",
+            "info": "[Surf Timer] - Killa finished in 00:59:54 (WR -00:01:47). Improving by 00:01:77\n[Surf Timer] - Killa beat the map record! Rank: 1/248\n\n"
         }
     },
     "surf_nostromo": {
         "ksf": {
+            "name": "surf_nostromo",
             "player": "Caff",
             "video_id": "jl7_UPlXJIg",
             "date": "August 4th, 2021",
@@ -1511,6 +1708,7 @@
     },
     "surf_grassland": {
         "ksf": {
+            "name": "surf_grassland",
             "player": "favs",
             "video_id": "dFVcwGAEmRE",
             "date": "August 2nd, 2021",
@@ -1519,6 +1717,7 @@
     },
     "surf_nac": {
         "ksf": {
+            "name": "surf_nac",
             "player": "Caff",
             "video_id": "EDKlUtONHM4",
             "date": "July 25th, 2021",
@@ -1527,6 +1726,7 @@
     },
     "surf_volcanic": {
         "ksf": {
+            "name": "surf_volcanic",
             "player": "Caff",
             "video_id": "6IQaIOWd-AA",
             "date": "July 23rd, 2021",
@@ -1535,6 +1735,7 @@
     },
     "surf_hope": {
         "ksf": {
+            "name": "surf_hope",
             "player": "kusche",
             "video_id": "RBRAFJTEcl4",
             "date": "July 1st. 2021",
@@ -1543,14 +1744,16 @@
     },
     "surf_whoknows": {
         "ksf": {
-            "player": "Orson",
-            "video_id": "OI-7C6iatIY",
-            "date": "June 2nd, 2020",
-            "info": "[Surf Timer] - Orson finished in 00:58:43 (WR -00:00:35). Improving by 00:00:76\n[Surf Timer] - Orson beat the map record! Rank: 1/903\n\nPrevious WR holder: emil\n\n"
+            "name": "surf_whoknows",
+            "player": "synki",
+            "video_id": "tqTBGsYmu3c",
+            "date": "March 22nd, 2015",
+            "info": "[Surf Timer] - synkii finished in 01:05:78 (WR -00:00:15). Improving by 00:00:20\n[Surf Timer] - synkii beat the map record! Rank: 1/70\n\n"
         }
     },
     "surf_spectra": {
         "ksf": {
+            "name": "surf_spectra",
             "player": "spooder",
             "video_id": "SqPsBBz2XFg",
             "date": "June 27th, 2021",
@@ -1559,6 +1762,7 @@
     },
     "surf_warped": {
         "ksf": {
+            "name": "surf_warped",
             "player": "noti",
             "video_id": "ZxQnIQA3aAY",
             "date": "June 26th, 2021",
@@ -1567,6 +1771,7 @@
     },
     "surf_dova": {
         "ksf": {
+            "name": "surf_dova",
             "player": "levi",
             "video_id": "NY_86eyI71w",
             "date": "June 25th, 2021",
@@ -1575,14 +1780,16 @@
     },
     "surf_map_njv": {
         "ksf": {
-            "player": "tucks",
-            "video_id": "Be27tUM1FJI",
-            "date": "June 23rd, 2021",
-            "info": "[Surf Timer] - comedyshortsgamer finished in 00:27:94 (WR -00:00:15). Improving by 00:00:37\n[Surf Timer] - comedyshortsgamer beat the map record! Rank: 1/4264\n\nPrevious WR holder: joshua\n\n"
+            "name": "surf_map_njv",
+            "player": "Rautavaari",
+            "video_id": "2aB5JvQuF7I",
+            "date": "2 January, 2013",
+            "info": "[Surf Timer] - \u0438\u043c \u0660 Rautavaari finished in 01:24:04 (-00:00:68). Improving by 00:01:34\n[Surf Timer] - \u0438\u043c \u0660 Rautavaari beat the map record! Rank: 1/33\n\n"
         }
     },
     "surf_in_space_go": {
         "ksf": {
+            "name": "surf_ny_superhappiest_b3",
             "player": "kusche",
             "video_id": "CzTZlZE7AeE",
             "date": "June 22nd, 2021",
@@ -1591,6 +1798,7 @@
     },
     "surf_pogchamp": {
         "ksf": {
+            "name": "surf_pogchamp",
             "player": "Caff",
             "video_id": "fwCIN93DOuI",
             "date": "June 17th, 2021",
@@ -1599,6 +1807,7 @@
     },
     "surf_epicube_ksf": {
         "ksf": {
+            "name": "surf_epicube",
             "player": "Caff",
             "video_id": "D8YgEoDaVz4",
             "date": "June 2nd, 2021",
@@ -1607,6 +1816,7 @@
     },
     "surf_happyhug": {
         "ksf": {
+            "name": "surf_happyhug",
             "player": "louieismyname",
             "video_id": "6SeV09vXrRo",
             "date": "May 31st, 2021",
@@ -1615,6 +1825,7 @@
     },
     "surf_palm": {
         "ksf": {
+            "name": "surf_palm",
             "player": "mbn",
             "video_id": "pjC8vUNqddg",
             "date": "May 29th, 2021",
@@ -1623,6 +1834,7 @@
     },
     "surf_healthy": {
         "ksf": {
+            "name": "surf_healthy",
             "player": "joshua",
             "video_id": "wqCGlMrsoX8",
             "date": "May 29th, 2021",
@@ -1631,6 +1843,7 @@
     },
     "surf_hob": {
         "ksf": {
+            "name": "surf_hob",
             "player": "dzy",
             "video_id": "wlC4Uzj9YsE",
             "date": "May 24th, 2021",
@@ -1639,6 +1852,7 @@
     },
     "surf_acerbus": {
         "ksf": {
+            "name": "surf_acerbus",
             "player": "Caff",
             "video_id": "Z7-ufyGg72Q",
             "date": "May 4th, 2021",
@@ -1647,6 +1861,7 @@
     },
     "surf_adtr_njv": {
         "ksf": {
+            "name": "surf_adtr_njv",
             "player": "joshua",
             "video_id": "1GMo8IYENp8",
             "date": "April 12th, 2021",
@@ -1655,6 +1870,7 @@
     },
     "surf_simpsons_go_rc2": {
         "ksf": {
+            "name": "surf_simpsons_source",
             "player": "joshua",
             "video_id": "MKUTfuuJB1k",
             "date": "May 17th, 2021",
@@ -1663,6 +1879,7 @@
     },
     "surf_huh": {
         "ksf": {
+            "name": "surf_huh",
             "player": "Caff",
             "video_id": "r6nIgLYoEgs",
             "date": "May 17th, 2021",
@@ -1671,6 +1888,7 @@
     },
     "surf_cyberwave": {
         "ksf": {
+            "name": "surf_cyberwave",
             "player": "levi",
             "video_id": "fIJM1VnPjME",
             "date": "May 11th, 2021",
@@ -1679,6 +1897,7 @@
     },
     "surf_tundra_v2": {
         "ksf": {
+            "name": "surf_tundra_v2",
             "player": "Caff",
             "video_id": "9Jf6kCFe5yk",
             "date": "May 8th, 2021",
@@ -1687,6 +1906,7 @@
     },
     "surf_sunnyhappylove": {
         "ksf": {
+            "name": "surf_sunnyhappylove",
             "player": "rulldar",
             "video_id": "pWxGruZW1k8",
             "date": "May 6th, 2021",
@@ -1695,14 +1915,16 @@
     },
     "surf_elites_v2_fix": {
         "ksf": {
-            "player": "username",
-            "video_id": "Pop2HGqspMc",
-            "date": "May 5th, 2021",
-            "info": "[Surf Timer] - username finished in 00:28:95 (WR -00:00:26). Improving by 00:00:29\n[Surf Timer] - username beat the map record! Rank: 1/2450\n\nPrevious WR holder: Manana\n\n"
+            "name": "surf_elites_v2",
+            "player": "Yamaan",
+            "video_id": "kpq6OC3EdhI",
+            "date": "22 April, 2014",
+            "info": "[Surf Timer] - Yamaan finished in 00:30:25 (WR -00:00:30). Improving by 00:00:34\n[Surf Timer] - Yamaan beat the map record! Rank: 1/1137\n\nNew WR: https://www.youtube.com/watch?v=wdv99Ypui-U\n\n"
         }
     },
     "surf_treespam": {
         "ksf": {
+            "name": "surf_treespam",
             "player": "Caff",
             "video_id": "gJTNid3Hzgg",
             "date": "May 4th, 2020",
@@ -1711,6 +1933,7 @@
     },
     "surf_hollow": {
         "ksf": {
+            "name": "surf_hollow",
             "player": "emil",
             "video_id": "4vP2EGSZ7bw",
             "date": "April 2nd, 2021",
@@ -1719,6 +1942,7 @@
     },
     "surf_sinsane2_cs": {
         "ksf": {
+            "name": "surf_sinsane2",
             "player": "rulldar",
             "video_id": "Zaa7rBNdQ4A",
             "date": "May 1st, 2021",
@@ -1727,6 +1951,7 @@
     },
     "surf_forbidden_tomb3": {
         "ksf": {
+            "name": "surf_forbidden_tomb3",
             "player": "rulldar",
             "video_id": "Vga5GBjigho",
             "date": "April 27th, 2021",
@@ -1735,6 +1960,7 @@
     },
     "surf_imagine_fix": {
         "ksf": {
+            "name": "surf_imagine_fix",
             "player": "Caff",
             "video_id": "889wt3AoxV8",
             "date": "April 22nd, 2021",
@@ -1743,6 +1969,7 @@
     },
     "surf_epiphany": {
         "ksf": {
+            "name": "surf_epiphany",
             "player": "emil",
             "video_id": "_velry3dG0c",
             "date": "March 23rd, 2021",
@@ -1751,6 +1978,7 @@
     },
     "surf_aquaflow": {
         "ksf": {
+            "name": "surf_aquaflow",
             "player": "tucks",
             "video_id": "UU0OgEHnaR0",
             "date": "March 19th, 2021",
@@ -1759,6 +1987,7 @@
     },
     "surf_methadone": {
         "ksf": {
+            "name": "surf_methadone",
             "player": "stevo",
             "video_id": "WkvYseolRmo",
             "date": "November 26th, 2020",
@@ -1767,6 +1996,7 @@
     },
     "surf_illumination": {
         "ksf": {
+            "name": "surf_illumination",
             "player": "levi",
             "video_id": "k0Tc-HXy9SM",
             "date": "April 8th, 2021",
@@ -1775,6 +2005,7 @@
     },
     "surf_ethereal": {
         "ksf": {
+            "name": "surf_ethereal",
             "player": "emil",
             "video_id": "Sp5ZAQLPz74",
             "date": "April 5th, 2021",
@@ -1783,6 +2014,7 @@
     },
     "surf_lepidus": {
         "ksf": {
+            "name": "surf_lepidus",
             "player": "Caff",
             "video_id": "w9Wug3zmLZo",
             "date": "April 3rd, 2021",
@@ -1791,14 +2023,16 @@
     },
     "surf_axil": {
         "ksf": {
-            "player": "redc",
-            "video_id": "iVGy5Rqcywc",
-            "date": "April 2nd, 2021",
-            "info": "[Surf Timer] - t doggy finished in 01:24:20 (WR -00:00:69). Improving by 00:00:85\n[Surf Timer] - t doggy beat the map record! Rank: 1/581\n\nPrevious WR holder: Caff\n\n"
+            "name": "surf_axil",
+            "player": "levi",
+            "video_id": "XtIS1pEaNwU",
+            "date": "February 20th, 2021",
+            "info": "[Surf Timer] - levi finished in 01:19:92 (WR -00:00:92). Improving by 08:28:45\n[Surf Timer] - levi beat the map record! Rank: 1/118\n\nPrevious WR holder: K Dubs\n\n"
         }
     },
     "surf_ravine_go": {
         "ksf": {
+            "name": "surf_ravine",
             "player": "Swez",
             "video_id": "d9TAum1qnUM",
             "date": "March 17th, 2021",
@@ -1807,6 +2041,7 @@
     },
     "surf_friday": {
         "ksf": {
+            "name": "surf_friday",
             "player": "joshua",
             "video_id": "yjQJPKZMc7k",
             "date": " March 28th, 2021",
@@ -1815,6 +2050,7 @@
     },
     "surf_classics2": {
         "ksf": {
+            "name": "surf_classics2",
             "player": "Ignis",
             "video_id": "s4J6elu3l2A",
             "date": "March 28th, 2021",
@@ -1823,6 +2059,7 @@
     },
     "surf_seaworld_fix": {
         "ksf": {
+            "name": "surf_seaworld_fix",
             "player": "fish\u00f6\u00f6",
             "video_id": "jevbLa4QHms",
             "date": "February 21st, 2021",
@@ -1831,14 +2068,16 @@
     },
     "surf_core_fix": {
         "ksf": {
-            "player": "username",
-            "video_id": "SJhSQve0hpI",
-            "date": "February 28th, 2021",
-            "info": "[Surf Timer] - username finished in 01:16:04 (WR -00:00:31). Improving by 00:00:54\n[Surf Timer] - username beat the map record! Rank: 1/719\n\nPrevious WR holder: sinsa\n\n"
+            "name": "surf_core_fix",
+            "player": "Skyline",
+            "video_id": "_AHQLomBr_A",
+            "date": "20 March, 2014",
+            "info": "[Surf Timer] - Skyline finished in 01:11:87 (WR -00:01:32). Improving by 00:01:42\n[Surf Timer] - Skyline beat the map record! Rank: 1/258\n\n"
         }
     },
     "surf_sh": {
         "ksf": {
+            "name": "surf_sh",
             "player": "louieismyname",
             "video_id": "z0JCWDyrDg8",
             "date": "March 21st, 2021",
@@ -1847,6 +2086,7 @@
     },
     "surf_hades": {
         "ksf": {
+            "name": "surf_hades",
             "player": "joshua",
             "video_id": "eur8fIN4dSg",
             "date": "March 15th, 2021",
@@ -1855,6 +2095,7 @@
     },
     "surf_squirrelsonvacation": {
         "ksf": {
+            "name": "surf_squirrelsonvacation",
             "player": "levi",
             "video_id": "w2XQwOlQt4g",
             "date": "March 12th, 2021",
@@ -1863,6 +2104,7 @@
     },
     "surf_sluice_final": {
         "ksf": {
+            "name": "surf_sluice_final",
             "player": "Makela",
             "video_id": "E8ci4HZbdFM",
             "date": "March 7th, 2021",
@@ -1871,6 +2113,7 @@
     },
     "surf_prelude_ksf": {
         "ksf": {
+            "name": "surf_prelude_ksf",
             "player": "tucks",
             "video_id": "eoOkWx6bZso",
             "date": "March 4th, 2021",
@@ -1879,6 +2122,7 @@
     },
     "surf_glass7": {
         "ksf": {
+            "name": "surf_glass7_ksf",
             "player": "Caff",
             "video_id": "qVZKghC5jnE",
             "date": "February 6th, 2021",
@@ -1887,6 +2131,7 @@
     },
     "surf_crimson": {
         "ksf": {
+            "name": "surf_crimson",
             "player": "Cromalia",
             "video_id": "7hX9oykjO7c",
             "date": "February 19th, 2021",
@@ -1895,6 +2140,7 @@
     },
     "surf_secluded": {
         "ksf": {
+            "name": "surf_secluded",
             "player": "levi",
             "video_id": "e0Z89VAoy9M",
             "date": "February 21st, 2020",
@@ -1903,6 +2149,7 @@
     },
     "surf_aether": {
         "ksf": {
+            "name": "surf_aether",
             "player": "tucks",
             "video_id": "7DVwWlNhl1U",
             "date": "February 16th, 2021",
@@ -1911,6 +2158,7 @@
     },
     "surf_porn_fix": {
         "ksf": {
+            "name": "surf_porn_fix",
             "player": "Marble",
             "video_id": "La_J6o9MMYI",
             "date": "February 3rd, 2021",
@@ -1919,6 +2167,7 @@
     },
     "surf_stonework": {
         "ksf": {
+            "name": "surf_stonework",
             "player": "Cromalia",
             "video_id": "LQY371lr1vE",
             "date": "February 7th, 2021",
@@ -1927,6 +2176,7 @@
     },
     "surf_hourglass": {
         "ksf": {
+            "name": "surf_hourglass",
             "player": "tucks",
             "video_id": "BzseZ27wFbM",
             "date": "December 16th, 2020",
@@ -1935,6 +2185,7 @@
     },
     "surf_stitched": {
         "ksf": {
+            "name": "surf_stitched",
             "player": "merky",
             "video_id": "3iQLZj7lVb0",
             "date": "January 28th, 2021",
@@ -1943,6 +2194,7 @@
     },
     "surf_forbidden_ways_ksf": {
         "ksf": {
+            "name": "surf_forbidden_ways_ksf",
             "player": "Ignis",
             "video_id": "GDCkiERfa1Y",
             "date": "January 25th, 2020",
@@ -1951,22 +2203,25 @@
     },
     "surf_drifting": {
         "ksf": {
-            "player": "spooder",
-            "video_id": "7GfTgXT5b3A",
-            "date": "January 21st, 2021",
-            "info": "[Surf Timer] - spooder finished in 03:39:74 (WR -00:07:28). Improving by 00:24:22\n[Surf Timer] - spooder beat the map record! Rank: 1/55\n\nPrevious WR holder: xen\n\n"
+            "name": "surf_drifting",
+            "player": "Ignis",
+            "video_id": "E7opA6Wd1M8",
+            "date": "February 27th, 2018",
+            "info": "[Surf Timer] - Ignis finished in 02:58:64 (WR -00:04:99). Improving by 00:08:61\n[Surf Timer] - Ignis beat the map record! Rank: 1/95\n\n"
         }
     },
     "surf_akai_final_fix": {
         "ksf": {
-            "player": "favs",
-            "video_id": "hGxAPR6p2-Q",
-            "date": "January 15th, 2021",
-            "info": "[Surf Timer] - f4vsqu finished in 00:34:24 (WR -00:00:21). Improving by 00:00:23\n[Surf Timer] - f4vsqu beat the map record! Rank: 1/7618\n\nPrevious WR holder: rulldar\n\n"
+            "name": "surf_akai_final",
+            "player": "Beetle179",
+            "video_id": "3eh8QGVtNhE",
+            "date": "March 31st, 2015",
+            "info": "[Surf Timer] - \u0438\u043c \u0660 Beetle finished in 00:34:72 (WR -00:00:14). Improving by 00:00:14\n[Surf Timer] - \u0438\u043c \u0660 Beetle beat the map record! Rank: 1/4086\n\n"
         }
     },
     "surf_666": {
         "ksf": {
+            "name": "surf_666",
             "player": "joshua",
             "video_id": "vmtRDayXIM4",
             "date": "January 12th, 2021",
@@ -1975,6 +2230,7 @@
     },
     "surf_zen_fix": {
         "ksf": {
+            "name": "surf_eon_fix",
             "player": "Makela",
             "video_id": "HLBYj5_EdFE",
             "date": "January 4th, 2020",
@@ -1983,14 +2239,16 @@
     },
     "surf_me": {
         "ksf": {
-            "player": "levi",
-            "video_id": "ECKEo6kM95c",
-            "date": "January 2nd, 2021",
-            "info": "[Surf Timer] - levi! finished in 00:48:98 (WR -00:00:05). Improving by 00:00:10\n[Surf Timer] - levi! beat the map record! Rank: 1/10071\n\nPrevious WR holder: cole\n\n"
+            "name": "surf_me",
+            "player": "Caff",
+            "video_id": "uxJHicafzHk",
+            "date": "September 13th, 2020",
+            "info": "[Surf Timer] - Caff finished in 01:43:76 (WR -00:00:22). Improving by 00:00:42\n[Surf Timer] - Caff beat the map record! Rank: 1/4434\n\nPrevious WR holder: rulldar\n\n"
         }
     },
     "surf_chaos_fix": {
         "ksf": {
+            "name": "surf_chaos_fix",
             "player": "joshua",
             "video_id": "ilEHwME1_gM",
             "date": "December 29th, 2020",
@@ -1999,6 +2257,7 @@
     },
     "surf_a": {
         "ksf": {
+            "name": "surf_a",
             "player": "Caff",
             "video_id": "CEUR3FgERY0",
             "date": "December 25th, 2020",
@@ -2007,14 +2266,16 @@
     },
     "surf_christmas2_fix": {
         "ksf": {
+            "name": "surf_christmas2",
             "player": "Caff",
-            "video_id": "X-auigQ8fVQ",
-            "date": "December 20th, 2020",
-            "info": "[Surf Timer] - Caff finished in 03:50:56 (WR -00:03:36).\n[Surf Timer] - Caff beat the map record! Rank: 1/474\n\nPrevious WR holder: Caff\n\n"
+            "video_id": "lARswKgUPgA",
+            "date": "December 22nd, 2019",
+            "info": "[Surf Timer] - http://twitch.tv/caffrey finished in 03:51:61 (WR -00:02:31). Improving by 00:45:27\n[Surf Timer] - http://twitch.tv/caffrey beat the map record! Rank: 1/400\n\nPrevious WR holder: rulldar\n\n"
         }
     },
     "surf_desolate": {
         "ksf": {
+            "name": "surf_desolate",
             "player": "Caff",
             "video_id": "dVdVfXuZJ8o",
             "date": "December 14th, 2020",
@@ -2023,6 +2284,7 @@
     },
     "surf_again_njv": {
         "ksf": {
+            "name": "surf_again_njv",
             "player": "sinsa",
             "video_id": "oJqAxNUYfLQ",
             "date": "December 10th, 2020",
@@ -2031,6 +2293,7 @@
     },
     "surf_pandemonium_njv": {
         "ksf": {
+            "name": "surf_pandemonium_njv",
             "player": "redc",
             "video_id": "hZ6hlNY0V7o",
             "date": "December 7th, 2020",
@@ -2039,14 +2302,16 @@
     },
     "surf_rez": {
         "ksf": {
-            "player": "stevo",
-            "video_id": "TR50w2tlFFE",
-            "date": "December 6th, 2020",
-            "info": "[Surf Timer] - festive stevo finished in 01:07:64 (WR -00:01:15). Improving by 00:01:92\n[Surf Timer] - festive stevo beat the map record! Rank: 1/1289\n\nPrevious WR holder: Shuffle\n\n"
+            "name": "surf_rez",
+            "player": "synki",
+            "video_id": "eVO8sb9IxDQ",
+            "date": "January 10th, 2018",
+            "info": "[Surf Timer] - Sicklikeme finished in 01:26:66 (WR -00:00:49). Improving by 00:01:08\n[Surf Timer] - Sicklikeme beat the map record! Rank: 1/1347\n\n"
         }
     },
     "surf_funhouse_v1": {
         "ksf": {
+            "name": "surf_funhouse_v1",
             "player": "Caff",
             "video_id": "jUYRwlYq65k",
             "date": "December 6th, 2020",
@@ -2055,6 +2320,7 @@
     },
     "surf_serenity": {
         "ksf": {
+            "name": "surf_serenity",
             "player": "levi",
             "video_id": "KE0nt67mXco",
             "date": "December 5th, 2020",
@@ -2063,6 +2329,7 @@
     },
     "surf_arghmyeyes_retexture": {
         "ksf": {
+            "name": "surf_arghmyeyes_retexture",
             "player": "fish\u00f6\u00f6",
             "video_id": "w7Wzu6U6F4s",
             "date": "December 2nd, 2020",
@@ -2071,6 +2338,7 @@
     },
     "surf_skipalot": {
         "ksf": {
+            "name": "surf_skipalot",
             "player": "levi",
             "video_id": "Rp-foGUfy6M",
             "date": "November 29th, 2020",
@@ -2079,14 +2347,16 @@
     },
     "surf_lux": {
         "ksf": {
-            "player": "username",
-            "video_id": "8gIgTj8cToA",
-            "date": "November 28th, 2020",
-            "info": "[Surf Timer] - codyhotbadboy6241 finished in 00:58:58 (WR -00:00:85). Improving by 00:00:97\n[Surf Timer] - codyhotbadboy6241 beat the map record! Rank: 1/653\n\nPrevious WR holder: MaKo\n\n"
+            "name": "surf_lux",
+            "player": "rulldar",
+            "video_id": "FAsu4I6ef0w",
+            "date": "July 20th, 2019",
+            "info": "[Surf Timer] - rulldar finished in 00:31:59 (WR -00:00:08). Improving by 00:00:11\n[Surf Timer] - rulldar beat the map record! Rank: 1/1027\n\n"
         }
     },
     "surf_glass9": {
         "ksf": {
+            "name": "surf_glass9",
             "player": "Caff",
             "video_id": "Q5Nsmq7yElc",
             "date": "November 22nd, 2020",
@@ -2095,6 +2365,7 @@
     },
     "surf_sentient": {
         "ksf": {
+            "name": "surf_sentient",
             "player": "greenvoid",
             "video_id": "Y45laNCC7qg",
             "date": "November 19th, 2020",
@@ -2103,6 +2374,7 @@
     },
     "surf_abstinens": {
         "ksf": {
+            "name": "surf_abstinens",
             "player": "Caff",
             "video_id": "IeGkL_TJRCc",
             "date": "November 17th, 2020",
@@ -2111,6 +2383,7 @@
     },
     "surf_sippysip": {
         "ksf": {
+            "name": "surf_sippysip",
             "player": "Draph",
             "video_id": "GyKIpyt4ZwI",
             "date": "October 12th, 2020",
@@ -2119,6 +2392,7 @@
     },
     "surf_garden_go": {
         "ksf": {
+            "name": "surf_garden",
             "player": "levi",
             "video_id": "Ej5Q-h7oTQI",
             "date": "November 9th, 2020",
@@ -2127,6 +2401,7 @@
     },
     "surf_whoknows3": {
         "ksf": {
+            "name": "surf_whoknows3",
             "player": "emil",
             "video_id": "r_gM7seIuVM",
             "date": "October 29th, 2020",
@@ -2135,6 +2410,7 @@
     },
     "surf_domain": {
         "ksf": {
+            "name": "surf_domain",
             "player": "Caff",
             "video_id": "Q4sd42Kq59U",
             "date": "October 20th, 2020",
@@ -2143,6 +2419,7 @@
     },
     "surf_meme": {
         "ksf": {
+            "name": "surf_meme",
             "player": "levi",
             "video_id": "JSfnAgywrCw",
             "date": "October 18th, 2020",
@@ -2151,6 +2428,7 @@
     },
     "surf_ultimate": {
         "ksf": {
+            "name": "surf_ultimate",
             "player": "username",
             "video_id": "HcJTynHewHw",
             "date": "October 18th, 2020",
@@ -2159,6 +2437,7 @@
     },
     "surf_fornax": {
         "ksf": {
+            "name": "surf_fornax",
             "player": "levi",
             "video_id": "CcX5tM3x3zk",
             "date": "October 11th 2020",
@@ -2167,6 +2446,7 @@
     },
     "surf_innokia": {
         "ksf": {
+            "name": "surf_innokia",
             "player": "levi",
             "video_id": "CcCK003QGb0",
             "date": "October 14th, 2020",
@@ -2175,14 +2455,16 @@
     },
     "surf_year3000_fix": {
         "ksf": {
+            "name": "surf_year3000",
             "player": "levi",
-            "video_id": "Ue6MCL754ME",
-            "date": "October 4th, 2020",
-            "info": "[Surf Timer] - beettheyeet41 finished in 00:27:71 (WR -00:00:07). Improving by 00:00:07\n[Surf Timer] - beettheyeet41 beat the map record! Rank: 1/6051\n\nPrevious WR holder: rulldar\n\n"
+            "video_id": "Mw9f8aM-ZO8",
+            "date": "March 4th, 2020",
+            "info": "[Surf Timer] - 0 finished in 00:27:73 (WR -00:00:08). Improving by 00:00:16\n[Surf Timer] - 0 beat the map record! Rank: 1/5653\n\nPrevious WR holder: Joshua\n\n"
         }
     },
     "surf_frost": {
         "ksf": {
+            "name": "surf_frost",
             "player": "levi",
             "video_id": "DlLNEkg5IW0",
             "date": "September 27th, 2020",
@@ -2191,6 +2473,7 @@
     },
     "surf_neoteric": {
         "ksf": {
+            "name": "surf_neoteric_retexture",
             "player": "levi",
             "video_id": "4EueP-Y10g0",
             "date": "September 24th, 2020",
@@ -2199,6 +2482,7 @@
     },
     "surf_quasar_final": {
         "ksf": {
+            "name": "surf_quasar_final",
             "player": "levi",
             "video_id": "BScoms-rt1o",
             "date": "September 29th, 2020",
@@ -2207,6 +2491,7 @@
     },
     "surf_sanguine": {
         "ksf": {
+            "name": "surf_sanguine",
             "player": "levi",
             "video_id": "-gq3bE-hepk",
             "date": "September 28th, 2020",
@@ -2215,6 +2500,7 @@
     },
     "surf_our": {
         "ksf": {
+            "name": "surf_our",
             "player": "Makela",
             "video_id": "95TmhsRxzMk",
             "date": "September 24th, 2020",
@@ -2223,6 +2509,7 @@
     },
     "surf_sunday": {
         "ksf": {
+            "name": "surf_sunday",
             "player": "levi",
             "video_id": "SSbIdS5aQgA",
             "date": "September 24th, 2020",
@@ -2231,6 +2518,7 @@
     },
     "surf_delta": {
         "ksf": {
+            "name": "surf_delta",
             "player": "levi",
             "video_id": "b4lAQsCWRM4",
             "date": "September 24th, 2020",
@@ -2239,6 +2527,7 @@
     },
     "surf_duggywuggy": {
         "ksf": {
+            "name": "surf_duggywuggy",
             "player": "fish\u00f6\u00f6",
             "video_id": "8qM5sL8OYBc",
             "date": "September 19th, 2020",
@@ -2247,6 +2536,7 @@
     },
     "surf_industries": {
         "ksf": {
+            "name": "surf_industries",
             "player": "Troflecopter",
             "video_id": "O4SEQPYoAM0",
             "date": "September 16th, 2020",
@@ -2255,14 +2545,16 @@
     },
     "surf_ameliorate": {
         "ksf": {
-            "player": "louieismyname",
-            "video_id": "ZO1oANXkQWQ",
-            "date": "September 15th, 2020",
-            "info": "[Surf Timer] - louigi finished in 01:21:59 (WR -00:01:69). Improving by 00:03:40\n[Surf Timer] - louigi beat the map record! Rank: 1/820\n\nPrevious WR holder: Shuffle\n\n"
+            "name": "surf_elixor",
+            "player": "Shuffle",
+            "video_id": "u4qEuB84dNo",
+            "date": "June 2nd, 2019",
+            "info": "[Surf Timer] - Struffle finished in 01:25:55 (WR -00:02:95). Improving by 00:04:81\n[Surf Timer] - Struffle beat the map record! Rank: 1/763\n\nPrevious WR holder: louieismyname\n\n"
         }
     },
     "surf_rst": {
         "ksf": {
+            "name": "surf_rst",
             "player": "levi",
             "video_id": "IzeRscrX3-U",
             "date": "September 12th, 2020",
@@ -2271,6 +2563,7 @@
     },
     "surf_resource": {
         "ksf": {
+            "name": "surf_resource",
             "player": "Joshua",
             "video_id": "os0MW0BT6i0",
             "date": "September 10th, 2020",
@@ -2279,6 +2572,7 @@
     },
     "surf_believe_refix": {
         "ksf": {
+            "name": "surf_believe",
             "player": "levi",
             "video_id": "676IVOezBkU",
             "date": "September 12th, 2020",
@@ -2287,6 +2581,7 @@
     },
     "surf_injection_njv": {
         "ksf": {
+            "name": "surf_injection_njv",
             "player": "exu",
             "video_id": "Ens0S8UF8PQ",
             "date": " September 9th, 2020",
@@ -2295,6 +2590,7 @@
     },
     "surf_treefort": {
         "ksf": {
+            "name": "surf_treefort",
             "player": "exu",
             "video_id": "K67xLw4El8M",
             "date": "September 6th, 2020",
@@ -2303,6 +2599,7 @@
     },
     "surf_shodan": {
         "ksf": {
+            "name": "surf_shodan",
             "player": "granis",
             "video_id": "clCv9RXS30s",
             "date": "September 2nd, 2020",
@@ -2311,6 +2608,7 @@
     },
     "surf_ny_momentum_v3_1": {
         "ksf": {
+            "name": "surf_ny_momentum_v3_1",
             "player": "cole",
             "video_id": "wncOrwVd-e8",
             "date": "August 30th, 2020",
@@ -2319,6 +2617,7 @@
     },
     "surf_forbidden_tomb4": {
         "ksf": {
+            "name": "surf_forbidden_tomb4",
             "player": "rulldar",
             "video_id": "BMMctEAxOR8",
             "date": "August 21st, 2020",
@@ -2327,6 +2626,7 @@
     },
     "surf_selenka": {
         "ksf": {
+            "name": "surf_selenka",
             "player": "src",
             "video_id": "s8M4kwASjzM",
             "date": "August 20th, 2020",
@@ -2335,6 +2635,7 @@
     },
     "surf_creation": {
         "ksf": {
+            "name": "surf_creation",
             "player": "fish\u00f6\u00f6",
             "video_id": "yYwE4iZnW80",
             "date": "August 21st, 2020",
@@ -2343,6 +2644,7 @@
     },
     "surf_flatliners": {
         "ksf": {
+            "name": "surf_flatliners",
             "player": "MaKo",
             "video_id": "xhWjBHEaMRk",
             "date": "August 12th, 2020",
@@ -2351,22 +2653,25 @@
     },
     "surf_odyssey_fixed": {
         "ksf": {
-            "player": "Magzi",
-            "video_id": "Dqp6cuMcmcY",
-            "date": " August 12th, 2020",
-            "info": "[Surf Timer] - Not Magzi finished in 00:29:06 (WR -00:00:25). Improving by 00:00:27\n[Surf Timer] - Not Magzi beat the map record! Rank: 1/1724\n\nPrevious WR holder: tele\n\n"
+            "name": "surf_odyssey",
+            "player": "Blink",
+            "video_id": "DTWuF54Lgtk",
+            "date": "16 August, 2013",
+            "info": "[Surf Timer] - Blink | \u03ba\u0455\u0493 finished in 00:32:14 (-00:00:16). Improving by 00:00:23\n[Surf Timer] - Blink | \u03ba\u0455\u0493 beat the map record! Rank: 1/670\n\n"
         }
     },
     "surf_ardon_refix": {
         "ksf": {
-            "player": "levi",
-            "video_id": "xRzwj5xIzuE",
-            "date": "June 29th, 2020",
-            "info": "[Surf Timer] - kwcu finished in 00:56:38 (WR -00:00:20). Improving by 00:00:54\n[Surf Timer] - kwcu beat the map record! Rank: 1/545\n\nPrevious WR holder: fish\u00f6\u00f6\n\n"
+            "name": "surf_tronia_refix",
+            "player": "MaKo",
+            "video_id": "UeM-HCxD0vQ",
+            "date": "December 27th, 2019",
+            "info": "[Surf Timer] - makito(: finished in 00:37:01 (WR -00:00:27). Improving by 00:00:40\n[Surf Timer] - makito(: beat the map record! Rank: 1/554\n\nPrevious WR holder: JunichiK\n\n"
         }
     },
     "surf_runewords": {
         "ksf": {
+            "name": "surf_runewords",
             "player": "mbn",
             "video_id": "QI_IBp20_Sc",
             "date": "August 2nd, 2020",
@@ -2375,6 +2680,7 @@
     },
     "surf_fruits": {
         "ksf": {
+            "name": "surf_fruits",
             "player": "Caff",
             "video_id": "QLqt4yjx8f0",
             "date": "August 2nd, 2020",
@@ -2383,6 +2689,7 @@
     },
     "surf_journeys_final": {
         "ksf": {
+            "name": "surf_journeys",
             "player": "Zacki",
             "video_id": "x85Z2MrlFfY",
             "date": "August 2nd, 2020",
@@ -2391,6 +2698,7 @@
     },
     "surf_strike": {
         "ksf": {
+            "name": "surf_strike",
             "player": "mako",
             "video_id": "VT-pCeGAwWg",
             "date": "July 25th, 2020",
@@ -2399,14 +2707,16 @@
     },
     "surf_compulsive_njv": {
         "ksf": {
-            "player": "synki",
-            "video_id": "fZbymMoiTyk",
-            "date": "July 21st, 2020",
-            "info": "[Surf Timer] - koodit finished in 01:08:21 (WR -00:00:19). Improving by 00:00:66\n[Surf Timer] - koodit beat the map record! Rank: 1/1621\n\nPrevious WR holder: Caff\n\n"
+            "name": "surf_compulsive_njv",
+            "player": "Troflecopter",
+            "video_id": "uAsznNoHw5I",
+            "date": "November 6th, 2015",
+            "info": "[Surf Timer] - Troflecopter finished in 01:07:34 (WR -00:00:39). Improving by 00:00:64\n[Surf Timer] - Troflecopter beat the map record! Rank: 1/1765\n\n"
         }
     },
     "surf_feudal": {
         "ksf": {
+            "name": "surf_feudal",
             "player": "kusche",
             "video_id": "O8MR7hliO40",
             "date": "July 23rd, 2020",
@@ -2415,6 +2725,7 @@
     },
     "surf_imex": {
         "ksf": {
+            "name": "surf_imex",
             "player": "synki",
             "video_id": "eoXdXHHuvqM",
             "date": "June 21st, 2020",
@@ -2423,6 +2734,7 @@
     },
     "surf_cavemissile_fix": {
         "ksf": {
+            "name": "surf_cavemissile_fix",
             "player": "tucks",
             "video_id": "d_DXBSNST6w",
             "date": "July 17th, 2020",
@@ -2431,6 +2743,7 @@
     },
     "surf_aser": {
         "ksf": {
+            "name": "surf_aser",
             "player": "tucks",
             "video_id": "Vq2_NQy-xgU",
             "date": "July 22nd, 2020",
@@ -2439,6 +2752,7 @@
     },
     "surf_polygon": {
         "ksf": {
+            "name": "surf_polygon",
             "player": "synki",
             "video_id": "azmiZy2Sspg",
             "date": " July 20th, 2020",
@@ -2447,6 +2761,7 @@
     },
     "surf_neoplasma_ksf": {
         "ksf": {
+            "name": "surf_neoplasma_ksf",
             "player": "Caff",
             "video_id": "zPFYyeZgd2c",
             "date": "July 20th, 2020",
@@ -2455,6 +2770,7 @@
     },
     "surf_lies_ksf": {
         "ksf": {
+            "name": "surf_lies_ksf",
             "player": "stevo",
             "video_id": "SXGaEfQ2VJw",
             "date": "July 16th, 2020",
@@ -2463,6 +2779,7 @@
     },
     "surf_psycho": {
         "ksf": {
+            "name": "surf_psycho",
             "player": "kusche",
             "video_id": "sSyjGq-QKTs",
             "date": "July 15th, 2020",
@@ -2471,6 +2788,7 @@
     },
     "surf_diamond_beta1": {
         "ksf": {
+            "name": "surf_diamond_beta1",
             "player": "synki",
             "video_id": "0XZsSlkwWMI",
             "date": "July 12th, 2020",
@@ -2479,6 +2797,7 @@
     },
     "surf_ripper": {
         "ksf": {
+            "name": "surf_ripper",
             "player": "drippiin",
             "video_id": "dYy1_2UFyrs",
             "date": "July 10th, 2020",
@@ -2487,6 +2806,7 @@
     },
     "surf_sensation_fix": {
         "ksf": {
+            "name": "surf_sensation_fix",
             "player": "exu",
             "video_id": "OyFlisbyCsI",
             "date": " July 4th, 2020",
@@ -2495,6 +2815,7 @@
     },
     "surf_greenhouse": {
         "ksf": {
+            "name": "surf_greenhouse",
             "player": "exu",
             "video_id": "6K_ABzTwYo0",
             "date": "July 4th, 2020",
@@ -2503,14 +2824,16 @@
     },
     "surf_royal_fix": {
         "ksf": {
-            "player": "rulldar",
-            "video_id": "dhH42ytMkOM",
-            "date": "June 26th, 2020",
-            "info": "[Surf Timer] - rulldar finished in 00:47:84 (WR -00:00:54). Improving by 00:00:61\n[Surf Timer] - rulldar beat the map record! Rank: 1/387\n\nPrevious WR holder: arxxy\n\n"
+            "name": "surf_royal",
+            "player": "sinsa",
+            "video_id": "OwAlE3OFEgM",
+            "date": "18 August, 2013",
+            "info": "[Surf Timer] - sinsa finished in 00:52:61 (-00:00:55). Improving by 00:02:33\n[Surf Timer] - sinsa beat the map record! Rank: 1/77\n\n"
         }
     },
     "surf_sexyartz_njv": {
         "ksf": {
+            "name": "surf_sexyartz_njv",
             "player": "synki",
             "video_id": "1iVUKPC774s",
             "date": "June 24th, 2020",
@@ -2519,6 +2842,7 @@
     },
     "surf_interference": {
         "ksf": {
+            "name": "surf_interference",
             "player": "noti",
             "video_id": "ja_UFv4sqwQ",
             "date": "June 17th, 2020",
@@ -2527,6 +2851,7 @@
     },
     "surf_synada": {
         "ksf": {
+            "name": "surf_synada",
             "player": "synki",
             "video_id": "FrlZaIoc3rM",
             "date": "June 17th, 2020",
@@ -2535,6 +2860,7 @@
     },
     "surf_sandtrap": {
         "ksf": {
+            "name": "surf_sandtrap",
             "player": "tucks",
             "video_id": "VeQN1PlJdZI",
             "date": "June 17th, 2020",
@@ -2543,6 +2869,7 @@
     },
     "surf_sandman_v2": {
         "ksf": {
+            "name": "surf_sandman_v2",
             "player": "synki",
             "video_id": "Nh6MAX504Gc",
             "date": " June 17th, 2020",
@@ -2551,6 +2878,7 @@
     },
     "surf_exclave_fix": {
         "ksf": {
+            "name": "surf_exclave_fix",
             "player": "redc",
             "video_id": "rIFR1bEVeJE",
             "date": "June 10th, 2020",
@@ -2559,6 +2887,7 @@
     },
     "surf_ultimatum": {
         "ksf": {
+            "name": "surf_ultimatum",
             "player": "Caff",
             "video_id": "pR_ijNDVw50",
             "date": "May 27th, 2020",
@@ -2567,6 +2896,7 @@
     },
     "surf_ambient_njv": {
         "ksf": {
+            "name": "surf_ambient_njv",
             "player": "rulldar",
             "video_id": "OIh7Kaot1CY",
             "date": "May 26th, 2020",
@@ -2575,6 +2905,7 @@
     },
     "surf_olympics": {
         "ksf": {
+            "name": "surf_olympics",
             "player": "rulldar",
             "video_id": "1oOBsBoX0Kc",
             "date": "May 26th, 2020",
@@ -2583,6 +2914,7 @@
     },
     "surf_voteforthisone": {
         "ksf": {
+            "name": "surf_voteforthisone",
             "player": "rulldar",
             "video_id": "E5i_E_txVS8",
             "date": "May 26th, 2020",
@@ -2591,6 +2923,7 @@
     },
     "surf_interceptor": {
         "ksf": {
+            "name": "surf_interceptor",
             "player": "Caff",
             "video_id": "4CJczIFcK7Q",
             "date": "May 19th, 2020",
@@ -2599,6 +2932,7 @@
     },
     "surf_school_fix": {
         "ksf": {
+            "name": "surf_school_fix",
             "player": "Caff",
             "video_id": "C9o_Dy7CEhc",
             "date": "April 29th, 2020",
@@ -2607,6 +2941,7 @@
     },
     "surf_android_csgo": {
         "ksf": {
+            "name": "surf_android_ksf",
             "player": "Caff",
             "video_id": "snVtWstLGQc",
             "date": "May 16th, 2020",
@@ -2615,6 +2950,7 @@
     },
     "surf_furios": {
         "ksf": {
+            "name": "surf_furios",
             "player": "rulldar",
             "video_id": "0R55Bv7nGtA",
             "date": "14th May, 2020",
@@ -2623,6 +2959,7 @@
     },
     "surf_loentra": {
         "ksf": {
+            "name": "surf_loentra",
             "player": "Caff",
             "video_id": "irakHfOT5Lk",
             "date": "May 12th, 2020",
@@ -2631,6 +2968,7 @@
     },
     "surf_ixtab": {
         "ksf": {
+            "name": "surf_ixtab",
             "player": "MaKo",
             "video_id": "E_abH7sZvic",
             "date": "April 12th, 2020",
@@ -2639,6 +2977,7 @@
     },
     "surf_sandbrick": {
         "ksf": {
+            "name": "surf_sandbrick",
             "player": "levi",
             "video_id": "luPaG73P8S8",
             "date": "March 19th, 2020",
@@ -2647,6 +2986,7 @@
     },
     "surf_driftless": {
         "ksf": {
+            "name": "surf_driftless",
             "player": "Simex",
             "video_id": "bCeuj-YIe0M",
             "date": "March 2nd, 2020",
@@ -2655,6 +2995,7 @@
     },
     "surf_rustic_v2": {
         "ksf": {
+            "name": "surf_rustic_v2",
             "player": "exu",
             "video_id": "2AVzHkGEEKY",
             "date": "February 21st, 2020",
@@ -2663,14 +3004,16 @@
     },
     "surf_primero_njv": {
         "ksf": {
-            "player": "Rulldar",
-            "video_id": "AN-rxvc2pxQ",
-            "date": "February 6th, 2020",
-            "info": "[Surf Timer] - rulldar finished in 00:23:90 (WR -00:00:13). Improving by 00:00:22\n[Surf Timer] - rulldar beat the map record! Rank: 1/5351\n\nPrevious WR holder: SyFo\n\n"
+            "name": "surf_primero",
+            "player": "Morning",
+            "video_id": "EWNPbYo7P_k",
+            "date": "30 May, 2013",
+            "info": "[Surf Timer] - Beach Boy Morning finished in 01:04:27 (-00:00:34). Improving by 00:00:43\n[Surf Timer] - Beach Boy Morning beat the map record! Rank: 1/78\n\n"
         }
     },
     "surf_lithium2": {
         "ksf": {
+            "name": "surf_lithium2",
             "player": "Caff",
             "video_id": "eDa3MvsKzU8",
             "date": "January 31st, 2020",
@@ -2679,6 +3022,7 @@
     },
     "surf_togo": {
         "ksf": {
+            "name": "surf_togo",
             "player": "Caff",
             "video_id": "PbEQBmcenpM",
             "date": "January 16th, 2020",
@@ -2687,6 +3031,7 @@
     },
     "surf_queen_of_the_ween": {
         "ksf": {
+            "name": "surf_queen_of_the_ween",
             "player": "Draph",
             "video_id": "hynfnvvRSwY",
             "date": "January 5th, 2020",
@@ -2695,6 +3040,7 @@
     },
     "surf_anthropomorphic": {
         "ksf": {
+            "name": "surf_anthropomorphic",
             "player": "exu",
             "video_id": "jD2MQRmYEcg",
             "date": "January 3rd, 2020",
@@ -2703,6 +3049,7 @@
     },
     "surf_oompa_loompa": {
         "ksf": {
+            "name": "surf_oompa_loompa",
             "player": "niyhM",
             "video_id": "SsZ0yTlGlic",
             "date": "December 29th, 2019",
@@ -2711,6 +3058,7 @@
     },
     "surf_y": {
         "ksf": {
+            "name": "surf_y",
             "player": "louieismyname",
             "video_id": "D3Jq0u3dHqo",
             "date": "December 23rd, 2019",
@@ -2719,6 +3067,7 @@
     },
     "surf_map_h": {
         "ksf": {
+            "name": "surf_map_h",
             "player": "Shuffle",
             "video_id": "sg_7vNu9MZY",
             "date": "December 21st, 2019",
@@ -2727,6 +3076,7 @@
     },
     "surf_masonry": {
         "ksf": {
+            "name": "surf_masonry",
             "player": "Caff",
             "video_id": "M1_g9KSylCc",
             "date": "Decmber 20th, 2019",
@@ -2735,6 +3085,7 @@
     },
     "surf_marbleblast_e": {
         "ksf": {
+            "name": "surf_marbleblast_intermediate",
             "player": "donkey",
             "video_id": "r6Arcf4BOKg",
             "date": "December 18th, 2019",
@@ -2743,6 +3094,7 @@
     },
     "surf_aircontrol_ksf": {
         "ksf": {
+            "name": "surf_aircontrol_ksf",
             "player": "levi",
             "video_id": "N5_FqpZMjXs",
             "date": "December 17th, 2019",
@@ -2751,6 +3103,7 @@
     },
     "surf_minimumwage": {
         "ksf": {
+            "name": "surf_minimumwage",
             "player": "Caff",
             "video_id": "fc800XnhuYE",
             "date": "December 13th, 2019",
@@ -2759,6 +3112,7 @@
     },
     "surf_network_2013": {
         "ksf": {
+            "name": "surf_network_2013",
             "player": "MaKo",
             "video_id": "8Gj1xsRT574",
             "date": "December 10th, 2019",
@@ -2767,6 +3121,7 @@
     },
     "surf_inrage": {
         "ksf": {
+            "name": "surf_inrage",
             "player": "username",
             "video_id": "SrJF4_qPsr0",
             "date": "November 29th, 2019",
@@ -2775,6 +3130,7 @@
     },
     "surf_hero": {
         "ksf": {
+            "name": "surf_hero",
             "player": "levi",
             "video_id": "dw6xqQi98wQ",
             "date": "December 1st, 2019",
@@ -2783,6 +3139,7 @@
     },
     "surf_looksmodern": {
         "ksf": {
+            "name": "surf_looksmodern",
             "player": "Caff",
             "video_id": "V7_7rPqd03U",
             "date": "November 30th, 2019",
@@ -2791,6 +3148,7 @@
     },
     "surf_this_njv": {
         "ksf": {
+            "name": "surf_this_njv",
             "player": "Caff",
             "video_id": "mXz8jnjmzPw",
             "date": "November 18th, 2019",
@@ -2799,6 +3157,7 @@
     },
     "surf_calamity2": {
         "ksf": {
+            "name": "surf_calamity2",
             "player": "Joshua",
             "video_id": "M3zKv0TGdHg",
             "date": "November 16th, 2019",
@@ -2807,6 +3166,7 @@
     },
     "surf_sandstorm2": {
         "ksf": {
+            "name": "surf_sandstorm2",
             "player": "Darude",
             "video_id": "QURhd_m9Li0",
             "date": "November 12th, 2019",
@@ -2815,6 +3175,7 @@
     },
     "surf_nightmare": {
         "ksf": {
+            "name": "surf_nightmare",
             "player": "Caff",
             "video_id": "gd4dkxTiJ3I",
             "date": "November 9th, 2019",
@@ -2823,6 +3184,7 @@
     },
     "surf_klue": {
         "ksf": {
+            "name": "surf_klue",
             "player": "noti",
             "video_id": "H92lOOEUy68",
             "date": "November 2nd, 2019",
@@ -2831,6 +3193,7 @@
     },
     "surf_elysium3": {
         "ksf": {
+            "name": "surf_elysium3",
             "player": "Rulldar",
             "video_id": "-OiICatrkFQ",
             "date": "October 29th, 2019",
@@ -2839,14 +3202,16 @@
     },
     "surf_lt_unicorn_official": {
         "ksf": {
-            "player": "rulldar",
-            "video_id": "2guHgaMq3PQ",
-            "date": "October 24th, 2019",
-            "info": "[Surf Timer] - rulldar finished in 00:58:82 (WR -00:00:32). Improving by 00:00:40\n[Surf Timer] - rulldar beat the map record! Rank: 1/1199\n\nPrevious WR holder: kusche\n\n"
+            "name": "surf_lt_unicorn",
+            "player": "synki",
+            "video_id": "wX8_bRxujeE",
+            "date": "March 5th, 2015",
+            "info": "[Surf Timer] - Synkiisarr finished in 01:17:36 (WR -00:01:10). Improving by 00:01:10\n[Surf Timer] - Synkiisarr beat the map record! Rank: 1/195\n\n"
         }
     },
     "surf_discovery": {
         "ksf": {
+            "name": "surf_discovery",
             "player": "Caff",
             "video_id": "q2TwR0WtxoI",
             "date": "October 18th, 2019",
@@ -2855,6 +3220,7 @@
     },
     "surf_shoria": {
         "ksf": {
+            "name": "surf_shoria",
             "player": "Caff",
             "video_id": "iXNwr6dRkeY",
             "date": "October 11th, 2019",
@@ -2863,6 +3229,7 @@
     },
     "surf_bluewall": {
         "ksf": {
+            "name": "surf_bluewall_v2",
             "player": "levi",
             "video_id": "nTgslGbj0Qo",
             "date": "October 10th, 2019",
@@ -2871,6 +3238,7 @@
     },
     "surf_ny_momentum2_ksf": {
         "ksf": {
+            "name": "surf_ny_momentum2_ksf",
             "player": "JunichiK",
             "video_id": "vi99IST7OQs",
             "date": "October 5th, 2019",
@@ -2879,14 +3247,16 @@
     },
     "surf_disneyland_fix": {
         "ksf": {
-            "player": "rulldar",
-            "video_id": "CK0mwf4qHOo",
-            "date": "October 4th 2019",
-            "info": "[Surf Timer] - rulldar finished in 01:51:98 (WR -00:01:35). Improving by 00:03:87\n[Surf Timer] - rulldar beat the map record! Rank: 1/478\n\nPrevious WR holder: JunichiK\n\n"
+            "name": "surf_disneyland",
+            "player": "redc",
+            "video_id": "B-bFluxmZAU",
+            "date": "December 11th, 2017",
+            "info": "[Surf Timer] - PLAYA. finished in 01:53:48 (WR -00:01:99). Improving by 00:20:09\n[Surf Timer] - PLAYA. beat the map record! Rank: 1/374\n\n"
         }
     },
     "surf_transient": {
         "ksf": {
+            "name": "surf_transient",
             "player": "Rulldar",
             "video_id": "zDwnbRO8ups",
             "date": "October 3rd, 2019",
@@ -2895,6 +3265,7 @@
     },
     "surf_epithet": {
         "ksf": {
+            "name": "surf_epithet",
             "player": "tato",
             "video_id": "yIijrNQcQm0",
             "date": "September 17th, 2019",
@@ -2903,6 +3274,7 @@
     },
     "surf_overgrowth2": {
         "ksf": {
+            "name": "surf_overgrowth2",
             "player": "Caff",
             "video_id": "42CV8k4gLaU",
             "date": "September 15th, 2019",
@@ -2911,6 +3283,7 @@
     },
     "surf_timewarp": {
         "ksf": {
+            "name": "surf_timewarp",
             "player": "redc",
             "video_id": "1lk5Lu7A3NE",
             "date": "September 8th, 2019",
@@ -2919,14 +3292,16 @@
     },
     "surf_lore_e": {
         "ksf": {
-            "player": "redc",
-            "video_id": "CRIZMjCqoqg",
-            "date": "September 5th, 2019",
-            "info": "[Surf Timer] - kong mf dong finished in 01:24:59 (WR -00:00:73). Improving by 00:00:85\n[Surf Timer] - kong mf dong beat the map record! Rank: 1/4379 \n\n"
+            "name": "surf_lodypreview",
+            "player": "Shuffle",
+            "video_id": "rUi8sPdq52Y",
+            "date": "June 13th, 2016",
+            "info": "[Surf Timer] - Shuffle^ | \u03ba\u0455\u0493 finished in 01:25:06 (WR -00:01:93). Improving by 00:08:75\n[Surf Timer] - Shuffle^ | \u03ba\u0455\u0493 beat the map record! Rank: 1/1086\n\n"
         }
     },
     "surf_overgrowth": {
         "ksf": {
+            "name": "surf_overgrowth",
             "player": "redc",
             "video_id": "-zLrwB17r8A",
             "date": "September 1st, 2019",
@@ -2935,6 +3310,7 @@
     },
     "surf_beyer2": {
         "ksf": {
+            "name": "surf_beyer2",
             "player": "rulldar",
             "video_id": "wWj4ld74fzI",
             "date": "July 28th, 2019",
@@ -2943,6 +3319,7 @@
     },
     "surf_runewords2": {
         "ksf": {
+            "name": "surf_runewords2",
             "player": "levi",
             "video_id": "h7qIDm5utVo",
             "date": "July 9th, 2019",
@@ -2951,6 +3328,7 @@
     },
     "surf_crush": {
         "ksf": {
+            "name": "surf_crush",
             "player": "Joshua",
             "video_id": "DNkHXddS6MM",
             "date": " July 5th, 2019",
@@ -2959,6 +3337,7 @@
     },
     "surf_aqua_fix": {
         "ksf": {
+            "name": "surf_aqua_fix",
             "player": "Caff",
             "video_id": "xVCfUyO9ick",
             "date": "May 23rd, 2019",
@@ -2967,6 +3346,7 @@
     },
     "surf_exocube_h": {
         "ksf": {
+            "name": "surf_exocube_h",
             "player": "Frag",
             "video_id": "CZenVXMWsas",
             "date": "May 8th, 2019",
@@ -2975,6 +3355,7 @@
     },
     "surf_euphoria": {
         "ksf": {
+            "name": "surf_euphoria",
             "player": "redc",
             "video_id": "wOdIBXB_R78",
             "date": "April 25th, 2019",
@@ -2983,6 +3364,7 @@
     },
     "surf_unreal2": {
         "ksf": {
+            "name": "surf_unreal2",
             "player": "kusche",
             "video_id": "xcySfLBHzYo",
             "date": "April 18th, 2019",
@@ -2991,6 +3373,7 @@
     },
     "surf_eternal_beta": {
         "ksf": {
+            "name": "surf_eternal_beta",
             "player": "Caff",
             "video_id": "x6Yjdwf58Lk",
             "date": "April 17th, 2019",
@@ -2999,6 +3382,7 @@
     },
     "surf_low_production": {
         "ksf": {
+            "name": "surf_low_production",
             "player": "Joshua",
             "video_id": "PtI-lblWSGI",
             "date": "April 13th, 2019",
@@ -3007,6 +3391,7 @@
     },
     "surf_neo_njv": {
         "ksf": {
+            "name": "surf_bnw_njv",
             "player": "Mr.Fragkiller1337",
             "video_id": "W3ZrDz0qSo4",
             "date": "March 12th, 2019",
@@ -3015,6 +3400,7 @@
     },
     "surf_static": {
         "ksf": {
+            "name": "surf_static",
             "player": "Joshua",
             "video_id": "M5H_IQQH0mg",
             "date": "March 31st, 2019",
@@ -3023,6 +3409,7 @@
     },
     "surf_dynamics_fixed": {
         "ksf": {
+            "name": "surf_dynamics_fixed",
             "player": "niyhM",
             "video_id": "N3wqOWaXFtI",
             "date": "March 23rd, 2019",
@@ -3031,6 +3418,7 @@
     },
     "surf_progress": {
         "ksf": {
+            "name": "surf_progress_fix",
             "player": "Beetle179",
             "video_id": "OVmXDwTIQGQ",
             "date": "March 23rd, 2019",
@@ -3039,6 +3427,7 @@
     },
     "surf_spaceship_ksf": {
         "ksf": {
+            "name": "surf_spaceship_ksf",
             "player": "exu",
             "video_id": "AThbUhcGj3s",
             "date": "March 22nd, 2019",
@@ -3047,6 +3436,7 @@
     },
     "surf_ghost_busters": {
         "ksf": {
+            "name": "surf_ghost_busters",
             "player": "exu",
             "video_id": "Ak5gUT6dEo0",
             "date": "March 7th, 2019",
@@ -3055,6 +3445,7 @@
     },
     "surf_loves_spliff": {
         "ksf": {
+            "name": "surf_loves_spliff",
             "player": "exu",
             "video_id": "5f98XY5ABE8",
             "date": "March 5th, 2019",
@@ -3063,6 +3454,7 @@
     },
     "surf_salient": {
         "ksf": {
+            "name": "surf_salient",
             "player": "kusche",
             "video_id": "GAxP2XM4MNY",
             "date": "February 23rd, 2019",
@@ -3071,6 +3463,7 @@
     },
     "surf_diverge": {
         "ksf": {
+            "name": "surf_diverge",
             "player": "kusche",
             "video_id": "O5RKLGGsgDo",
             "date": "February 21st, 2018",
@@ -3079,14 +3472,16 @@
     },
     "surf_kitsune2": {
         "ksf": {
-            "player": "joshua",
-            "video_id": "mEYCVwc_kes",
-            "date": "February 5th, 2018",
-            "info": "[Surf Timer] - j cosh finished in 01:32:35 (WR -00:00:34). Improving by 00:00:40\n[Surf Timer] - j cosh beat the map record! Rank: 1/4829\n\n"
+            "name": "surf_kitsune2",
+            "player": "Rulldar",
+            "video_id": "-0orkZ3gMfQ",
+            "date": "January 12th, 2017",
+            "info": "[Surf Timer] - Rulldar finished in 03:37:01 (WR -00:01:78). Improving by 00:01:94\n[Surf Timer] - Rulldar beat the map record! Rank: 1/1857\n\n"
         }
     },
     "surf_frequency_njv": {
         "ksf": {
+            "name": "surf_frequency_njv",
             "player": "kusche",
             "video_id": "hixpQs0zcus",
             "date": "January 29th, 2019",
@@ -3095,6 +3490,7 @@
     },
     "surf_antimatter_v2": {
         "ksf": {
+            "name": "surf_antimatter_v2",
             "player": "Caff",
             "video_id": "NLz7MIoaSdE",
             "date": "January 14th, 2018",
@@ -3103,6 +3499,7 @@
     },
     "surf_sunset": {
         "ksf": {
+            "name": "surf_sunset",
             "player": "tato",
             "video_id": "HjuOcooWwmQ",
             "date": "January 5th, 2019",
@@ -3111,6 +3508,7 @@
     },
     "surf_eon": {
         "ksf": {
+            "name": "surf_eon",
             "player": "Makela",
             "video_id": "fMPtgmaRSxU",
             "date": "December 16th, 2018",
@@ -3119,6 +3517,7 @@
     },
     "surf_stagejuan_ksf": {
         "ksf": {
+            "name": "surf_stagejuan_ksf",
             "player": "Ignis",
             "video_id": "RA_cYTS-wY0",
             "date": "November 5th, 2018",
@@ -3127,6 +3526,7 @@
     },
     "surf_stonework4": {
         "ksf": {
+            "name": "surf_stonework4",
             "player": "Oliver",
             "video_id": "idBAOlylb-M",
             "date": "October 14th, 2018",
@@ -3135,6 +3535,7 @@
     },
     "surf_fast": {
         "ksf": {
+            "name": "surf_fast",
             "player": "Rulldar",
             "video_id": "yRLNkJ4zvCI",
             "date": "October 13th, 2018",
@@ -3143,6 +3544,7 @@
     },
     "surf_insignia_b1": {
         "ksf": {
+            "name": "surf_insignia_b1",
             "player": "redc",
             "video_id": "9u4TSronlJc",
             "date": "October 8th, 2018",
@@ -3151,6 +3553,7 @@
     },
     "surf_rookie": {
         "ksf": {
+            "name": "surf_rookie",
             "player": "favs",
             "video_id": "AZgt6UTtLTo",
             "date": "September 22nd, 2018",
@@ -3159,6 +3562,7 @@
     },
     "surf_artifex": {
         "ksf": {
+            "name": "surf_artifex",
             "player": "redc",
             "video_id": "iTYj_b4_tn0",
             "date": "September 13th, 2018",
@@ -3167,6 +3571,7 @@
     },
     "surf_acp_fix": {
         "ksf": {
+            "name": "surf_acp_fix",
             "player": "redc",
             "video_id": "gG-9eiKlgR8",
             "date": "August 28th, 2018",
@@ -3175,6 +3580,7 @@
     },
     "surf_seraph": {
         "ksf": {
+            "name": "surf_seraph",
             "player": "exu",
             "video_id": "Fl2mzU9pPCQ",
             "date": "August 19th, 2018",
@@ -3183,6 +3589,7 @@
     },
     "surf_aux": {
         "ksf": {
+            "name": "surf_aux",
             "player": "stevo",
             "video_id": "zI4cVit14rg",
             "date": "August 12th, 2018",
@@ -3191,6 +3598,7 @@
     },
     "surf_lab": {
         "ksf": {
+            "name": "surf_lab",
             "player": "joshua",
             "video_id": "uR02_kyiGB4",
             "date": "June 20th, 2018",
@@ -3199,6 +3607,7 @@
     },
     "surf_tempest2": {
         "ksf": {
+            "name": "surf_tempest2",
             "player": "Rulldar",
             "video_id": "eKJ-iX2ff1c",
             "date": "June 22nd, 2018",
@@ -3207,6 +3616,7 @@
     },
     "surf_halloween_tf": {
         "ksf": {
+            "name": "surf_halloween_tf2",
             "player": "Oliver",
             "video_id": "0ORV_aRE2A4",
             "date": "June 12th, 2018",
@@ -3215,6 +3625,7 @@
     },
     "surf_tensile_njv": {
         "ksf": {
+            "name": "surf_tensile_njv",
             "player": "Caff",
             "video_id": "0sDIqi7iiwc",
             "date": "June 5th, 2018",
@@ -3223,6 +3634,7 @@
     },
     "surf_spectrum_njv": {
         "ksf": {
+            "name": "surf_spectrum_njv",
             "player": "mako",
             "video_id": "NloJ50Va7VI",
             "date": "May 16th, 2018",
@@ -3231,6 +3643,7 @@
     },
     "surf_quartus_ksf": {
         "ksf": {
+            "name": "surf_quartus_ksf",
             "player": "tele",
             "video_id": "BR_3VIzW2TU",
             "date": "May 15th, 2018",
@@ -3239,14 +3652,16 @@
     },
     "surf_junglepics_ksf": {
         "ksf": {
-            "player": "Ignis",
-            "video_id": "DbSi-wChLzM",
-            "date": "May 2nd, 2018",
-            "info": "[Surf Timer] - Ignis finished in 00:30:28 (WR -00:00:31). Improving by 00:00:42\n[Surf Timer] - Ignis beat the map record! Rank: 1/765\n\n"
+            "name": "surf_junglespic_ksf",
+            "player": "niyhM",
+            "video_id": "cmOq90Y7LhM",
+            "date": "May 4th, 2014",
+            "info": "[Surf Timer] - niyhM finished in 00:32:54 (WR -00:00:37). Improving by 00:00:43\n[Surf Timer] - niyhM beat the map record! Rank: 1/347\n\n"
         }
     },
     "surf_trapped": {
         "ksf": {
+            "name": "surf_trapped",
             "player": "exu",
             "video_id": "8WwGwg5uvoU",
             "date": "April 21st, 2018",
@@ -3255,6 +3670,7 @@
     },
     "surf_deceptive_final": {
         "ksf": {
+            "name": "surf_deceptive_final",
             "player": "redc",
             "video_id": "NO0yb1El7DU",
             "date": "March 27th, 2018",
@@ -3263,6 +3679,7 @@
     },
     "surf_dionysus": {
         "ksf": {
+            "name": "surf_dionysus",
             "player": "tele",
             "video_id": "-CBmwPQh8Ns",
             "date": "March 13th, 2018",
@@ -3271,6 +3688,7 @@
     },
     "surf_finesse_final": {
         "ksf": {
+            "name": "surf_finesse_final",
             "player": "redc",
             "video_id": "eGLG762-moE",
             "date": "March 12th, 2018",
@@ -3279,6 +3697,7 @@
     },
     "surf_stonework3": {
         "ksf": {
+            "name": "surf_stonework3",
             "player": "redc",
             "video_id": "rOGBNrzWPsM",
             "date": "March 4th, 2018",
@@ -3287,6 +3706,7 @@
     },
     "surf_petrus": {
         "ksf": {
+            "name": "surf_petrus",
             "player": "synki",
             "video_id": "yOU_Nqqpk2Q",
             "date": "March 2nd, 2018 ",
@@ -3295,6 +3715,7 @@
     },
     "surf_damn": {
         "ksf": {
+            "name": "surf_damn",
             "player": "Synokz",
             "video_id": "Bz-BzMe1x7M",
             "date": "February 7th, 2018",
@@ -3303,6 +3724,7 @@
     },
     "surf_aeron": {
         "ksf": {
+            "name": "surf_aeron",
             "player": "ddly",
             "video_id": "5WdGuDvg1a4",
             "date": "January 23rd, 2018",
@@ -3311,6 +3733,7 @@
     },
     "surf_4dimensional": {
         "ksf": {
+            "name": "surf_4dimensional",
             "player": "Nyannix",
             "video_id": "DPIw7XbXyQo",
             "date": "January 23rd, 2018",
@@ -3319,6 +3742,7 @@
     },
     "surf_mom_fix": {
         "ksf": {
+            "name": "surf_mom_fix",
             "player": "Beetle179",
             "video_id": "LbyNwEAVids",
             "date": "January 7th, 2018",
@@ -3327,6 +3751,7 @@
     },
     "surf_zbig2": {
         "ksf": {
+            "name": "surf_zbig_ksf",
             "player": "buzookey",
             "video_id": "TbCYyagfK9I",
             "date": "January 18th, 2018",
@@ -3335,6 +3760,7 @@
     },
     "surf_adventure_final": {
         "ksf": {
+            "name": "surf_adventure_final",
             "player": "Nyannix",
             "video_id": "_KXXk2G6fTE",
             "date": "January 14th, 2018",
@@ -3343,6 +3769,7 @@
     },
     "surf_construction": {
         "ksf": {
+            "name": "surf_construction",
             "player": "Troflecopter",
             "video_id": "1BDBC0AhYaQ",
             "date": "January 6th, 2018",
@@ -3351,6 +3778,7 @@
     },
     "surf_velocity": {
         "ksf": {
+            "name": "surf_velocity",
             "player": "exu",
             "video_id": "8OTv1dvK0Y8",
             "date": "December 22nd, 2017",
@@ -3359,6 +3787,7 @@
     },
     "surf_eclipse": {
         "ksf": {
+            "name": "surf_eclipse",
             "player": "kusche",
             "video_id": "1zTeC7Fpq3I",
             "date": "December 17th, 2017",
@@ -3367,6 +3796,7 @@
     },
     "surf_bork_nbv": {
         "ksf": {
+            "name": "surf_bork_nbv",
             "player": "redc",
             "video_id": "NNr-2Ko2b4Q",
             "date": "November 21st, 2017",
@@ -3375,14 +3805,16 @@
     },
     "surf_sundown_njv": {
         "ksf": {
-            "player": "redc",
-            "video_id": "Pey80qhVetc",
-            "date": "November 10th, 2017",
-            "info": "[Surf Timer] - carl05 finished in 00:57:65 (WR -00:00:04). Improving by 00:00:31\n[Surf Timer] - carl05 beat the map record! Rank: 1/3436\n\n"
+            "name": "surf_sundown",
+            "player": "synki",
+            "video_id": "srwKuk6TwvQ",
+            "date": "September 16th, 2014",
+            "info": "[Surf Timer] - \u0438\u043c \u0660 synkii finished in 00:59:14 (WR -00:00:22). Improving by 00:00:25\n[Surf Timer] - \u0438\u043c \u0660 synkii beat the map record! Rank: 1/1837\n\n"
         }
     },
     "surf_stonework2": {
         "ksf": {
+            "name": "surf_stonework2",
             "player": "crashfort",
             "video_id": "VZrvzyh4y_M",
             "date": "November 17th, 2017",
@@ -3391,6 +3823,7 @@
     },
     "surf_vale2": {
         "ksf": {
+            "name": "surf_vale2",
             "player": "fish\u00f6\u00f6",
             "video_id": "JfCdvNzNe2E",
             "date": "November 9th, 2017",
@@ -3399,6 +3832,7 @@
     },
     "surf_exurbia_v2": {
         "ksf": {
+            "name": "surf_exurbia2",
             "player": "Floflorian",
             "video_id": "_Lh7ZqiVDR0",
             "date": "September 28th, 2017",
@@ -3407,6 +3841,7 @@
     },
     "surf_depressing": {
         "ksf": {
+            "name": "surf_depressing",
             "player": "exu",
             "video_id": "IsI78EvS8D8",
             "date": "September 10th, 2017",
@@ -3415,6 +3850,7 @@
     },
     "surf_technique": {
         "ksf": {
+            "name": "surf_technique",
             "player": "fish\u00f6\u00f6",
             "video_id": "qkfYezrKxbE",
             "date": "September 9th, 2017",
@@ -3423,6 +3859,7 @@
     },
     "surf_shade": {
         "ksf": {
+            "name": "surf_4head",
             "player": "kusche",
             "video_id": "yssy7Pdh9GM",
             "date": "September 3rd, 2017",
@@ -3431,6 +3868,7 @@
     },
     "surf_minecraft": {
         "ksf": {
+            "name": "surf_minecraft",
             "player": "CRASHFORT",
             "video_id": "AFDKCWFQnLI",
             "date": "August 9th, 2017",
@@ -3439,6 +3877,7 @@
     },
     "surf_airflow": {
         "ksf": {
+            "name": "surf_airflow",
             "player": "exu",
             "video_id": "ZwSu9n0w_Cc",
             "date": "August 9th, 2017",
@@ -3447,6 +3886,7 @@
     },
     "surf_metalwall": {
         "ksf": {
+            "name": "surf_metalwall",
             "player": "CRASHFORT",
             "video_id": "zK3SI2NtAR4",
             "date": "",
@@ -3455,14 +3895,16 @@
     },
     "surf_quest": {
         "ksf": {
-            "player": "CRASHFORT",
-            "video_id": "rSWrm8qlIxw",
-            "date": "June 17th, 2017",
-            "info": "[Surf Timer] - crashfort finished in 01:04:57 (WR -00:04:14). Improving by 00:26:19\n[Surf Timer] - crashfort beat the map record! Rank: 1/746\n\n"
+            "name": "surf_quattro",
+            "player": "Habitat",
+            "video_id": "QDPPNgwI04c",
+            "date": "May 23rd, 2014",
+            "info": "[Surf Timer] - Habitat- finished in 00:55:69 (WR-00:00:65).improving by 00:00:70\n[Surf Timer] - Habitat- beat the map record! Rank: 1/407\n\nNew WR: https://www.youtube.com/watch?v=rSWrm8qlIxw\n\n"
         }
     },
     "surf_amateur_v2b": {
         "ksf": {
+            "name": "surf_amateur_v2b",
             "player": "exu",
             "video_id": "4Etw89fyYLk",
             "date": "July 13th, 2017",
@@ -3471,6 +3913,7 @@
     },
     "surf_sky_ages": {
         "ksf": {
+            "name": "surf_sky_ages",
             "player": "redc",
             "video_id": "vwozyitg5J0",
             "date": "June 16th, 2017",
@@ -3479,6 +3922,7 @@
     },
     "surf_plaguelands_beta7a": {
         "ksf": {
+            "name": "surf_plaguelands_beta7a",
             "player": "synki",
             "video_id": "xp_z29M50K8",
             "date": "June 28th, 2017",
@@ -3487,6 +3931,7 @@
     },
     "surf_ecosystem": {
         "ksf": {
+            "name": "surf_ecosystem",
             "player": "synki",
             "video_id": "dsw4LETlJKs",
             "date": "May 28th, 2017",
@@ -3495,6 +3940,7 @@
     },
     "surf_gurus": {
         "ksf": {
+            "name": "surf_gurus",
             "player": "SyFo",
             "video_id": "eipbwzfRSG4",
             "date": "June 21st, 2017",
@@ -3503,6 +3949,7 @@
     },
     "surf_mushroom_ksf": {
         "ksf": {
+            "name": "surf_mushroom_ksf",
             "player": "Mako",
             "video_id": "Wj-wV6Oj67g",
             "date": "June 3rd, 2017",
@@ -3511,6 +3958,7 @@
     },
     "surf_amir": {
         "ksf": {
+            "name": "surf_amaro",
             "player": "Nyannix",
             "video_id": "OTQR80QVZnE",
             "date": "March 13th, 2017",
@@ -3519,6 +3967,7 @@
     },
     "surf_happyhands": {
         "ksf": {
+            "name": "surf_happyhands",
             "player": "Melinder",
             "video_id": "pRj9lJa2JWw",
             "date": "June 1st, 2017",
@@ -3527,6 +3976,7 @@
     },
     "surf_underworld": {
         "ksf": {
+            "name": "surf_underworld",
             "player": "kalle",
             "video_id": "0s6Ckp1C800",
             "date": "June 1st, 2017",
@@ -3535,6 +3985,7 @@
     },
     "surf_apollonian": {
         "ksf": {
+            "name": "surf_apollonian",
             "player": "synki",
             "video_id": "1CalxxqNzTM",
             "date": "May 31st, 2017",
@@ -3543,6 +3994,7 @@
     },
     "surf_taq": {
         "ksf": {
+            "name": "surf_taq",
             "player": "synki",
             "video_id": "K3_rw92gcS8",
             "date": "May 26th, 2017",
@@ -3551,6 +4003,7 @@
     },
     "surf_forbidden_tomb2": {
         "ksf": {
+            "name": "surf_forbidden_tomb2",
             "player": "Habitat",
             "video_id": "n3lGDnmMHN4",
             "date": "May 8th, 2017",
@@ -3559,6 +4012,7 @@
     },
     "surf_ny_advance": {
         "ksf": {
+            "name": "surf_ny_advance",
             "player": "Habitat",
             "video_id": "W9OB6-1crwE",
             "date": "May 13th, 2017",
@@ -3567,6 +4021,7 @@
     },
     "surf_torque": {
         "ksf": {
+            "name": "surf_torque",
             "player": "synki",
             "video_id": "iKXQcr0GTkE",
             "date": "May 7th, 2017",
@@ -3575,6 +4030,7 @@
     },
     "surf_delusional": {
         "ksf": {
+            "name": "surf_delusional",
             "player": "synki",
             "video_id": "4IoqmrdMuhc",
             "date": "April 25th, 2017",
@@ -3583,6 +4039,7 @@
     },
     "surf_beginner_hell": {
         "ksf": {
+            "name": "surf_beginner_hell",
             "player": "synki",
             "video_id": "e2-1LCRRtB0",
             "date": "April 27th, 2017",
@@ -3591,14 +4048,16 @@
     },
     "surf_grid": {
         "ksf": {
-            "player": "kusche",
-            "video_id": "kEe-QpALsc4",
-            "date": "April 21st, 2017",
-            "info": "[Surf Timer] - kusche finished in 00:35:03 (WR -00:00:22). Improving by 00:00:25\n[Surf Timer] - kusche beat the map record! Rank: 1/1977 \n\n"
+            "name": "surf_rapid",
+            "player": "Yamaan",
+            "video_id": "JDQqRSq1R-E",
+            "date": "May 17, 2014",
+            "info": "[Surf Timer] - Yamaan finished in 00:36:19 (WR -00:00:16). Improving by 00:00:43\n[Surf Timer] - Yamaan beat the map record! Rank: 1/1058\n\n"
         }
     },
     "surf_pancake": {
         "ksf": {
+            "name": "surf_pancake",
             "player": "sinsa",
             "video_id": "088cKk0AgoA",
             "date": "March 20th, 2017",
@@ -3607,6 +4066,7 @@
     },
     "surf_extremex2_5": {
         "ksf": {
+            "name": "surf_extremex2_5",
             "player": "Silverthing",
             "video_id": "qGZUKYZ6slw",
             "date": "February 18th, 2017",
@@ -3615,6 +4075,7 @@
     },
     "surf_amplitude_light": {
         "ksf": {
+            "name": "surf_amplitude_light",
             "player": "niyhM",
             "video_id": "KDPo78lml4Q",
             "date": "November 6th, 2016",
@@ -3623,6 +4084,7 @@
     },
     "surf_amplitude_encore": {
         "ksf": {
+            "name": "surf_amplitude_encore",
             "player": "niyhM",
             "video_id": "fPfs25hmqkk",
             "date": "November 2nd, 2016",
@@ -3631,6 +4093,7 @@
     },
     "surf_crzyfrog_reloaded": {
         "ksf": {
+            "name": "surf_crzyfrog_reloaded",
             "player": "Beetle179",
             "video_id": "xj3McpQRXnY",
             "date": "October 16th, 2016",
@@ -3639,6 +4102,7 @@
     },
     "surf_elements_beta3": {
         "ksf": {
+            "name": "surf_elements_beta3",
             "player": "Habitat",
             "video_id": "8XsiOrE7qZ8",
             "date": "October 14th, 2016",
@@ -3647,6 +4111,7 @@
     },
     "surf_wazor": {
         "ksf": {
+            "name": "surf_wazor_ksf",
             "player": "Nis0",
             "video_id": "nG0kKoJNjA4",
             "date": "August 8th, 2016",
@@ -3655,6 +4120,7 @@
     },
     "surf_goldarn": {
         "ksf": {
+            "name": "surf_goldarn",
             "player": "Skandy",
             "video_id": "wnvmR80V9yE",
             "date": "July 18th, 2016",
@@ -3663,6 +4129,7 @@
     },
     "surf_concept": {
         "ksf": {
+            "name": "surf_concept",
             "player": "Silverthing",
             "video_id": "Hqd5JSGGMSM",
             "date": "July 22nd, 2016",
@@ -3671,6 +4138,7 @@
     },
     "surf_mynah_final": {
         "ksf": {
+            "name": "surf_mynah_final",
             "player": "redc",
             "video_id": "cji9EVy0OHc",
             "date": "July 12th, 2016",
@@ -3679,6 +4147,7 @@
     },
     "surf_metallic": {
         "ksf": {
+            "name": "surf_metallic",
             "player": "Troflecopter",
             "video_id": "V_m43u1QgAg",
             "date": "June 17th, 2016",
@@ -3687,6 +4156,7 @@
     },
     "surf_entropy_hardmode": {
         "ksf": {
+            "name": "surf_entropy_hardmode",
             "player": "Visions",
             "video_id": "fNCZ43MOsh8",
             "date": "June 2nd, 2016",
@@ -3695,6 +4165,7 @@
     },
     "surf_the_distance": {
         "ksf": {
+            "name": "surf_the_distance",
             "player": "Troflecopter",
             "video_id": "gynWCDuRKmg",
             "date": "May 19th, 2016",
@@ -3703,6 +4174,7 @@
     },
     "surf_smaragd": {
         "ksf": {
+            "name": "surf_smaragd",
             "player": "SyFo",
             "video_id": "XAO_4fzWI_A",
             "date": "April 28th, 2016",
@@ -3711,6 +4183,7 @@
     },
     "surf_mellow": {
         "ksf": {
+            "name": "surf_mellow",
             "player": "synki",
             "video_id": "S4PCLmLq7fk",
             "date": "April 21st, 2016",
@@ -3719,6 +4192,7 @@
     },
     "surf_ragequit": {
         "ksf": {
+            "name": "surf_ragequit",
             "player": "dqi",
             "video_id": "LYeQAsuwyks",
             "date": "April 14th, 2016",
@@ -3727,6 +4201,7 @@
     },
     "surf_kz_protraining": {
         "ksf": {
+            "name": "surf_kz_protraining",
             "player": "Shuffle",
             "video_id": "muaweLz7qhM",
             "date": "February 15th, 2016 ",
@@ -3735,6 +4210,7 @@
     },
     "surf_auroria2": {
         "ksf": {
+            "name": "surf_auroria2",
             "player": "Habitat",
             "video_id": "Wo0CmRP1pdo",
             "date": "January 25th, 2016",
@@ -3743,6 +4219,7 @@
     },
     "surf_prosperity_v2": {
         "ksf": {
+            "name": "surf_prosperity_v2",
             "player": "chipzy",
             "video_id": "Ks-N5l6ZlZc",
             "date": "October 28th, 2015",
@@ -3751,6 +4228,7 @@
     },
     "surf_cookiejar": {
         "ksf": {
+            "name": "surf_cookiejar",
             "player": "Troflecopter",
             "video_id": "Jgzfu7EidU0",
             "date": "December 10th, 2015",
@@ -3759,6 +4237,7 @@
     },
     "surf_freaky": {
         "ksf": {
+            "name": "surf_freaky",
             "player": "Habitat",
             "video_id": "tgi9P6ezUQw",
             "date": "December 6th, 2015",
@@ -3767,22 +4246,25 @@
     },
     "surf_lighthouse_fix": {
         "ksf": {
-            "player": "Beetle179",
-            "video_id": "EDUetWmVFhc",
-            "date": "November 19th, 2015",
-            "info": "[Surf Timer] - Beetle finished in 01:00:97 (WR -00:00:37). Improving by 00:00:56\n[Surf Timer] - Beetle beat the map record! Rank: 1/732\n\n"
+            "name": "surf_lighthouse",
+            "player": "Gebb",
+            "video_id": "JTxE5rDbeGE",
+            "date": "22 April, 2014",
+            "info": "[Surf Timer] - gebb finished in 01:02:54 (WR -00:00:11). Improving by 00:00:53\n[Surf Timer] - gebb beat the map record! Rank: 1/249\n\n"
         }
     },
     "surf_004_fix": {
         "ksf": {
-            "player": "Troflecopter",
-            "video_id": "i5ChuqJXFYM",
-            "date": "November 16th, 2015",
-            "info": "[Surf Timer] - :o finished in 00:35:54 (WR -00:00:18). Improving by 00:00:18\n[Surf Timer] - :o beat the map record! Rank: 1/1304\n\n"
+            "name": "surf_004_final1",
+            "player": "synki",
+            "video_id": "l5zAxoAM99k",
+            "date": "September 15th, 2014",
+            "info": "[Surf Timer] - \u0438\u043c \u0660 synkii finished in 00:35:83 (WR -00:00:30). Improving by 00:00:30\n[Surf Timer] - \u0438\u043c \u0660 synkii beat the map record! Rank: 1/1048\n\n"
         }
     },
     "surf_depths": {
         "ksf": {
+            "name": "surf_depths",
             "player": "rickzter",
             "video_id": "0VFo3yaa7bg",
             "date": "October 19th, 2015",
@@ -3791,6 +4273,7 @@
     },
     "surf_ace": {
         "ksf": {
+            "name": "surf_ace",
             "player": "Melinder",
             "video_id": "_wK2Y2q54wo",
             "date": "October 20th, 2015",
@@ -3799,6 +4282,7 @@
     },
     "surf_zion": {
         "ksf": {
+            "name": "surf_zion",
             "player": "Habitat",
             "video_id": "DFLNrV4c_Os",
             "date": "August 19th, 2015",
@@ -3807,6 +4291,7 @@
     },
     "surf_freedom": {
         "ksf": {
+            "name": "surf_freedom",
             "player": "jayess",
             "video_id": "LToLh-yb0l0",
             "date": "August 9th, 2015",
@@ -3815,6 +4300,7 @@
     },
     "surf_razer_final": {
         "ksf": {
+            "name": "surf_razer_final",
             "player": "chipzy",
             "video_id": "cAt5_GwVkqc",
             "date": "June 17th, 2015",
@@ -3823,6 +4309,7 @@
     },
     "surf_faint_fix": {
         "ksf": {
+            "name": "surf_faint_fix",
             "player": "Deebs",
             "video_id": "pTW42hvoyfM",
             "date": "July 9th, 2015",
@@ -3831,6 +4318,7 @@
     },
     "surf_s_t_a_t_i_o_n": {
         "ksf": {
+            "name": "surf_s_t_a_t_i_o_n",
             "player": "chipzy",
             "video_id": "TgwWiC8CLf4",
             "date": "July 2nd, 2015",
@@ -3839,6 +4327,7 @@
     },
     "surf_sempar_njv": {
         "ksf": {
+            "name": "surf_sempar_njv",
             "player": "Habitat",
             "video_id": "6cTKTV2RyBo",
             "date": "July 23rd, 2015",
@@ -3847,6 +4336,7 @@
     },
     "surf_wood": {
         "ksf": {
+            "name": "surf_wood",
             "player": "Chuck",
             "video_id": "iiH0Oc5Y93I",
             "date": "July 4th, 2015",
@@ -3855,6 +4345,7 @@
     },
     "surf_lullaby_ksf": {
         "ksf": {
+            "name": "surf_lullaby_ksf",
             "player": "Yamaan",
             "video_id": "x3EltsE9d44",
             "date": "June 20th, 2015",
@@ -3863,6 +4354,7 @@
     },
     "surf_happyhands3": {
         "ksf": {
+            "name": "surf_happyhands3",
             "player": "Troflecopter",
             "video_id": "UVuSPLFpcqc",
             "date": " June 6th, 2015",
@@ -3871,6 +4363,7 @@
     },
     "surf_spacejam": {
         "ksf": {
+            "name": "surf_spacejam",
             "player": "synki",
             "video_id": "8JUQIbv8ZKE",
             "date": "May 22nd, 2015",
@@ -3879,6 +4372,7 @@
     },
     "surf_prosaic": {
         "ksf": {
+            "name": "surf_prosaic",
             "player": "synki",
             "video_id": "H1aLyq549MI",
             "date": "May 9th, 2015",
@@ -3887,6 +4381,7 @@
     },
     "surf_iceworld": {
         "ksf": {
+            "name": "surf_iceworld",
             "player": "Habitat",
             "video_id": "wT2zoJFi4Kw",
             "date": "April 22nd, 2015",
@@ -3895,6 +4390,7 @@
     },
     "surf_canisius2_fix": {
         "ksf": {
+            "name": "surf_canisius2_fix",
             "player": "Yamaan",
             "video_id": "SL2lzYrbfgg",
             "date": "April 16th, 2015",
@@ -3903,6 +4399,7 @@
     },
     "surf_liberation2": {
         "ksf": {
+            "name": "surf_liberation2",
             "player": "THERAPIST",
             "video_id": "4UOhTI2z8q0",
             "date": "March 25th, 2015",
@@ -3911,14 +4408,16 @@
     },
     "surf_jazznipples": {
         "ksf": {
-            "player": "Yamaan",
-            "video_id": "ZdBbDUcZc4E",
-            "date": "March 21st, 2015",
-            "info": "[Surf Timer] - Yamaan finished in 00:53:74 (WR -00:02:50). Improving by 00:15:85\n[Surf Timer] - Yamaan beat the map record! Rank: 1/367\n\n"
+            "name": "surf_jizznipples",
+            "player": "Insane",
+            "video_id": "WOrWZwQK6d8",
+            "date": "24 Sepember, 2013",
+            "info": "[Surf Timer] - \u0438\u043c \u0660 Insane finished in 00:57:04 (-00:01:26). Improving by 00:03:40\n[Surf Timer] - \u0438\u043c \u0660 Insane beat the map record! Rank: 1/266\n\n"
         }
     },
     "surf_epic": {
         "ksf": {
+            "name": "surf_epic",
             "player": "synki",
             "video_id": "0FmGpONqGsQ",
             "date": "February 26th, 2015",
@@ -3927,6 +4426,7 @@
     },
     "surf_plethora_fix": {
         "ksf": {
+            "name": "surf_plethora_fix",
             "player": "Troflecopter",
             "video_id": "b_e91Ic9Nsg",
             "date": "20th February, 2015",
@@ -3935,6 +4435,7 @@
     },
     "surf_placid": {
         "ksf": {
+            "name": "surf_placid",
             "player": "Yamaan",
             "video_id": "TEYPgvtfR4Y",
             "date": "February 1st, 2015",
@@ -3943,6 +4444,7 @@
     },
     "surf_81st_network": {
         "ksf": {
+            "name": "surf_81st_network",
             "player": "shifty",
             "video_id": "OW8zfl1t6qk",
             "date": "December 28th, 2014",
@@ -3951,6 +4453,7 @@
     },
     "surf_dusk": {
         "ksf": {
+            "name": "surf_dusk",
             "player": "synki",
             "video_id": "7so-svQ9yU4",
             "date": "December 6th, 2014",
@@ -3959,6 +4462,7 @@
     },
     "surf_syria": {
         "ksf": {
+            "name": "surf_syria",
             "player": "synki",
             "video_id": "-62AWd6viBc",
             "date": "December 9th, 2014",
@@ -3967,6 +4471,7 @@
     },
     "surf_krow10": {
         "ksf": {
+            "name": "surf_krow10",
             "player": "Beetle179",
             "video_id": "1M3JDy3zPqg",
             "date": "November 26th, 2014",
@@ -3975,6 +4480,7 @@
     },
     "surf_parrot_selector_h": {
         "ksf": {
+            "name": "surf_parrot_selector_h",
             "player": "Chaaaaaaaad",
             "video_id": "EVaSMfWsoSQ",
             "date": "November 26th, 2014",
@@ -3983,6 +4489,7 @@
     },
     "surf_cyanide": {
         "ksf": {
+            "name": "surf_cyanide",
             "player": "Troflecopter",
             "video_id": "PT23BlBAyA4",
             "date": "November 19th, 2014",
@@ -3991,6 +4498,7 @@
     },
     "surf_impact": {
         "ksf": {
+            "name": "surf_impact",
             "player": "niyhM",
             "video_id": "lDMDfFLmGps",
             "date": "October 30th, 2014",
@@ -3999,6 +4507,7 @@
     },
     "surf_amplitude_apex": {
         "ksf": {
+            "name": "surf_amplitude_apex",
             "player": "Raiin",
             "video_id": "pT5fxjcz_U4",
             "date": "October 31st, 2014",
@@ -4007,6 +4516,7 @@
     },
     "surf_thembrium_njv": {
         "ksf": {
+            "name": "surf_thembrium_njv",
             "player": "Habitat",
             "video_id": "vP5l4kWfe6I",
             "date": "October 29th, 2014",
@@ -4015,6 +4525,7 @@
     },
     "surf_redemption_b1": {
         "ksf": {
+            "name": "surf_redemption_b1",
             "player": "chipzy",
             "video_id": "gy4B76csgxU",
             "date": "September 4th, 2014",
@@ -4023,6 +4534,7 @@
     },
     "surf_lolrevlis": {
         "ksf": {
+            "name": "surf_lolrevlis",
             "player": "Silverthing",
             "video_id": "gDWZK3TeuZM",
             "date": "October 25th, 2014",
@@ -4031,6 +4543,7 @@
     },
     "surf_happyhands4": {
         "ksf": {
+            "name": "surf_happyhands4",
             "player": "synki",
             "video_id": "hAbqfaxVADY",
             "date": "October 23rd, 2014 ",
@@ -4039,6 +4552,7 @@
     },
     "surf_1day": {
         "ksf": {
+            "name": "surf_1day",
             "player": "Raiin",
             "video_id": "T_9J6SP_3RY",
             "date": "October 14th, 2014",
@@ -4047,6 +4561,7 @@
     },
     "surf_collaboration": {
         "ksf": {
+            "name": "surf_collaboration",
             "player": "Habitat",
             "video_id": "yAOqfZZpQ8w",
             "date": "October 19th, 2014",
@@ -4055,6 +4570,7 @@
     },
     "surf_inrage2": {
         "ksf": {
+            "name": "surf_inrage2",
             "player": "synki",
             "video_id": "nSGPOAFehe8",
             "date": "October 17th, 2014",
@@ -4063,6 +4579,7 @@
     },
     "surf_globalchaos": {
         "ksf": {
+            "name": "surf_globalchaos",
             "player": "synki",
             "video_id": "4m2WK2Kb2zA",
             "date": "October 11th, 2014",
@@ -4071,6 +4588,7 @@
     },
     "surf_savant_njv": {
         "ksf": {
+            "name": "surf_savant_njv",
             "player": "jayess",
             "video_id": "KqgKgdYD4eo",
             "date": "October 9th, 2014",
@@ -4079,6 +4597,7 @@
     },
     "surf_waterworks": {
         "ksf": {
+            "name": "surf_waterworks",
             "player": "Raiin",
             "video_id": "lfMFqWmPRtk",
             "date": "October 1st, 2014",
@@ -4087,6 +4606,7 @@
     },
     "surf_exxak": {
         "ksf": {
+            "name": "surf_exxak",
             "player": "Habitat",
             "video_id": "0iG4Fr9Ao-s",
             "date": "September 13th, 2014",
@@ -4095,6 +4615,7 @@
     },
     "surf_purgatory": {
         "ksf": {
+            "name": "surf_purgatory",
             "player": "synki",
             "video_id": "BglzcrJ77qk",
             "date": "June 3rd, 2014",
@@ -4103,6 +4624,7 @@
     },
     "surf_sc_essence_v2": {
         "ksf": {
+            "name": "surf_sc_essence_v2",
             "player": "Skandy",
             "video_id": "r7y-JcT1sgk",
             "date": "September 24th, 2014",
@@ -4111,6 +4633,7 @@
     },
     "surf_sci_fi": {
         "ksf": {
+            "name": "surf_sci_fi",
             "player": "synki",
             "video_id": "d-HWzKSXUuE",
             "date": "September 19th, 2014",
@@ -4119,6 +4642,7 @@
     },
     "surf_sewers": {
         "ksf": {
+            "name": "surf_sewers",
             "player": "remkoe",
             "video_id": "DZxvrKMNZkY",
             "date": "September 13th, 2014",
@@ -4127,6 +4651,7 @@
     },
     "surf_canisius": {
         "ksf": {
+            "name": "surf_canisius",
             "player": "chipzy",
             "video_id": "_ZudHDNNsBo",
             "date": "September 9th, 2014",
@@ -4135,6 +4660,7 @@
     },
     "surf_tenacious": {
         "ksf": {
+            "name": "surf_tenacious",
             "player": "Habitat",
             "video_id": "R3TLapb0CTk",
             "date": "August 29th, 2014",
@@ -4143,6 +4669,7 @@
     },
     "surf_sinsane_ksf": {
         "ksf": {
+            "name": "surf_sinsane_ksf",
             "player": "niyhM",
             "video_id": "2AIbpa3Urw8",
             "date": "August 27th, 2014",
@@ -4151,6 +4678,7 @@
     },
     "surf_minigolf": {
         "ksf": {
+            "name": "surf_missing_no",
             "player": "niyhM",
             "video_id": "LBtZimxPJcY",
             "date": "August 18th, 2014 ",
@@ -4159,6 +4687,7 @@
     },
     "surf_calamity_njv": {
         "ksf": {
+            "name": "surf_calamity_njv",
             "player": "synki",
             "video_id": "cQWhyFT0fH0",
             "date": "May 21st, 2014",
@@ -4167,6 +4696,7 @@
     },
     "surf_forbidden_tomb": {
         "ksf": {
+            "name": "surf_forbidden_tomb",
             "player": "niyhM",
             "video_id": "5EyyeDjyNI8",
             "date": "August 16th, 2014",
@@ -4175,6 +4705,7 @@
     },
     "surf_catalyst": {
         "ksf": {
+            "name": "surf_catalyst",
             "player": "niyhM",
             "video_id": "Fatm5k65NA0",
             "date": "August 9th, 2014",
@@ -4183,6 +4714,7 @@
     },
     "surf_ember": {
         "ksf": {
+            "name": "surf_ember",
             "player": "Habitat",
             "video_id": "ZJx40uDBKd4",
             "date": "August 7th, 2014",
@@ -4191,6 +4723,7 @@
     },
     "surf_nemesis": {
         "ksf": {
+            "name": "surf_nemesis",
             "player": "Troflecopter",
             "video_id": "M92pPb5HMPs",
             "date": "July 20th, 2014",
@@ -4199,6 +4732,7 @@
     },
     "surf_b_r_o_x_x_x": {
         "ksf": {
+            "name": "surf_b_r_o_x_x_x",
             "player": "chipzy",
             "video_id": "vbrpDYIm_zE",
             "date": "July 15th, 2014",
@@ -4207,6 +4741,7 @@
     },
     "surf_lithium": {
         "ksf": {
+            "name": "surf_lithium",
             "player": "Troflecopter",
             "video_id": "exk-dTNutR8",
             "date": "July 15th, 2014",
@@ -4215,6 +4750,7 @@
     },
     "surf_hydrogen_v2": {
         "ksf": {
+            "name": "surf_hydrogen_v2",
             "player": "Troflecopter",
             "video_id": "I9YtF-yGQz8",
             "date": "July 4th, 2014",
@@ -4223,6 +4759,7 @@
     },
     "surf_refraxis": {
         "ksf": {
+            "name": "surf_refraxis",
             "player": "Habitat",
             "video_id": "mgdH7gtxECg",
             "date": "June 20th, 2014",
@@ -4231,6 +4768,7 @@
     },
     "surf_derpis_ksf": {
         "ksf": {
+            "name": "surf_derpis_ksf",
             "player": "synki",
             "video_id": "bcfdNhpkukc",
             "date": "June 24th, 2014",
@@ -4239,6 +4777,7 @@
     },
     "surf_distraction_v2": {
         "ksf": {
+            "name": "surf_distraction_v2",
             "player": "synki",
             "video_id": "MACBB6Bbp-0",
             "date": "June 17th, 2014",
@@ -4247,6 +4786,7 @@
     },
     "surf_exocube": {
         "ksf": {
+            "name": "surf_exocube",
             "player": "Habitat",
             "video_id": "5kAWLb5kxBI",
             "date": "May 6th, 2014",
@@ -4255,6 +4795,7 @@
     },
     "surf_omnibus": {
         "ksf": {
+            "name": "surf_omnibus",
             "player": "synki",
             "video_id": "RgsY_5byqtA",
             "date": "31 May, 2014",
@@ -4263,6 +4804,7 @@
     },
     "surf_crystal": {
         "ksf": {
+            "name": "surf_crystal",
             "player": "Habitat",
             "video_id": "qoMHLkaMKHU",
             "date": "May 22, 2014",
@@ -4271,6 +4813,7 @@
     },
     "surf_kawaii": {
         "ksf": {
+            "name": "surf_kawaii",
             "player": "xeriaN",
             "video_id": "K8TSGp3ljkU",
             "date": "May 13, 2014",
@@ -4279,6 +4822,7 @@
     },
     "surf_ing": {
         "ksf": {
+            "name": "surf_ing",
             "player": "Chaaaaaaaad",
             "video_id": "wS-LUKRYihQ",
             "date": "8 May, 2014",
@@ -4287,6 +4831,7 @@
     },
     "surf_tomb_redone": {
         "ksf": {
+            "name": "surf_tomb_redone",
             "player": "Feez",
             "video_id": "AQKhdJ0Xsds",
             "date": "23 March 2014",
@@ -4295,6 +4840,7 @@
     },
     "surf_divided": {
         "ksf": {
+            "name": "surf_divided",
             "player": "Fragkiller",
             "video_id": "qohdc1xbAq8",
             "date": "22 December, 2013",
@@ -4303,6 +4849,7 @@
     },
     "surf_misc": {
         "ksf": {
+            "name": "surf_misc",
             "player": "Gebb",
             "video_id": "PeycR0dwd8I",
             "date": "21 April, 2014",
@@ -4311,6 +4858,7 @@
     },
     "surf_legends": {
         "ksf": {
+            "name": "surf_legends",
             "player": "Morning",
             "video_id": "NR-Iqh91tMA",
             "date": "1 March, 2014",
@@ -4319,6 +4867,7 @@
     },
     "surf_symbiosis": {
         "ksf": {
+            "name": "surf_symbiosis",
             "player": "Morning",
             "video_id": "NFKhz2e-3EQ",
             "date": "11 February, 2014",
@@ -4327,6 +4876,7 @@
     },
     "surf_bob": {
         "ksf": {
+            "name": "surf_bob",
             "player": "Habitat",
             "video_id": "HGwqU1B3X0Q",
             "date": "11 February, 2014",
@@ -4335,6 +4885,7 @@
     },
     "surf_catalyst2": {
         "ksf": {
+            "name": "surf_catalyst2",
             "player": "Raiin",
             "video_id": "53iMg8SBJCs",
             "date": "3 February, 2014",
@@ -4343,6 +4894,7 @@
     },
     "surf_lessons": {
         "ksf": {
+            "name": "surf_lessons",
             "player": "chipzy",
             "video_id": "4mZIk4_7CPA",
             "date": "4 January, 2014",
@@ -4351,6 +4903,7 @@
     },
     "surf_infected": {
         "ksf": {
+            "name": "surf_infected_h",
             "player": "Skyline",
             "video_id": "9YsOYxLZ5uE",
             "date": "10 February, 2013",
@@ -4359,6 +4912,7 @@
     },
     "surf_extremex": {
         "ksf": {
+            "name": "surf_extremex",
             "player": "Insane",
             "video_id": "T3FIe3sPkHg",
             "date": "5 March, 2013",
@@ -4367,6 +4921,7 @@
     },
     "surf_perforated_restored": {
         "ksf": {
+            "name": "surf_perforated_restored",
             "player": "Yamaan",
             "video_id": "fcjUcH61UmU",
             "date": "3 November, 2012",
@@ -4375,6 +4930,7 @@
     },
     "surf_skill8_h": {
         "ksf": {
+            "name": "surf_skill8_h",
             "player": "Yamaan",
             "video_id": "xql7WSJi2Hs",
             "date": "3 December, 2012",
@@ -4383,6 +4939,7 @@
     },
     "surf_auroria_ksf": {
         "ksf": {
+            "name": "surf_auroria_ksf",
             "player": "Insane",
             "video_id": "d-EYHQGO3qs",
             "date": "July 20, 2013",

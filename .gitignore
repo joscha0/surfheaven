@@ -37,3 +37,5 @@ next-env.d.ts
 
 ksf-*.json
 sh-*.json
+
+scripts/mapsYt.json

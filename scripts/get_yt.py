@@ -38,11 +38,10 @@ def get_yt_data(playlistId: str, name: str):
 sh_id = "UUXnkOphTnYYOCO764za2xTw"  # surfheaven yt
 ksf_id = "UUud3lmIRcld41IocSMIT71w"  # ksfrecords yt
 
-sh_len = get_yt_data(sh_id, "sh")
-
 
 maps = {}
 
+sh_len = get_yt_data(sh_id, "sh")
 for i in range(sh_len):
     with open(f'yt/sh-{i}.json', 'r') as f:
         data = json.load(f)
@@ -70,6 +69,7 @@ for i in range(sh_len):
 
                 maps[mapname] = {
                     "sh": {
+                        "name": title[0],
                         "player": player,
                         "video_id": video_id,
                         "date": date
@@ -78,7 +78,7 @@ for i in range(sh_len):
                 }
 
 ksf_len = get_yt_data(ksf_id, "ksf")
-for i in range(27):
+for i in range(ksf_len):
     with open(f'yt/ksf-{i}.json', 'r') as f:
         data = json.load(f)
         videos = data['items']
@@ -100,19 +100,20 @@ for i in range(27):
                 else:
                     date = ""
 
-                mapkey = difflib.get_close_matches(mapname, mapslist)[0]
+                mapkey = difflib.get_close_matches(mapname, mapslist, n=1)[0]
 
                 if not mapkey in maps:
                     maps[mapkey] = {
                         "ksf": {}
                     }
-                if maps[mapkey]["ksf"] == {}:
+                if maps[mapkey]["ksf"] == {} or ("name" in maps[mapkey]["ksf"] and (maps[mapkey]["ksf"]["name"] not in mapslist) and mapkey in mapslist):
                     maps[mapkey]["ksf"] = {
+                        "name": mapname,
                         "player": player,
                         "video_id": video_id,
                         "date": date,
                         "info": text
                     }
 
-with open('maps.json', 'w') as f:
+with open('mapsYt.json', 'w') as f:
     json.dump(maps, f)
