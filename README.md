@@ -2,6 +2,10 @@
 
 Alternative website for surfheaven surf servers.
 
+![image](https://user-images.githubusercontent.com/45885696/198132218-99644846-2a3f-41dc-be5a-dffa0ecf55e0.png)
+
+
+
 ## Features
 - [Next.js](https://nextjs.org/) SSR
 - Server side cached API requests from `surfheaven.eu/api` (see [api.js](https://github.com/joscha0/surfheaven/blob/main/services/api.js) for cache duration)
