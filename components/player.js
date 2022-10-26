@@ -146,6 +146,7 @@ export default function Player({ player }) {
                     target="_blank"
                     rel="noopener"
                     component="a"
+                    sx={{ height: 16, width: 16, p: 2, m: 1 }}
                     href={
                       "http://steamcommunity.com/profiles/" + player.steamid
                     }
