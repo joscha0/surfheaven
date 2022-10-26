@@ -12,6 +12,10 @@ import styles from "../styles/Home.module.css";
 import ResponsiveAppBar from "../components/appbar";
 import Footer from "../components/footer";
 
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+
 const LinkBehavior = React.forwardRef(function changeLinks(props, ref) {
   const { href, ...other } = props;
   // Map href (MUI) -> to (nextjs router)
