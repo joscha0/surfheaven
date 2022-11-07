@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { getImageUrl, secondsToMS } from "../services/helper";
+import { getImageUrl, secondsToMS, msToSeconds } from "../services/helper";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import {
@@ -14,6 +14,11 @@ import {
   VictoryLegend,
   VictoryAxis,
 } from "victory";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Link from "@mui/material/Link";
 
 import YtAccord from "./ytAccord";
 
@@ -126,6 +131,81 @@ export default function Map({ mapData }) {
                   Completions: <strong>{mapData.map_pr.finishcount}</strong>
                 </Typography>
               </Box>
+            </Box>
+          )}
+          {mapData.records.length > 0 && (
+            <Box
+              sx={{
+                p: 1,
+              }}
+            >
+              <Typography
+                variant="h4"
+                component="h2"
+                sx={{ padding: 2, paddingTop: 10 }}
+              >
+                WR history
+              </Typography>
+
+              <Box sx={{ height: { xs: "100%", md: 800 } }}>
+                <VictoryChart
+                  theme={VictoryTheme.material}
+                  minDomain={{ y: 0 }}
+                  domainPadding={{ y: 20 }}
+                  containerComponent={
+                    <VictoryVoronoiContainer
+                      voronoiDimension="x"
+                      labels={({ datum }) =>
+                        `${datum.name}: ${secondsToMS(datum.y)} (${datum.x})`
+                      }
+                      labelComponent={<VictoryTooltip />}
+                    />
+                  }
+                >
+                  <VictoryAxis tickFormat={(t) => ``} label="Date" />
+                  <VictoryAxis
+                    dependentAxis
+                    tickFormat={(t) => `${t}s`}
+                    label="time (s)"
+                    style={{
+                      axisLabel: { padding: 40 },
+                    }}
+                  />
+                  <VictoryLine
+                    interpolation="catmullRom"
+                    style={{
+                      data: { stroke: "#f6a821" },
+                      parent: { border: "1px solid #ccc" },
+                    }}
+                    data={mapData.records.map((cp) => ({
+                      x: new Date(cp.timestamp).toUTCString(),
+                      y: msToSeconds(cp.time),
+                      name: cp.player_name,
+                    }))}
+                  />
+                </VictoryChart>
+              </Box>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Records [{mapData.records.length}]</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  {mapData.records.map((record) => (
+                    <Typography sx={{ textAlign: "left" }} key={record.id}>
+                      {record.timestamp}:{" "}
+                      <Link href={"/player/" + record.player_id}>
+                        {record.player_name}
+                      </Link>{" "}
+                      finished in <b>{record.time}</b> ({record.improvement}) on
+                      server {record.server}
+                    </Typography>
+                  ))}
+                </AccordionDetails>
+              </Accordion>
             </Box>
           )}
           {mapData.map_ccp.length > 0 && (

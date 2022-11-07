@@ -205,6 +205,14 @@ const getMap = async (name, playerId) => {
     mapCCP.splice(-2, 1);
   }
 
+  var records = await regularFetch(
+    "https://api.surf0.net/api/v1/sh/records/map/" + name
+  );
+
+  if (records.length > 0) {
+    records = records.reverse();
+  }
+
   return {
     map: mapInfo.map ?? "",
     type: mapInfo.type ?? "",
@@ -219,6 +227,7 @@ const getMap = async (name, playerId) => {
     playtime: mapInfo.playtime ?? "",
     map_pr: mapRecord[0] ?? {},
     map_ccp: mapCCP ?? [],
+    records: records ?? [],
   };
 };
 

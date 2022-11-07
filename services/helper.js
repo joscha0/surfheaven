@@ -22,6 +22,11 @@ function secondsToMS(seconds) {
   );
 }
 
+function msToSeconds(str) {
+  var parts = str.split(":");
+  return parseFloat(parts[0]) * 60 + parseFloat(parts[1]);
+}
+
 /* global BigInt */
 function toSteamID64(id) {
   return (BigInt(76561197960265728) + BigInt(id)).toString();
@@ -39,4 +44,11 @@ function getImageUrl(mapname, track, isMap) {
   );
 }
 
-export { toSteamID64, secondsToHM, secondsToMS, getImageUrl, secondsToDHM };
+export {
+  toSteamID64,
+  secondsToHM,
+  secondsToMS,
+  getImageUrl,
+  secondsToDHM,
+  msToSeconds,
+};
