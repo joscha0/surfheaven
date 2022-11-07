@@ -195,7 +195,7 @@ export default function Map({ mapData }) {
                 </AccordionSummary>
                 <AccordionDetails>
                   {mapData.records.map((record) => (
-                    <Typography sx={{ textAlign: "left" }}>
+                    <Typography sx={{ textAlign: "left" }} key={record.id}>
                       {record.timestamp}:{" "}
                       <Link href={"/player/" + record.player_id}>
                         {record.player_name}
